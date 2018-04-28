@@ -1,0 +1,42 @@
+.akcia-sec {
+	background-position: center;
+	background-size: auto 100%;
+}
+
+.akcia {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	height: 650px;
+	@include res(l) {
+		height: 500px;
+	}
+	@include res(m) {
+		height: 400px;
+	}
+	@include res(s) {
+		height: 280px;
+	}
+	@include res(xs) {
+		height: 200px;
+	}
+}
+
+.akcia__title {
+	padding: 5px 35px;
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-radius: 20px;
+	background: #fff;
+	@include res(l) {
+		font-size: 18px;
+	}
+	@include res(s) {
+		font-size: 16px;
+	}
+	@include res(xs) {
+		font-size: 14px;
+	}
+}

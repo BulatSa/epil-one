@@ -1,0 +1,86 @@
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding-top: 30px;
+	transition: all 0.3s ease;
+	z-index: 5;
+	.container-big {
+		display: flex;
+		align-items: center;
+	}
+	&.sticky {
+		padding-top: 10px;
+		background: #fff;
+	}
+}
+
+.header__logo {
+	margin-right: 50px;
+	@include res(xl) {
+		margin-right: 20px;
+	}
+	@include res(l) {
+		margin-right: 10px;
+	}
+	img {
+		display: block;
+		@include res(l) {
+			max-width: 40px;
+		}
+	}
+}
+
+.header__nav {
+	display: flex;
+	align-items: center;
+	font-size: 12px;
+	font-weight: bold;
+	@include res(m) {
+		display: none;
+	}
+	a {
+		display: block;
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		transition: all 0.3s ease;
+		@include res(xl) {
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+		&:hover {
+			color: $blue-text;
+		}
+	}
+}
+
+.header__contact {
+	display: flex;
+	align-items: center;
+	margin-left: auto;
+}
+
+.header__phone {
+	margin-right: 30px;
+	@include res(xl) {
+		margin-right: 15px;
+	}
+	i {
+		margin-right: 5px;
+		font-size: 14px;
+	}
+}
+
+.header__adress {
+	p {
+		font-size: 14px;
+		color: $blue-text;
+	}
+	span {
+		display: block;
+		font-size: 12px;
+	}
+}

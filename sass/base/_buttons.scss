@@ -1,26 +1,65 @@
-.btn{
+.btn {
+	position: relative;
 	display: inline-block;
 	vertical-align: top;
-	position: relative;
-	padding: 5px 20px;
-	font-size: 14px;
+	padding: 13px 40px;
+	font-size: 16px;
 	font-family: $font;
+	font-weight: 300;
 	line-height: 1.3;
 	text-decoration: none;
 	text-align: center;
 	white-space: nowrap;
 	cursor: pointer;
-	transition: all 0.3s ease;
 	user-select: none;
-	background-color: #DDD;
-	border: 1px solid #DDD;
+	border: 1px solid $blue;
+	border-radius: 26px;
+	box-shadow: 0 0 10px 0 transparentize($blue,1);
+	transition: all 0.3s ease;
+	background-color: $blue;
+	@include res(xl) {
+		padding: 10px 30px;
+	}
+	@include res(l) {
+		font-size: 14px;
+	}
+
+	&:hover {
+		box-shadow: 0 0 10px 0 transparentize($blue,0.5);
+		background: #fff;
+	}
 
 	&:focus{
 		outline: none;
+	}
+	&--mini {
+		padding: 10px 20px;
+		@include res(xl) {
+			padding: 6px 15px;
+		}
+	}
+	&--white {
+		border-color: #fff;
+		box-shadow: 0 0 0 8px transparentize(#fff,0.6);
+		background: #fff;
+		&:hover {
+			box-shadow: 0 0 0 4px transparentize(#fff,0.4);
+		}
+	}
+	&--trans {
+		border: 1px solid $blue;
+		background: transparent;
+		&:hover {
+			background: $blue;
+		}
 	}
 }
 
 button::-moz-focus-inner {
 	border: 0;
 	padding: 0;
+}
+
+.btn-center {
+	text-align: center;
 }

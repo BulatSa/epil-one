@@ -30,13 +30,25 @@
 	}
 }
 
-.container{
+.container {
 	margin: 0 auto;
 	width: 100%;
 	max-width: $container_width;
 	position: relative;
 	padding-left: 16px;
 	padding-right: 16px;
+}
+
+.container-big {
+	position: relative;
+	width: 100%;
+	max-width: 1472px;
+	margin: 0 auto;
+	padding-left: 16px;
+	padding-right: 16px;
+	@include res(xl) {
+		max-width: $container_width;
+	}
 }
 
 .row{
@@ -61,6 +73,19 @@
 .row-ng{
 	display: flex;
 	flex-wrap: wrap;
+}
+
+.def-sec {
+	padding-top: $pad-xl;
+	padding-bottom: $pad-xl;
+	@include res(xl) {
+		padding-top: $pad-l;
+		padding-bottom: $pad-l;
+	}
+	@include res(s) {
+		padding-top: $pad-m;
+		padding-bottom: $pad-m;
+	}
 }
 
 .clearfix{

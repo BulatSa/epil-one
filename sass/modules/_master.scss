@@ -1,0 +1,31 @@
+.master-sec {
+	background: url("../img/master/bg-master.jpg") no-repeat center center;
+	background-size: auto 100%;
+}
+
+.master {
+	max-width: 550px;
+	.user-content {
+		max-width: 420px;
+	}
+}
+
+.master__sert {
+	margin-top: $pad-s;
+}
+
+.master__sign {
+	display: flex;
+	align-items: center;
+	//margin-top: $pad-s;
+	p {
+		margin-right: $pad-s;
+		font-size: 24px;
+		font-weight: 100;
+		span {
+			display: block;
+			font-size: 14px;
+			font-weight: 300;
+		}
+	}
+}

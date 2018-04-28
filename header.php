@@ -11,8 +11,7 @@
 		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	<![endif]-->
 
-
-	<title>Шаблон проекта</title>
+	<title>Epil One</title>
 
 	<!-- favocons -->
 	<link rel="apple-touch-icon" sizes="120x120" href="favicons/apple-touch-icon.png">
@@ -26,8 +25,8 @@
 	<!-- favocons -->
 
 	<!-- og -->
-	<meta property="og:title" content="Шаблон проекта">
-	<meta property="og:description" content="Описание проекта">
+	<meta property="og:title" content="Epil One">
+	<meta property="og:description" content="Epil One">
 	<meta property="og:type" content="website">
 	<meta property="og:image" content="/img/og.jpg">
 	<!-- og -->
@@ -36,3 +35,29 @@
 </head>
 
 <body>
+
+<header class="header">
+	<div class="container-big">
+		<div class="header__logo">
+			<img src="img/logo-top.svg" alt="">
+		</div>
+		<nav class="header__nav">
+			<a href="#">Цены</a>
+			<a href="#">Акция</a>
+			<a href="#">Преимущества</a>
+			<a href="#">О нас</a>
+			<a href="#">Вопросы и ответы</a>
+			<a href="#">Контакты</a>
+		</nav>
+		<div class="header__contact">
+			<a href="#" class="header__phone btn btn--trans btn--mini">
+				<i class="i-phone"></i>
+				<span>+7 (495) 565 34 60</span>
+			</a>
+			<div class="header__adress">
+				<p>Москва, Профсоюзная 104</p>
+				<span>Режим работы 09:00 — 22:00</span>
+			</div>
+		</div>
+	</div>
+</header>

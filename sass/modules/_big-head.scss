@@ -1,0 +1,25 @@
+.big-head-sec {
+	display: flex;
+	align-items: center;
+	padding-top: 85px;
+	min-height: 100vh;
+	background: url("../img/big-header/bg-header.jpg") no-repeat top center;
+	background-size: cover;
+}
+
+.big-head {
+	max-width: 570px;
+	width: 100%;
+	img {
+		display: block;
+		width: 100%;
+		max-width: 353px;
+		margin-bottom: $pad-m;
+	}
+}
+
+.big-head__info {
+	.user-content {
+		margin-bottom: $pad-s;
+	}
+}

@@ -1,0 +1,43 @@
+.service-sec {
+	background: #fff;
+}
+
+.service {
+	.page-title {
+		margin-bottom: $pad-xs;
+		@include res(xl) {
+			margin-bottom: $pad-xxs;
+		}
+	}
+	.btn-center {
+		margin-top: $pad-m;
+	}
+}
+
+.service__one {
+	position: relative;
+	img {
+		display: block;
+		max-width: 100%;
+		border-radius: 20px;
+	}
+}
+
+.service__one-info {
+	position: absolute;
+	bottom: 25px;
+	left: 30px;
+	max-width: 200px;
+	@include res(xl) {
+		max-width: 160px;
+		left: 20px;
+		bottom: 20px;
+	}
+	.h3 {
+		height: 2.2em;
+		margin-bottom: $pad-m;
+		@include res(xl) {
+			margin-bottom: $pad-s;
+		}
+	}
+}
