@@ -4,15 +4,35 @@
 	left: 0;
 	right: 0;
 	padding-top: 30px;
-	transition: all 0.3s ease;
+	transition: padding 0.3s ease,background 0.3s ease;
+	transform: translate3d(0,0,0);
 	z-index: 5;
+	@include res(xl){
+		padding-top: 10px;
+	}
+	@include res(l){
+		position: absolute;
+	}
 	.container-big {
 		display: flex;
 		align-items: center;
+		@include res(xs){
+			align-items: flex-start;
+		}
 	}
 	&.sticky {
 		padding-top: 10px;
-		background: #fff;
+		padding-bottom: 10px;
+		background: rgba(255,255,255,0.98);
+		@include res(xl){
+			padding-top: 5px;
+			padding-bottom: 5px;
+		}
+		@include res(l){
+			padding-top: 10px;
+			padding-bottom: 0;
+			background: transparent;
+		}
 	}
 }
 
@@ -37,7 +57,7 @@
 	align-items: center;
 	font-size: 12px;
 	font-weight: bold;
-	@include res(m) {
+	@include res(l) {
 		display: none;
 	}
 	a {
@@ -54,6 +74,10 @@
 		&:hover {
 			color: $blue-text;
 		}
+
+		&.active{
+			color: $blue-text;
+		}
 	}
 }
 
@@ -61,12 +85,21 @@
 	display: flex;
 	align-items: center;
 	margin-left: auto;
+	@include res(xs){
+		flex-direction: column;
+		align-items: flex-end;
+		text-align: right;
+	}
 }
 
 .header__phone {
 	margin-right: 30px;
 	@include res(xl) {
 		margin-right: 15px;
+	}
+	@include res(xs){
+		margin-right: 0;
+		margin-bottom: 5px;
 	}
 	i {
 		margin-right: 5px;

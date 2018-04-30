@@ -1,6 +1,6 @@
 ﻿<?php include('header.php'); ?>
 
-<section class="big-head-sec">
+<section class="big-head-sec" id="begin">
 	<div class="container-big">
 		<div class="big-head">
 			<img src="img/big-header/logo-head.png" alt="">
@@ -14,6 +14,10 @@
 		</div>
 	</div>
 </section>
+
+
+<section id="prices"></section>
+
 
 <section class="master-sec def-sec">
 	<div class="container">
@@ -43,7 +47,8 @@
 	</div>
 </section>
 
-<section class="akcia-sec def-sec" style="background-image:url('../img/akcia/bg-akcia.jpg');">
+
+<section class="akcia-sec def-sec" style="background-image:url('../img/akcia/bg-akcia.jpg');" id="sale">
 	<div class="container">
 		<div class="akcia">
 			<p class="akcia__title">Акция до 26 апреля!</p>
@@ -52,7 +57,11 @@
 	</div>
 </section>
 
-<section class="about-sec def-sec">
+
+<section id="preims"></section>
+
+
+<section class="about-sec def-sec" id="about">
 	<div class="container">
 		<div class="about">
 			<div class="page-title anim">
@@ -139,6 +148,7 @@
 	</div>
 </section>
 
+
 <section class="cons-sec def-sec">
 	<div class="container">
 		<div class="cons">
@@ -165,7 +175,7 @@
 </section>
 
 
-<section class="s-faq">
+<section class="s-faq" id="faq">
 	<div class="container">
 		<div class="page-title">
 			<span>Частые вопросы</span>
@@ -225,7 +235,7 @@
 </section>
 
 
-<section class="s-contacts">
+<section class="s-contacts" id="contacts">
 	<div class="container">
 
 		<div class="page-title">
@@ -263,6 +273,27 @@
 
 		<div class="map-block">
 			<div id="map"></div>
+			<script>
+				function initMap() {
+					var mapOptions = {
+						zoom: 16,
+						scrollwheel:  false,
+						center: new google.maps.LatLng(55.644099, 37.525199),
+						styles: [{"elementType":"geometry","stylers":[{"hue":"#ff4400"},{"saturation":-68},{"lightness":-4},{"gamma":0.72}]},{"featureType":"road","elementType":"labels.icon"},{"featureType":"landscape.man_made","elementType":"geometry","stylers":[{"hue":"#0077ff"},{"gamma":3.1}]},{"featureType":"water","stylers":[{"hue":"#00ccff"},{"gamma":0.44},{"saturation":-33}]},{"featureType":"poi.park","stylers":[{"hue":"#44ff00"},{"saturation":-23}]},{"featureType":"water","elementType":"labels.text.fill","stylers":[{"hue":"#007fff"},{"gamma":0.77},{"saturation":65},{"lightness":99}]},{"featureType":"water","elementType":"labels.text.stroke","stylers":[{"gamma":0.11},{"weight":5.6},{"saturation":99},{"hue":"#0091ff"},{"lightness":-86}]},{"featureType":"transit.line","elementType":"geometry","stylers":[{"lightness":-48},{"hue":"#ff5e00"},{"gamma":1.2},{"saturation":-23}]},{"featureType":"transit","elementType":"labels.text.stroke","stylers":[{"saturation":-64},{"hue":"#ff9100"},{"lightness":16},{"gamma":0.47},{"weight":2.7}]}]
+					};
+
+					var mapElement = document.getElementById('map');
+
+					var map = new google.maps.Map(mapElement, mapOptions);
+
+					var marker = new google.maps.Marker({
+						position: new google.maps.LatLng(55.644099, 37.525199),
+						map: map,
+						title: 'Москва, ул.Профсоюзная 104 50 метров от метро Беляево',
+						icon: '/img/contacts/pin.png' //пусть до своей иконки, если нужна нестандартная
+					});
+				}
+			</script>
 			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkPgTO8QdC0-DMpiduIS8qBUd9BLWDns0&callback=initMap"></script>
 		</div>
 

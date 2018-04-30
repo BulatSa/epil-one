@@ -32,28 +32,25 @@
 	<!-- og -->
 
 	<link href="css/main.css" rel="stylesheet">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script src="js/assets.js" type="text/javascript" ></script>
-	<script src="js/main.js" type="text/javascript" ></script>
 </head>
 
 <body>
 
-<header class="header">
+<header class="header compensate-for-scrollbar">
 	<div class="container-big">
 		<div class="header__logo">
-			<img src="img/logo-top.svg" alt="">
+			<a href="#begin" class="scrollto"><img src="img/logo-top.svg" alt="logo"></a>
 		</div>
 		<nav class="header__nav">
-			<a href="#">Цены</a>
-			<a href="#">Акция</a>
-			<a href="#">Преимущества</a>
-			<a href="#">О нас</a>
-			<a href="#">Вопросы и ответы</a>
-			<a href="#">Контакты</a>
+			<a href="#prices" class="scrollto">Цены</a>
+			<a href="#sale" class="scrollto">Акция</a>
+			<a href="#preims" class="scrollto">Преимущества</a>
+			<a href="#about" class="scrollto">О нас</a>
+			<a href="#faq" class="scrollto">Вопросы и ответы</a>
+			<a href="#contacts" class="scrollto">Контакты</a>
 		</nav>
 		<div class="header__contact">
-			<a href="#" class="header__phone btn btn--trans btn--mini">
+			<a href="tel:+74955653460" class="header__phone btn btn--trans btn--mini">
 				<i class="i-phone"></i>
 				<span>+7 (495) 565 34 60</span>
 			</a>
