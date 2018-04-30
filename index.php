@@ -224,4 +224,27 @@
 	</div>
 </section>
 
+
+<footer class="s-site-footer">
+	<div class="container container-big">
+		<div class="site-footer-left">
+			<p>© 2018 EpilOne</p>
+			<a href="#">Политика конфиденциальности</a>
+		</div>
+		<div class="site-footer-center">
+			<div class="socials">
+				<a href="#" target="_blank"><i class="i-soc-fb"></i></a>
+				<a href="#" target="_blank"><i class="i-soc-insta"></i></a>
+				<a href="#" target="_blank"><i class="i-soc-you"></i></a>
+			</div>
+		</div>
+		<div class="site-footer-right">
+			<a href="https://penbrain.ru" target="_blank">
+				<img src="/img/logo-develop.svg" alt="Pen&Brain logo">
+			</a>
+		</div>
+	</div>
+</footer>
+
+
 <?php include('footer.php'); ?>

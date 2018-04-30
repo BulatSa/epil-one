@@ -1,0 +1,86 @@
+.s-site-footer{
+	background: #FFF;
+	padding: $pad-l 0;
+	@include res(xl){
+		padding: $pad-m 0;
+	}
+	@include res(s){
+		padding: $pad-s 0;
+	}
+
+	.container{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		@include res(s){
+			flex-direction: column;
+			justify-content: center;
+			text-align: center;
+		}
+	}
+}
+
+
+.site-footer-left{
+	font-size: 14px;
+
+	a{
+		color: $blue;
+		transition: all 0.3s ease;
+
+		&:hover{
+			color: darken($blue,15%);
+		}
+	}
+}
+
+.site-footer-center{
+	@include res(s){
+		margin: $pad-xs 0;
+	}
+}
+
+.site-footer-right{
+	img{
+		display: block;
+		height: auto;
+		max-width: 100%;
+		opacity: 0.3;
+		transition: opacity 0.3s ease;
+		transform: translate3d(0,0,0);
+
+		&:hover{
+			opacity: 0.5;
+		}
+	}
+}
+
+.socials{
+	a{
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		vertical-align: top;
+		width: 44px;
+		height: 44px;
+		border-radius: 50%;
+		background: $blue;
+		color: #FFF;
+		margin: 0 4px;
+		transition: all 0.3s ease;
+
+		.i-soc-fb{
+			font-size: 23px;
+		}
+		.i-soc-insta{
+			font-size: 22px;
+		}
+		.i-soc-you{
+			font-size: 26px;
+		}
+
+		&:hover{
+			background: darken($blue,15%);
+		}
+	}
+}

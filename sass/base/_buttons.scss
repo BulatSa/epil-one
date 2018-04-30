@@ -14,7 +14,7 @@
 	user-select: none;
 	border: 1px solid $blue;
 	border-radius: 26px;
-	box-shadow: 0 0 10px 0 transparentize($blue,1);
+	box-shadow: 0 0 0 8px transparentize(#fff,0.4);
 	transition: all 0.3s ease;
 	background-color: $blue;
 	@include res(xl) {
@@ -25,12 +25,14 @@
 	}
 
 	&:hover {
-		box-shadow: 0 0 10px 0 transparentize($blue,0.5);
-		background: #fff;
+		box-shadow: 0 0 0 4px transparentize(#fff,0);
+		background: darken($blue,15%);
 	}
 
 	&:focus{
 		outline: none;
+		background: darken($blue,15%);
+		box-shadow: 0 0 0 4px transparentize(#fff,0);
 	}
 	&--mini {
 		padding: 10px 20px;
@@ -44,11 +46,13 @@
 		background: #fff;
 		&:hover {
 			box-shadow: 0 0 0 4px transparentize(#fff,0.4);
+			background: #FFF;
 		}
 	}
 	&--trans {
 		border: 1px solid $blue;
 		background: transparent;
+		box-shadow: none;
 		&:hover {
 			background: $blue;
 		}
