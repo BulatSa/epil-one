@@ -180,3 +180,31 @@ $(function($){
 /***********************
 Photo-slider END
 ***********************/
+
+
+/***********************
+faq BEGIN
+***********************/
+$(function($){
+	var faqItems = $('.faq-item');
+	var answerItems = $('.faq-answer');
+	var answerItemsMob = $('.faq-answer-mobile');
+
+	function selectFaq(index) {
+		faqItems.removeClass('active');
+		$('.faq-item[data-faq='+index+']').addClass('active');
+		answerItems.slideUp(150);
+		$('.faq-answer[data-faq='+index+']').slideDown(150);
+		answerItemsMob.slideUp(150);
+		$('.faq-answer-mobile[data-faq='+index+']').slideDown(150);
+	}
+
+	faqItems.on('click',function () {
+		selectFaq($(this).data('faq'));
+	});
+
+	selectFaq(1);
+});
+/***********************
+faq END
+***********************/

@@ -1,0 +1,135 @@
+.s-faq{
+	background: url("../img/faq/bg.jpg") center top no-repeat;
+	background-size: cover;
+	color: #FFF;
+	@include res(xs){
+		background: url("../img/faq/bg-xs.jpg") center top no-repeat;
+		background-size: cover;
+	}
+
+	.container{
+		min-height: 800px;
+		padding-top: $pad-xl;
+		padding-bottom: $pad-l;
+		@include res(xl){
+			min-height: 600px;
+		}
+		@include res(s){
+			padding-top: $pad-m;
+			padding-bottom: $pad-m;
+		}
+		@include res(xs){
+			min-height: initial;
+		}
+	}
+}
+
+.faq-list{
+	counter-reset: faq;
+	font-weight: 300;
+	padding-top: $pad-s;
+	@include res(s){
+		padding-top: 0;
+	}
+}
+
+.faq-item{
+	counter-increment: faq;
+	position: relative;
+	padding-left: 25px;
+	margin-bottom: 15px;
+	cursor: pointer;
+	user-select: none;
+	transform: translate3d(0,0,0);
+	@include res(s){
+		font-size: 14px;
+		margin-bottom: 10px;
+	}
+
+	&:before{
+		position: absolute;
+		left: 0;
+		top: 1px;
+		content: counter(faq);
+		font-size: 12px;
+		border-radius: 50%;
+		border: 1px solid #FFF;
+		width: 20px;
+		height: 20px;
+		line-height: 18px;
+		text-align: center;
+		transition: all 0.3s ease;
+		transform: translate3d(0,0,0);
+	}
+	
+	&:hover,&.active{
+		&:before{
+			color: #000;
+			background: #FFF;
+			transform: translate3d(-5px,0,0);
+		}
+	}
+
+	&.active{
+		pointer-events: none;
+	}
+}
+
+
+.answer-block{
+	background: #FFF;
+	position: absolute;
+	right: $gutter;
+	bottom: $pad-l;
+	border-radius: 20px;
+	width: calc(50% - 24px);
+	height: auto;
+	color: #000;
+	font-size: 14px;
+	padding: $pad-xs;
+	z-index: 2;
+	@include res(s){
+		padding: $pad-xxs;
+		font-size: 12px;
+	}
+	@include res(xs){
+		display: none;
+	}
+
+	&:before{
+		content: '';
+		width: 96px;
+		height: 63px;
+		background: url("../img/faq/answer-arrow.png") center top no-repeat;
+		position: absolute;
+		right: 20%;
+		top: -40px;
+		z-index: -1;
+	}
+}
+
+
+.faq-answer{
+	display: none;
+
+	&.active{
+		display: block;
+	}
+}
+
+
+.faq-answer-mobile{
+	display: none;
+	opacity: 0;
+	height: 0;
+	overflow: hidden;
+	visibility: hidden;
+	font-size: 12px;
+	@include res(xs){
+		visibility: visible;
+		opacity: 1;
+		height: auto;
+		padding-bottom: 20px;
+		padding-left: 25px;
+	}
+}
