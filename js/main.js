@@ -208,3 +208,70 @@ $(function($){
 /***********************
 faq END
 ***********************/
+
+
+/***********************
+map BEGIN
+***********************/
+function initMap() {
+	var mapOptions = {
+		zoom: 16,
+		scrollwheel:  false,
+		center: new google.maps.LatLng(55.644099, 37.525199),
+		styles: [{"elementType":"geometry","stylers":[{"hue":"#ff4400"},{"saturation":-68},{"lightness":-4},{"gamma":0.72}]},{"featureType":"road","elementType":"labels.icon"},{"featureType":"landscape.man_made","elementType":"geometry","stylers":[{"hue":"#0077ff"},{"gamma":3.1}]},{"featureType":"water","stylers":[{"hue":"#00ccff"},{"gamma":0.44},{"saturation":-33}]},{"featureType":"poi.park","stylers":[{"hue":"#44ff00"},{"saturation":-23}]},{"featureType":"water","elementType":"labels.text.fill","stylers":[{"hue":"#007fff"},{"gamma":0.77},{"saturation":65},{"lightness":99}]},{"featureType":"water","elementType":"labels.text.stroke","stylers":[{"gamma":0.11},{"weight":5.6},{"saturation":99},{"hue":"#0091ff"},{"lightness":-86}]},{"featureType":"transit.line","elementType":"geometry","stylers":[{"lightness":-48},{"hue":"#ff5e00"},{"gamma":1.2},{"saturation":-23}]},{"featureType":"transit","elementType":"labels.text.stroke","stylers":[{"saturation":-64},{"hue":"#ff9100"},{"lightness":16},{"gamma":0.47},{"weight":2.7}]}]
+	};
+
+	var mapElement = document.getElementById('map');
+
+	var map = new google.maps.Map(mapElement, mapOptions);
+
+	var marker = new google.maps.Marker({
+		position: new google.maps.LatLng(55.644099, 37.525199),
+		map: map,
+		title: 'Москва, ул.Профсоюзная 104 50 метров от метро Беляево',
+		icon: '/img/contacts/pin.png' //пусть до своей иконки, если нужна нестандартная
+	});
+}
+/***********************
+map END
+***********************/
+
+
+/***********************
+Btn BEGIN
+***********************/
+$(function($){
+	var radbtn = document.querySelectorAll('.radbtn');
+	for (var i = 0; i < radbtn.length; i++) {
+		radbtn[i].addEventListener('mousemove',function (event) {
+			var thisBtn =  event.target;
+			var mouseXpercentage = Math.round(event.offsetX / event.target.clientWidth * 100);
+			var mouseYpercentage = Math.round(event.offsetY / event.target.clientHeight * 100);
+			thisBtn.style.background =
+				'radial-gradient(circle at ' + mouseXpercentage + '% ' + mouseYpercentage + '%,  #00c3f3, transparent 30%),' +
+				'radial-gradient(circle at ' + (75-mouseXpercentage/2) + '% ' + (75-mouseYpercentage/2) + '%,  rgba(255,255,255,0.4), transparent 60%) #4edffb';
+		});
+		radbtn[i].addEventListener('mouseout',function (event) {
+			var thisBtn =  event.target;
+			thisBtn.style.background = "#4edffb"
+		});
+	}
+
+	var radbtnW = document.querySelectorAll('.radbtn-white');
+	for (var i = 0; i < radbtnW.length; i++) {
+		radbtnW[i].addEventListener('mousemove',function (event) {
+			var thisBtn =  event.target;
+			var mouseXpercentage = Math.round(event.offsetX / event.target.clientWidth * 100);
+			var mouseYpercentage = Math.round(event.offsetY / event.target.clientHeight * 100);
+			thisBtn.style.background =
+				'radial-gradient(circle at ' + mouseXpercentage + '% ' + mouseYpercentage + '%,  #daf6fc, transparent 30%) #ffffff';
+		});
+		radbtnW[i].addEventListener('mouseout',function (event) {
+			var thisBtn =  event.target;
+			thisBtn.style.background = "#ffffff"
+		});
+	}
+});
+/***********************
+Btn END
+***********************/

@@ -1,0 +1,127 @@
+.s-contacts{
+	padding: $pad-xxl 0;
+	background: url("../img/contacts/bg.jpg") center bottom no-repeat #f1fafd;
+	background-size: 100% auto;
+	color: #000;
+	min-height: 830px;
+	@include res(xl){
+		background: url("../img/contacts/bg-xl.jpg") center bottom no-repeat #f1fafd;
+		background-size: 100% auto;
+		padding: $pad-xl 0;
+		min-height: 650px;
+	}
+	@include res(s){
+		padding: $pad-m 0;
+		min-height: initial;
+	}
+}
+
+
+.contact-block{
+	font-size: 14px;
+
+	&__title{
+		display: block;
+		text-transform: uppercase;
+		letter-spacing: 0.12em;
+		margin-bottom: 0.3em;
+	}
+
+	address{
+		font-style: normal;
+		margin-bottom: 15px;
+	}
+
+	&__work{
+		margin-bottom: 15px;
+	}
+
+	&__email{
+		display: inline-block;
+		margin-bottom: 30px;
+		transition: color 0.3s ease;
+
+		&:hover{
+			color: $blue;
+		}
+	}
+
+	.btn{
+		margin-top: 15px;
+	}
+
+	a.h3{
+		transition: color 0.3s ease;
+
+		&:hover{
+			color: $blue;
+		}
+	}
+}
+
+.go-link{
+	margin-bottom: 15px;
+	display: flex;
+	align-items: center;
+	margin-top: -10px;
+
+	figure{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-shrink: 0;
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+		background: $blue;
+		padding-left: 4px;
+		margin-right: 10px;
+		transition: background 0.3s ease;
+	}
+	
+	span{
+		display: block;
+		color: #959595;
+		font-size: 12px;
+	}
+
+	&:hover{
+		figure{
+			background: darken($blue,15%);
+		}
+	}
+}
+
+.map-block{
+	width: calc(50vw - 22px);
+	position: absolute;
+	left: calc(50% + 12px);
+	top: 90px;
+	height: 550px;
+	background: #eee;
+	border-radius: 20px 0 0 20px;
+	overflow: hidden;
+	@include res(xl){
+		height: 400px;
+	}
+	@include res(s){
+		position: relative;
+		width: 100%;
+		left: 0;
+		top: 0;
+		margin-top: 40px;
+		border-radius: 20px;
+		height: 300px;
+	}
+	@include res(xs){
+		height: 250px;
+	}
+}
+
+#map{
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+}

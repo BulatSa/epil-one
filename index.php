@@ -9,7 +9,7 @@
 					<h1>Гарантированное избавление от волос</h1>
 					<p>Если вы не получаете результата, мы даем скидку 70% на следующие визиты до полного избавления от нежелательных волос.</p>
 				</div>
-				<a href="#" class="btn">Записаться онлайн</a>
+				<a href="#" class="btn radbtn">Записаться онлайн</a>
 			</div>
 		</div>
 	</div>
@@ -47,7 +47,7 @@
 	<div class="container">
 		<div class="akcia">
 			<p class="akcia__title">Акция до 26 апреля!</p>
-			<a href="#" class="btn btn--white">Участвовать в акции</a>
+			<a href="#" class="btn btn--white radbtn-white">Участвовать в акции</a>
 		</div>
 	</div>
 </section>
@@ -133,7 +133,7 @@
 				</div>
 			</div>
 			<div class="btn-center">
-				<a href="#" class="btn">Посмотреть прайс-лист</a>
+				<a href="#" class="btn radbtn">Посмотреть прайс-лист</a>
 			</div>
 		</div>
 	</div>
@@ -157,7 +157,7 @@
 						<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">
 						<span>Принимаю <a href="#" target="_blank">условия обработки</a> персональных данных</span>
 					</label>
-					<button type="submit" class="btn">Отправить</button>
+					<button type="submit" class="btn radbtn">Отправить</button>
 				</form>
 			</div>
 		</div>
@@ -225,6 +225,51 @@
 </section>
 
 
+<section class="s-contacts">
+	<div class="container">
+
+		<div class="page-title">
+			<span>Контакты</span>
+			<p class="h2">Как до нас добраться</p>
+		</div>
+		
+		<div class="row">
+			<div class="grid-6 grid-12_s">
+				<div class="contact-block">
+					<strong class="contact-block__title">Адрес:</strong>
+					<div class="row">
+						<div class="grid-6 grid-12_l">
+							<address>Москва, ул.Профсоюзная&nbsp;104 50&nbsp;метров от&nbsp;метро Беляево</address>
+						</div>
+						<div class="grid-6 grid-12_l">
+							<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="go-link fancy-video">
+								<figure>
+									<img src="/img/font-icon/play.svg" alt="play">
+								</figure>
+								<span>Посмотрите видео как<br>к&nbsp;нам&nbsp;добраться</span>
+							</a>
+						</div>
+					</div>
+					<p class="contact-block__work">Ежедневно с 9-00 до 22-00<br>без выходных</p>
+					<a href="mailto:info@epilone.ru" class="contact-block__email">info@epilone.ru</a>
+					<strong class="contact-block__title">Звоните:</strong>
+					<a href="tel:+74955653460" class="h3">+7 (495) 565 34 60</a>
+					<div>
+						<a href="#" class="btn btn--mini radbtn">Заказать обратный звонок</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="map-block">
+			<div id="map"></div>
+			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkPgTO8QdC0-DMpiduIS8qBUd9BLWDns0&callback=initMap"></script>
+		</div>
+
+	</div>
+</section>
+
+
 <footer class="s-site-footer">
 	<div class="container container-big">
 		<div class="site-footer-left">
@@ -240,7 +285,7 @@
 		</div>
 		<div class="site-footer-right">
 			<a href="https://penbrain.ru" target="_blank">
-				<img src="/img/logo-develop.svg" alt="Pen&Brain logo">
+				<img src="/img/logo-develop.svg" alt="Pen&Brain logo" width="154" height="38">
 			</a>
 		</div>
 	</div>
