@@ -3,6 +3,7 @@
 @import 'base/placeholders';
 
 @import 'vendors/fancybox';
+@import 'vendors/flickity';
 
 @import 'base/reset';
 @import 'base/fonts';
@@ -21,5 +22,6 @@
 @import 'modules/about';
 @import 'modules/service';
 @import 'modules/cons';
+@import 'modules/photo-slider';
 
 @import 'pages/home';

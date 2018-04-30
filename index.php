@@ -83,7 +83,16 @@
 
 
 <section class="s-photo-slider">
-
+	<img src="/img/photo-slider/thumb.png" data-flickity-lazyload="/img/photo-slider/1.jpg" alt="1">
+	<img src="/img/photo-slider/thumb.png" data-flickity-lazyload="/img/photo-slider/2.jpg" alt="1">
+	<img src="/img/photo-slider/thumb.png" data-flickity-lazyload="/img/photo-slider/3.jpg" alt="1">
+	<img src="/img/photo-slider/thumb.png" data-flickity-lazyload="/img/photo-slider/4.jpg" alt="1">
+	<img src="/img/photo-slider/thumb.png" data-flickity-lazyload="/img/photo-slider/5.jpg" alt="1">
+	<img src="/img/photo-slider/thumb.png" data-flickity-lazyload="/img/photo-slider/1.jpg" alt="1">
+	<img src="/img/photo-slider/thumb.png" data-flickity-lazyload="/img/photo-slider/2.jpg" alt="1">
+	<img src="/img/photo-slider/thumb.png" data-flickity-lazyload="/img/photo-slider/3.jpg" alt="1">
+	<img src="/img/photo-slider/thumb.png" data-flickity-lazyload="/img/photo-slider/4.jpg" alt="1">
+	<img src="/img/photo-slider/thumb.png" data-flickity-lazyload="/img/photo-slider/5.jpg" alt="1">
 </section>
 
 

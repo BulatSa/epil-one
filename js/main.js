@@ -157,3 +157,26 @@ $(function () {
 /***********************
  Waypoints END
  ***********************/
+
+
+/***********************
+Photo-slider BEGIN
+***********************/
+$(function($){
+	$('.s-photo-slider').flickity({
+		cellAlign: 'center',
+		wrapAround: true,
+		prevNextButtons: false,
+		imagesLoaded: true,
+		lazyLoad: true,
+		groupCells: true,
+		on: {
+			ready: function() {
+				Waypoint.refreshAll();
+			}
+		}
+	});
+});
+/***********************
+Photo-slider END
+***********************/
