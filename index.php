@@ -82,6 +82,11 @@
 </section>
 
 
+<section class="s-photo-slider">
+
+</section>
+
+
 <section class="service-sec def-sec">
 	<div class="container-big">
 		<div class="service">
