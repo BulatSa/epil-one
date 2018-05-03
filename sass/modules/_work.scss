@@ -12,15 +12,15 @@
 		right: 0;
 		pointer-events: none;
 		@include res(xl){
-			top: 50px;
-		}
-		@media (max-height: 900px){
-			top: 50px;
+			top: 30px;
 		}
 		@include res(m){
 			position: relative;
 			top: inherit;
 			margin-bottom: 20px;
+		}
+		@include res(xs){
+			margin-bottom: 0;
 		}
 	}
 }
@@ -47,11 +47,9 @@
 		bottom: inherit;
 		top: 160px;
 		z-index: 3;
+		counter-reset: workdots;
 		@include res(xl){
-			top: 120px;
-		}
-		@media (max-height: 900px){
-			top: 120px;
+			top: 110px;
 		}
 		@include res(m){
 			top: 0;
@@ -62,12 +60,15 @@
 		background: transparent;
 		position: relative;
 		opacity: 1;
-		width: 10px;
-		height: 10px;
-		//background: $blue-dark;
+		width: 25px;
+		height: 25px;
 		margin: 0 65px;
 		transition: all 0.3s ease;
+		counter-increment: workdots;
 		@include res(xl){
+			margin: 0 40px;
+		}
+		@include res(m){
 			margin: 0 20px;
 		}
 		@include res(xs){
@@ -76,30 +77,33 @@
 
 		&:after{
 			content: '';
-			width: 120px;
+			width: 130px;
 			height: 2px;
 			background: $blue;
 			position: absolute;
-			left: calc(100% + 5px);
-			top: 4px;
+			left: 100%;
+			top: calc(50% - 1px);
 			transition: transform 0.3s ease;
 			transform: scale3d(0,1,1);
 			transform-origin: left center;
 			pointer-events: none;
 			@include res(xl){
-				width: 32px;
+				width: 80px;
+			}
+			@include res(m){
+				width: 40px;
 			}
 			@include res(xs){
-				width: 22px;
+				width: 30px;
 			}
 		}
 
 		&:before{
-			content: '';
+			content: counter(workdots);
 			width: 25px;
 			height: 25px;
-			left: -5px;
-			top: -5px;
+			left: 0;
+			top: 0;
 			border: 1px solid #bebebe;
 			background: transparent;
 			border-radius: 50%;
@@ -107,10 +111,29 @@
 			margin: auto;
 			transition: all 0.3s ease;
 			opacity: 1;
+			font-size: 14px;
+			font-weight: bold;
+			line-height: 23px;
+			text-align: center;
+		}
+
+		figure{
+			position: absolute;
+			border: 1px solid $blue;
+			border-radius: 50%;
+			width: 45px;
+			height: 45px;
+			left: -10px;
+			top: -10px;
+			transform: scale3d(0,0,0);
+			transition: all 0.3s ease;
 		}
 
 		&:hover{
-			//background: $blue-light;
+			&:before{
+				border: 1px solid $blue;
+				color: $blue;
+			}
 		}
 
 		&.active{
@@ -118,27 +141,71 @@
 				transform: none;
 			}
 			&:before{
-				transform: scale3d(1,1,1);
-				opacity: 1;
+				background: $blue;
+				color: #000;
+				border-color: $blue;
 				transition: all 0.3s ease 0.2s;
 			}
 		}
 		
 		&.is-selected{
 			&:before{
-				transform: scale3d(1,1,1);
-				opacity: 1;
+				background: $blue;
+				color: #000;
+				border-color: $blue;
 				transition: all 0.3s ease 0.2s;
 			}
+			figure{
+				transform: scale3d(1,1,1);
+				transition: all 0.3s ease 0.2s;
+			}
+		}
+	}
+
+
+	.flickity-prev-next-button{
+		background: transparent;
+		width: 50px;
+		height: 50px;
+		opacity: 1;
+		@include res(l){
+			display: none;
+		}
+
+		.flickity-button-icon{
+			transition: all 0.3s ease;
+		}
+
+		&:hover{
+			opacity: 1;
+			.flickity-button-icon{
+				fill: $blue-text;
+			}
+		}
+
+		&:focus{
+			box-shadow: none;
+			.flickity-button-icon{
+				fill: $blue-text;
+			}
+		}
+
+		&:disabled{
+			opacity: 0.3;
 		}
 	}
 }
 
 .work-slide{
 	width: 100%;
-	height: 900px;
+	min-height: 900px;
 	overflow: hidden;
 	padding-top: 350px;
+	padding-bottom: 40px;
+	@include res(xl){
+		min-height: 660px;
+		padding-top: 200px;
+	}
 	@include res(m){
 		display: block;
 		height: auto;
@@ -168,7 +235,7 @@
 		@include res(m){
 			position: relative;
 			height: 200px;
-			width: 380px;
+			width: 320px;
 			max-width: calc(100% - 32px);
 			margin-left: auto;
 			margin-right: auto;
@@ -183,7 +250,7 @@
 	flex-direction: column;
 	min-height: 460px;
 	background: #FFF;
-	width: 324px;
+	width: 320px;
 	max-width: 100%;
 	padding: 30px 25px;
 	border-radius: 20px;
@@ -191,7 +258,7 @@
 	transform: translate3d(0,0,0);
 	will-change: transform;
 	@include res(xl){
-		font-size: 14px;
+		min-height: 380px;
 	}
 	@media (max-height: 900px){
 		font-size: 14px;
@@ -216,6 +283,7 @@
 	}
 
 	footer{
+		padding-top: 15px;
 		margin-top: auto;
 		text-align: center;
 
