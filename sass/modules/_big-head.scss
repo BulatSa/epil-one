@@ -1,20 +1,55 @@
 .big-head-sec {
+	position: relative;
 	display: flex;
 	align-items: center;
 	padding-top: 85px;
 	min-height: 100vh;
 	background: url("../img/big-header/bg-header.jpg") no-repeat top center;
 	background-size: cover;
+	@include res(xl) {
+		padding-top: 55px;
+	}
+	@include res(m) {
+		min-height: 512px;
+	}
+	@include res(s) {
+		min-height: 460px;
+		padding-top: 100px;
+		padding-bottom: $pad-s;
+	}
+	&:after {
+		@include res(m) {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background: transparentize(#fff, 0.3);
+			z-index: 0;
+		}
+	}
 }
 
 .big-head {
+	position: relative;
 	max-width: 570px;
 	width: 100%;
+	z-index: 1;
+	@include res(xl) {
+		max-width: 460px;
+	}
 	img {
 		display: block;
 		width: 100%;
 		max-width: 353px;
 		margin-bottom: $pad-m;
+		@include res(xl) {
+			margin-bottom: $pad-s;
+		}
+		@include res(s) {
+			margin-bottom: $pad-xs;
+		}
 	}
 }
 

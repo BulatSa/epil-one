@@ -11,11 +11,17 @@
 	}
 	.btn-center {
 		margin-top: $pad-m;
+		@include res(xs) {
+			margin-top: $pad-xs;
+		}
 	}
 }
 
 .service__one {
 	position: relative;
+	@include res(xs) {
+		margin-bottom: $pad-xs;
+	}
 	img {
 		display: block;
 		max-width: 100%;
@@ -32,6 +38,9 @@
 		max-width: 160px;
 		left: 20px;
 		bottom: 20px;
+	}
+	@include res(m) {
+		max-width: 140px;
 	}
 	.h3 {
 		height: 2.2em;

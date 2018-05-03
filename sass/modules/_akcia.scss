@@ -16,10 +16,18 @@
 		height: 400px;
 	}
 	@include res(s) {
-		height: 280px;
+		height: 300px;
 	}
 	@include res(xs) {
-		height: 200px;
+		height: 220px;
+	}
+	@include res(xxs) {
+		height: 190px;
+	}
+	.btn {
+		@include res(xs) {
+			margin-bottom: -$pad-xxs;
+		}
 	}
 }
 
@@ -34,9 +42,12 @@
 		font-size: 18px;
 	}
 	@include res(s) {
+		margin-top: -$pad-m;
+		border-radius: 0 0 20px 20px;
 		font-size: 16px;
 	}
 	@include res(xs) {
+		margin-top: -$pad-s;
 		font-size: 14px;
 	}
 }

@@ -1,10 +1,35 @@
 .master-sec {
-	background: url("../img/master/bg-master.jpg") no-repeat center center;
-	background-size: auto 100%;
+	position: relative;
+	min-height: 850px;
+	background: url("../img/master/bg-master.jpg") no-repeat bottom center, #fff;
+	@include res(l) {
+		background: url("../img/master/bg-master-tablet.jpg") no-repeat bottom center, #fff;
+		background-size: 100% auto;
+	}
+	@include res(m) {
+		min-height: initial;
+	}
+	@include res(xs) {
+		background: #fff;
+	}
+	&:after {
+		@include res(m) {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background: transparentize(#fff, 0.45);
+			z-index: 0;
+		}
+	}
 }
 
 .master {
+	position: relative;
 	max-width: 550px;
+	z-index: 1;
 	.user-content {
 		max-width: 420px;
 	}
@@ -12,6 +37,15 @@
 
 .master__sert {
 	margin-top: $pad-s;
+	@include res(s) {
+		margin-top: $pad-xs;
+	}
+	a {
+		display: inline-block;
+	}
+	img {
+		max-width: 100%;
+	}
 }
 
 .master__sign {
@@ -22,10 +56,22 @@
 		margin-right: $pad-s;
 		font-size: 24px;
 		font-weight: 100;
+		@include res(s) {
+			font-size: 18px;
+		}
 		span {
 			display: block;
 			font-size: 14px;
 			font-weight: 300;
+			@include res(s) {
+				font-size: 12px;
+			}
+		}
+	}
+	img {
+		display: block;
+		@include res(s) {
+			max-width: 73px;
 		}
 	}
 }

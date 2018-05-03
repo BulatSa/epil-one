@@ -1,5 +1,8 @@
 .page-title {
 	padding-bottom: $pad-xs;
+	@include res(s) {
+		padding-bottom: 15px;
+	}
 	span {
 		display: block;
 		padding-bottom: 5px;

@@ -86,6 +86,10 @@
 		padding-top: $pad-m;
 		padding-bottom: $pad-m;
 	}
+	@include res(xs) {
+		padding-top: $pad-s;
+		padding-bottom: $pad-s;
+	}
 }
 
 .clearfix{

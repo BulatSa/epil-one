@@ -133,7 +133,7 @@
 				<p class="h2">Рады вам предложить</p>
 			</div>
 			<div class="row">
-				<div class="grid-4">
+				<div class="grid-4 grid-12_xs">
 					<div class="service__one">
 						<img src="img/service/service-1.jpg" alt="">
 						<div class="service__one-info">
@@ -142,7 +142,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="grid-4">
+				<div class="grid-4 grid-12_xs">
 					<div class="service__one">
 						<img src="img/service/service-2.jpg" alt="">
 						<div class="service__one-info">
@@ -151,7 +151,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="grid-4">
+				<div class="grid-4 grid-12_xs">
 					<div class="service__one">
 						<img src="img/service/service-3.jpg" alt="">
 						<div class="service__one-info">
