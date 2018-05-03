@@ -423,3 +423,52 @@ $(function($){
 /***********************
 Preims END
 ***********************/
+
+
+/***********************
+ Work slider BEGIN
+ ***********************/
+$(function($){
+	var work_slider = $('.work-slider');
+	work_slider.flickity({
+		contain: true,
+		imagesLoaded: false,
+		pageDots: true,
+		prevNextButtons: false,
+		adaptiveHeight: true,
+		dragThreshold: 20,
+		bgLazyLoad: 1
+	});
+
+	var flkty = work_slider.data('flickity');
+	var work_dots = $('.work-slider .dot');
+
+	var figure = "<figure></figure>";
+	work_dots.append(figure);
+
+	work_slider.on( 'select.flickity', function() {
+		var index = flkty.selectedIndex;
+		var this_dot = work_dots.eq(index);
+		this_dot.prevAll('.dot').addClass('active');
+		this_dot.nextAll('.dot').removeClass('active');
+	});
+
+	if (device.desktop()){
+		var $imgs = $('.work-slide__bg');
+		var $panels = $('.work-panel');
+
+		work_slider.on( 'scroll.flickity', function() {
+			flkty.slides.forEach( function( slide, i ) {
+				var img = $imgs[i];
+				var panel = $panels[i];
+				var x = ( slide.target + flkty.x ) * -1/2;
+				var x2 = ( slide.target + flkty.x ) * -1/1.2;
+				img.style.transform = 'translateX( ' + x  + 'px)';
+				panel.style.transform = 'translateX( ' + x2  + 'px)';
+			});
+		});
+	}
+});
+/***********************
+ Work slider END
+ ***********************/

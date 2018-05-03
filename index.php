@@ -140,6 +140,89 @@
 </section>
 
 
+<section class="s-work">
+
+	<div class="page-title page-title--center">
+		<span>Как мы работаем</span>
+		<p class="h2">5 шаговов к гладкой коже</p>
+	</div>
+
+	<div class="work-slider">
+		<div class="work-slide">
+			<div class="work-slide__bg" data-flickity-bg-lazyload="/img/work/1.jpg"></div>
+			<div class="container">
+				<div class="work-panel">
+					<p class="work-panel__step">ШАГ №1</p>
+					<p class="h3">Консультация</p>
+					<p class="work-panel__text">Определяем фототип вашей кожи и тип волос. Раскрываем для вас тему показаний к лазерной эпиляции и предупреждаем о противопоказаниях. Подписываем договор и информационное соглашение.</p>
+					<footer>
+						<p>Сделайте самый простой шаг</p>
+						<button class="btn radbtn">Забронировать время</button>
+					</footer>
+				</div>
+			</div>
+		</div>
+		<div class="work-slide">
+			<div class="work-slide__bg" data-flickity-bg-lazyload="/img/work/1.jpg"></div>
+			<div class="container">
+				<div class="work-panel">
+					<p class="work-panel__step">ШАГ №2</p>
+					<p class="h3">Консультация</p>
+					<p class="work-panel__text">Определяем фототип вашей кожи и тип волос. Раскрываем для вас тему показаний к лазерной эпиляции и предупреждаем о противопоказаниях. Подписываем договор и информационное соглашение. Определяем фототип вашей кожи и тип волос. Раскрываем для вас тему показаний к лазерной эпиляции и предупреждаем о противопоказаниях. Подписываем договор и информационное соглашение.</p>
+					<footer>
+						<p>Сделайте самый простой шаг</p>
+						<button class="btn radbtn">Забронировать время</button>
+					</footer>
+				</div>
+			</div>
+		</div>
+		<div class="work-slide">
+			<div class="work-slide__bg" data-flickity-bg-lazyload="/img/work/1.jpg"></div>
+			<div class="container">
+				<div class="work-panel">
+					<p class="work-panel__step">ШАГ №3</p>
+					<p class="h3">Консультация</p>
+					<p class="work-panel__text">Определяем фототип вашей кожи и тип волос. Раскрываем для вас тему показаний к лазерной эпиляции и предупреждаем о противопоказаниях. Подписываем договор и информационное соглашение.</p>
+					<footer>
+						<p>Сделайте самый простой шаг</p>
+						<button class="btn radbtn">Забронировать время</button>
+					</footer>
+				</div>
+			</div>
+		</div>
+		<div class="work-slide">
+			<div class="work-slide__bg" data-flickity-bg-lazyload="/img/work/1.jpg"></div>
+			<div class="container">
+				<div class="work-panel">
+					<p class="work-panel__step">ШАГ №4</p>
+					<p class="h3">Консультация</p>
+					<p class="work-panel__text">Определяем фототип вашей кожи и тип волос. Раскрываем для вас тему показаний к лазерной эпиляции и предупреждаем о противопоказаниях. Подписываем договор и информационное соглашение. Определяем фототип вашей кожи и тип волос. Раскрываем для вас тему показаний к лазерной эпиляции и предупреждаем о противопоказаниях. Подписываем договор и информационное соглашение.</p>
+					<footer>
+						<p>Сделайте самый простой шаг</p>
+						<button class="btn radbtn">Забронировать время</button>
+					</footer>
+				</div>
+			</div>
+		</div>
+		<div class="work-slide">
+			<div class="work-slide__bg" data-flickity-bg-lazyload="/img/work/1.jpg"></div>
+			<div class="container">
+				<div class="work-panel">
+					<p class="work-panel__step">ШАГ №5</p>
+					<p class="h3">Консультация</p>
+					<p class="work-panel__text">Определяем фототип вашей кожи и тип волос. Раскрываем для вас тему показаний к лазерной эпиляции и предупреждаем о противопоказаниях. Подписываем договор и информационное соглашение. Определяем фототип вашей кожи и тип волос. Раскрываем для вас тему показаний к лазерной эпиляции и предупреждаем о противопоказаниях. Подписываем договор и информационное соглашение.</p>
+					<footer>
+						<p>Сделайте самый простой шаг</p>
+						<button class="btn radbtn">Забронировать время</button>
+					</footer>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</section>
+
+
 <section class="about-sec def-sec" id="about">
 	<div class="container">
 		<div class="about">
