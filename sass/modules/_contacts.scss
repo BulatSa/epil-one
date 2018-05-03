@@ -92,11 +92,14 @@
 	}
 }
 
+.contact-row{
+	position: relative;
+	margin-top: $pad-s;
+}
+
 .map-block{
 	width: calc(50vw - 22px);
 	position: absolute;
-	left: calc(50% + 12px);
-	top: 90px;
 	height: 550px;
 	background: #eee;
 	border-radius: 20px 0 0 20px;
@@ -107,8 +110,6 @@
 	@include res(s){
 		position: relative;
 		width: 100%;
-		left: 0;
-		top: 0;
 		margin-top: 40px;
 		border-radius: 20px;
 		height: 300px;
@@ -124,4 +125,12 @@
 	right: 0;
 	bottom: 0;
 	top: 0;
+}
+
+.contact-item{
+	display: none;
+
+	&.active{
+		display: block;
+	}
 }

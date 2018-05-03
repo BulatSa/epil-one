@@ -268,7 +268,7 @@ $(function($){
 			var mouseXpercentage = Math.round(event.offsetX / event.target.clientWidth * 100);
 			var mouseYpercentage = Math.round(event.offsetY / event.target.clientHeight * 100);
 			thisBtn.style.background =
-				'radial-gradient(circle at ' + mouseXpercentage + '% ' + mouseYpercentage + '%,  #00c3f3, transparent 30%),' +
+				'radial-gradient(circle at ' + mouseXpercentage + '% ' + mouseYpercentage + '%,  #99effb, transparent 30%),' +
 				'radial-gradient(circle at ' + (75-mouseXpercentage/2) + '% ' + (75-mouseYpercentage/2) + '%,  rgba(255,255,255,0.4), transparent 60%) #4edffb';
 		});
 		radbtn[i].addEventListener('mouseout',function (event) {
@@ -294,4 +294,86 @@ $(function($){
 });
 /***********************
 Btn END
+***********************/
+
+
+/***********************
+map BEGIN
+***********************/
+$(function($){
+	initMap()
+});
+
+var map;
+var locations;
+
+function initMap() {
+	var markers = [];
+	locations = locations_from_admin;
+
+	var mapOptions = {
+		zoom: 16,
+		disableDefaultUI: true,
+		zoomControl: true,
+		zoomControlOptions: {
+			position: google.maps.ControlPosition.LEFT_CENTER
+		},
+		scrollwheel: false,
+		center: new google.maps.LatLng(55.644099, 37.525199),
+		styles: [{"elementType":"geometry","stylers":[{"hue":"#ff4400"},{"saturation":-68},{"lightness":-4},{"gamma":0.72}]},{"featureType":"road","elementType":"labels.icon"},{"featureType":"landscape.man_made","elementType":"geometry","stylers":[{"hue":"#0077ff"},{"gamma":3.1}]},{"featureType":"water","stylers":[{"hue":"#00ccff"},{"gamma":0.44},{"saturation":-33}]},{"featureType":"poi.park","stylers":[{"hue":"#44ff00"},{"saturation":-23}]},{"featureType":"water","elementType":"labels.text.fill","stylers":[{"hue":"#007fff"},{"gamma":0.77},{"saturation":65},{"lightness":99}]},{"featureType":"water","elementType":"labels.text.stroke","stylers":[{"gamma":0.11},{"weight":5.6},{"saturation":99},{"hue":"#0091ff"},{"lightness":-86}]},{"featureType":"transit.line","elementType":"geometry","stylers":[{"lightness":-48},{"hue":"#ff5e00"},{"gamma":1.2},{"saturation":-23}]},{"featureType":"transit","elementType":"labels.text.stroke","stylers":[{"saturation":-64},{"hue":"#ff9100"},{"lightness":16},{"gamma":0.47},{"weight":2.7}]}]
+	};
+
+	var mapElement = document.getElementById('map');
+	var map = new google.maps.Map(mapElement, mapOptions);
+
+
+	var marker, i;
+
+	for (i = 0; i < locations.length; i++) {
+		marker = new google.maps.Marker({
+			position: new google.maps.LatLng(locations[i][0], locations[i][1]),
+			map: map,
+			icon: '/img/contacts/pin.png'
+		});
+		markers.push(marker);
+		google.maps.event.addListener(marker, 'click', (function (marker, i) {
+			return function () {
+				select_contacts_tab(i);
+			}
+		})(marker, i));
+	}
+
+
+	var tab_links = $('.cont-chooser');
+	var cities = $('.contact-item');
+
+	function select_contacts_tab(index) {
+		$('.cont-chooser').val(index);
+		tab_links.niceSelect('update');
+		cities.removeClass('active');
+		cities.eq(index).addClass('active');
+		var latLng = new google.maps.LatLng(locations[index][0], locations[index][1]);
+		map.panTo(latLng);
+	}
+
+	tab_links.on('change', function () {
+		var index = $(this).val();
+		select_contacts_tab(index);
+	});
+
+	select_contacts_tab(0);
+}
+/***********************
+map END
+***********************/
+
+
+/***********************
+niceselect BEGIN
+***********************/
+$(function($){
+	$('.select-style').niceSelect();
+});
+/***********************
+niceselect END
 ***********************/

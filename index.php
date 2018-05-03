@@ -262,60 +262,107 @@
 			<span>Контакты</span>
 			<p class="h2">Как до нас добраться</p>
 		</div>
-		
-		<div class="row">
+
+		<div class="cont-chooser-block">
+			<select class="cont-chooser select-style" title="Выбрать место">
+				<option value="0">Профсоюзная 104</option>
+				<option value="1">Профсоюзная 50</option>
+				<option value="2">Профсоюзная 10</option>
+			</select>
+		</div>
+
+		<div class="row contact-row">
+
 			<div class="grid-6 grid-12_s">
 				<div class="contact-block">
-					<strong class="contact-block__title">Адрес:</strong>
-					<div class="row">
-						<div class="grid-6 grid-12_l">
-							<address>Москва, ул.Профсоюзная&nbsp;104 50&nbsp;метров от&nbsp;метро Беляево</address>
+
+					<div class="contact-items">
+						<div class="contact-item">
+							<strong class="contact-block__title">Адрес:</strong>
+							<div class="row">
+								<div class="grid-6 grid-12_l">
+									<address>Москва, ул.Профсоюзная&nbsp;104 50&nbsp;метров от&nbsp;метро Беляево</address>
+								</div>
+								<div class="grid-6 grid-12_l">
+									<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="go-link fancy-video">
+										<figure>
+											<img src="/img/font-icon/play.svg" alt="play">
+										</figure>
+										<span>Посмотрите видео как<br>к&nbsp;нам&nbsp;добраться</span>
+									</a>
+								</div>
+							</div>
+							<p class="contact-block__work">Ежедневно с 9-00 до 22-00<br>без выходных</p>
+							<a href="mailto:info@epilone.ru" class="contact-block__email">info@epilone.ru</a>
+							<strong class="contact-block__title">Звоните:</strong>
+							<a href="tel:+74955653460" class="h3">+7 (495) 565 34 60</a>
 						</div>
-						<div class="grid-6 grid-12_l">
-							<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="go-link fancy-video">
-								<figure>
-									<img src="/img/font-icon/play.svg" alt="play">
-								</figure>
-								<span>Посмотрите видео как<br>к&nbsp;нам&nbsp;добраться</span>
-							</a>
+
+						<div class="contact-item">
+							<strong class="contact-block__title">Адрес:</strong>
+							<div class="row">
+								<div class="grid-6 grid-12_l">
+									<address>Москва, ул.Профсоюзная&nbsp;50 50&nbsp;метров от&nbsp;метро Беляево</address>
+								</div>
+								<div class="grid-6 grid-12_l">
+									<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="go-link fancy-video">
+										<figure>
+											<img src="/img/font-icon/play.svg" alt="play">
+										</figure>
+										<span>Посмотрите видео как<br>к&nbsp;нам&nbsp;добраться</span>
+									</a>
+								</div>
+							</div>
+							<p class="contact-block__work">Ежедневно с 9-00 до 22-00<br>без выходных</p>
+							<a href="mailto:info@epilone.ru" class="contact-block__email">info@epilone.ru</a>
+							<strong class="contact-block__title">Звоните:</strong>
+							<a href="tel:+74955653460" class="h3">+7 (495) 565 34 61</a>
+						</div>
+
+						<div class="contact-item">
+							<strong class="contact-block__title">Адрес:</strong>
+							<div class="row">
+								<div class="grid-6 grid-12_l">
+									<address>Москва, ул.Профсоюзная&nbsp;10 10&nbsp;метров от&nbsp;метро Беляево</address>
+								</div>
+								<div class="grid-6 grid-12_l">
+									<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="go-link fancy-video">
+										<figure>
+											<img src="/img/font-icon/play.svg" alt="play">
+										</figure>
+										<span>Посмотрите видео как<br>к&nbsp;нам&nbsp;добраться</span>
+									</a>
+								</div>
+							</div>
+							<p class="contact-block__work">Ежедневно с 9-00 до 22-00<br>без выходных</p>
+							<a href="mailto:info@epilone.ru" class="contact-block__email">info@epilone.ru</a>
+							<strong class="contact-block__title">Звоните:</strong>
+							<a href="tel:+74955653460" class="h3">+7 (495) 565 34 61</a>
 						</div>
 					</div>
-					<p class="contact-block__work">Ежедневно с 9-00 до 22-00<br>без выходных</p>
-					<a href="mailto:info@epilone.ru" class="contact-block__email">info@epilone.ru</a>
-					<strong class="contact-block__title">Звоните:</strong>
-					<a href="tel:+74955653460" class="h3">+7 (495) 565 34 60</a>
+
 					<div>
 						<a href="#" class="btn btn--mini radbtn">Заказать обратный звонок</a>
 					</div>
 				</div>
 			</div>
+
+			<div class="grid-6 grid-12_s">
+				<div class="map-block">
+					<div id="map"></div>
+					<script>
+						var locations_from_admin = [
+							[55.644099, 37.525199],
+							[55.644099, 37.625199],
+							[55.744099, 37.525199]
+						];
+					</script>
+					<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkPgTO8QdC0-DMpiduIS8qBUd9BLWDns0"></script>
+				</div>
+			</div>
+
 		</div>
 
-		<div class="map-block">
-			<div id="map"></div>
-			<script>
-				function initMap() {
-					var mapOptions = {
-						zoom: 16,
-						scrollwheel:  false,
-						center: new google.maps.LatLng(55.644099, 37.525199),
-						styles: [{"elementType":"geometry","stylers":[{"hue":"#ff4400"},{"saturation":-68},{"lightness":-4},{"gamma":0.72}]},{"featureType":"road","elementType":"labels.icon"},{"featureType":"landscape.man_made","elementType":"geometry","stylers":[{"hue":"#0077ff"},{"gamma":3.1}]},{"featureType":"water","stylers":[{"hue":"#00ccff"},{"gamma":0.44},{"saturation":-33}]},{"featureType":"poi.park","stylers":[{"hue":"#44ff00"},{"saturation":-23}]},{"featureType":"water","elementType":"labels.text.fill","stylers":[{"hue":"#007fff"},{"gamma":0.77},{"saturation":65},{"lightness":99}]},{"featureType":"water","elementType":"labels.text.stroke","stylers":[{"gamma":0.11},{"weight":5.6},{"saturation":99},{"hue":"#0091ff"},{"lightness":-86}]},{"featureType":"transit.line","elementType":"geometry","stylers":[{"lightness":-48},{"hue":"#ff5e00"},{"gamma":1.2},{"saturation":-23}]},{"featureType":"transit","elementType":"labels.text.stroke","stylers":[{"saturation":-64},{"hue":"#ff9100"},{"lightness":16},{"gamma":0.47},{"weight":2.7}]}]
-					};
-
-					var mapElement = document.getElementById('map');
-
-					var map = new google.maps.Map(mapElement, mapOptions);
-
-					var marker = new google.maps.Marker({
-						position: new google.maps.LatLng(55.644099, 37.525199),
-						map: map,
-						title: 'Москва, ул.Профсоюзная 104 50 метров от метро Беляево',
-						icon: '/img/contacts/pin.png' //пусть до своей иконки, если нужна нестандартная
-					});
-				}
-			</script>
-			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkPgTO8QdC0-DMpiduIS8qBUd9BLWDns0&callback=initMap"></script>
-		</div>
 
 	</div>
 </section>

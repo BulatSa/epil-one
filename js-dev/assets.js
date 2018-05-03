@@ -3,3 +3,4 @@
 //@prepros-append vendors/device.min.js
 //@prepros-append vendors/waypoints.js
 //@prepros-append vendors/flickity.pkgd.min.js
+//@prepros-append vendors/jquery.nice-select.min.js
