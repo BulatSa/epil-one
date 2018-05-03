@@ -215,8 +215,8 @@ $(function($){
 		wrapAround: true,
 		prevNextButtons: false,
 		imagesLoaded: true,
-		lazyLoad: true,
-		groupCells: true,
+		lazyLoad: 2,
+		// groupCells: true,
 		on: {
 			ready: function() {
 				Waypoint.refreshAll();

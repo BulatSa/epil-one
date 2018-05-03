@@ -9,10 +9,10 @@
 		height: auto;
 	}
 
-	img{
+	.fancy{
 		display: block;
-		height: auto;
 		width: 20%;
+		transition: opacity 0.3s ease;
 		@include res(xl){
 			width: 25%;
 		}
@@ -22,5 +22,15 @@
 		@include res(xxs){
 			width: 50%;
 		}
+
+		&:hover{
+			opacity: 0.8;
+		}
+	}
+
+	img{
+		display: block;
+		height: auto;
+		width: 100%;
 	}
 }
