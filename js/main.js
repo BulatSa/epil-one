@@ -434,10 +434,16 @@ $(function($){
 		contain: true,
 		imagesLoaded: false,
 		pageDots: true,
-		prevNextButtons: false,
+		prevNextButtons: true,
 		adaptiveHeight: true,
 		dragThreshold: 20,
-		bgLazyLoad: 1
+		bgLazyLoad: 1,
+		arrowShape: {
+			x0: 10,
+			x1: 60, y1: 50,
+			x2: 65, y2: 50,
+			x3: 15
+		}
 	});
 
 	var flkty = work_slider.data('flickity');
@@ -461,8 +467,8 @@ $(function($){
 			flkty.slides.forEach( function( slide, i ) {
 				var img = $imgs[i];
 				var panel = $panels[i];
-				var x = ( slide.target + flkty.x ) * -1/2;
-				var x2 = ( slide.target + flkty.x ) * -1/1.2;
+				var x = ( slide.target + flkty.x ) * -1/1.5;
+				var x2 = ( slide.target + flkty.x ) * -1/2;
 				img.style.transform = 'translateX( ' + x  + 'px)';
 				panel.style.transform = 'translateX( ' + x2  + 'px)';
 			});

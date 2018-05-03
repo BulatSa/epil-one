@@ -8,6 +8,10 @@
 	margin-top: $pad-xxs;
 	margin-bottom: $pad-s;
 	text-align: center;
+	@include res(xs){
+		margin-top: 0;
+		margin-bottom: $pad-xxs;
+	}
 
 	button{
 		display: inline-block;
