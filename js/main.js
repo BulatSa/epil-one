@@ -210,18 +210,26 @@ header END
 Photo-slider BEGIN
 ***********************/
 $(function($){
-	$('.s-photo-slider').flickity({
+	var photoSlider = $('.s-photo-slider');
+	photoSlider.flickity({
 		cellAlign: 'center',
 		wrapAround: true,
 		prevNextButtons: false,
 		imagesLoaded: true,
 		lazyLoad: 2,
-		// groupCells: true,
 		on: {
 			ready: function() {
 				Waypoint.refreshAll();
 			}
 		}
+	});
+
+	photoSlider.waypoint(function (direction) {
+		if (direction === "down"){
+			photoSlider.flickity('next');
+		}
+	}, {
+		offset: 'bottom-in-view'
 	});
 });
 /***********************
@@ -376,4 +384,42 @@ $(function($){
 });
 /***********************
 niceselect END
+***********************/
+
+
+/***********************
+Preims BEGIN
+***********************/
+$(function($){
+	var navBtns = $('.preim-nav button');
+	var preimBlocks = $('.preim');
+
+	function selectPreim(index) {
+		var thisPreim = preimBlocks.eq(index);
+
+		navBtns.removeClass('active');
+		navBtns.eq(index).addClass('active');
+		preimBlocks.removeClass('active');
+		thisPreim.addClass('active');
+		thisPreim.find('[data-imgsrc]').each(function () {
+			var thisImg = $(this);
+			if (!thisImg.hasClass('loaded')){
+				thisImg.attr('src',thisImg.data('imgsrc'));
+				thisImg.on('load',function () {
+					thisImg.addClass('loaded');
+				})
+			}
+		})
+	}
+
+	selectPreim(0);
+	Waypoint.refreshAll();
+
+	navBtns.on('click', function () {
+		var index = $(this).index();
+		selectPreim(index);
+	});
+});
+/***********************
+Preims END
 ***********************/

@@ -58,7 +58,86 @@
 </section>
 
 
-<section id="preims"></section>
+<section class="s-preims def-sec" id="preims">
+
+	<div class="container">
+		<div class="page-title page-title--center">
+			<span>Преимущества</span>
+			<p class="h2">Лучшее решение на&nbsp;рынке лазерной&nbsp;эпиляции</p>
+		</div>
+	</div>
+
+	<div class="container-big">
+		<nav class="preim-nav">
+			<button>Об аппарате</button>
+			<button>Безопасность</button>
+			<button>Комфорт и<br>безболезненность</button>
+			<button>Финансовая<br>прозрачность</button>
+			<button>Экономичность</button>
+			<button>Долгосрочный<br>эффект</button>
+			<button>Эффективность</button>
+		</nav>
+
+		<div class="preims-wrap">
+			<div class="preim">
+				<div class="row">
+					<div class="grid-6 grid-12_s preim__left">
+						<p class="h3 preim__title">Об аппарате MeDioStar NeXT PRO</p>
+						<p class="preim__text">Двухволновой лазер MeDioStar NeXT PRO производства компании Asclepion Laser Technologies GmbH (Германия). Применяется на всех типах кожи и для удаления волос любого цвета (кроме седых). Эффективен для лифтинга, омоложения, отбеливания кожи и избавления от акне. Показал хорошие результаты при лечении дерматитов, избавлении от пигментных пятен и сосудистых звёздочек.</p>
+						<div class="preim__logos">
+							<div class="preim__subtitle">Посмотрите сертификаты</div
+							<a href="/img/preims/1_1.png" class="fancy">
+								<img src="/img/preims/1_1.png" alt="1">
+							</a>
+							<a href="/img/preims/1_2.png" class="fancy">
+								<img src="/img/preims/1_2.png" alt="1">
+							</a>
+							<a href="/img/preims/1_3.png" class="fancy">
+								<img src="/img/preims/1_3.png" alt="1">
+							</a>
+							<a href="/img/preims/1_4.png" class="fancy">
+								<img src="/img/preims/1_4.png" alt="1">
+							</a>
+						</div>
+					</div>
+					<div class="grid-6 grid-12_s preim__right">
+						<div class="preim__imgwrap">
+							<img src="#" alt="1" class="preimLazy" data-imgsrc="/img/preims/1.png">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="preim">
+				<div class="row">
+					<div class="grid-6 grid-12_s preim__left">
+						<p class="h3 preim__title">Об аппарате MeDioStar</p>
+						<p class="preim__text">Двухволновой лазер MeDioStar NeXT PRO производства компании Asclepion Laser Technologies GmbH (Германия). Применяется на всех типах кожи и для удаления волос любого цвета (кроме седых). Эффективен для лифтинга, омоложения, отбеливания кожи и избавления от акне. Показал хорошие результаты при лечении дерматитов, избавлении от пигментных пятен и сосудистых звёздочек.</p>
+					</div>
+					<div class="grid-6 grid-12_s preim__right">
+						<div class="preim__imgwrap">
+							<img src="#" alt="1" class="preimLazy" data-imgsrc="/img/preims/2.png">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="preim">
+				<div class="row">
+					<div class="grid-6 grid-12_s preim__left">
+						<p class="h3 preim__title">Об аппарате MeDioStar</p>
+						<p class="preim__text">Двухволновой лазер MeDioStar NeXT PRO производства компании Asclepion Laser Technologies GmbH (Германия). Применяется на всех типах кожи и для удаления волос любого цвета (кроме седых). Эффективен для лифтинга, омоложения, отбеливания кожи и избавления от акне. Показал хорошие результаты при лечении дерматитов, избавлении от пигментных пятен и сосудистых звёздочек.</p>
+					</div>
+					<div class="grid-6 grid-12_s preim__right">
+						<div class="preim__imgwrap">
+							<img src="#" alt="1" class="preimLazy" data-imgsrc="/img/preims/2.png">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+</section>
 
 
 <section class="about-sec def-sec" id="about">

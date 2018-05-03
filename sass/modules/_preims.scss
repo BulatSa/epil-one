@@ -1,0 +1,179 @@
+.s-preims{
+	background: url("../img/preims/bg.png")
+}
+
+
+//preim-nav
+.preim-nav{
+	margin-top: $pad-xxs;
+	margin-bottom: $pad-s;
+	text-align: center;
+
+	button{
+		display: inline-block;
+		vertical-align: top;
+		font-size: 14px;
+		font-family: $font;
+		line-height: 1;
+		text-align: center;
+		background: transparent;
+		border: 1px solid $blue;
+		border-radius: 25px;
+		height: 40px;
+		padding: 0 15px;
+		cursor: pointer;
+		transition: all 0.3s ease;
+		margin: 2px;
+		@include res(xl){
+			padding: 0 10px;
+		}
+		@include res(xs){
+			font-size: 12px;
+			height: 36px;
+			width: 130px;
+		}
+
+		&:hover{
+			background: lighten($blue,25%);
+		}
+
+		&.active{
+			background: $blue;
+		}
+
+		&:focus{
+			outline: none;
+			background: $blue;
+		}
+	}
+}
+//preim-nav
+
+
+.preims-wrap{
+	position: relative;
+	max-width: $container_width;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.preim{
+	display: block;
+	position: absolute;
+	visibility: hidden;
+	pointer-events: none;
+	opacity: 0;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	transition: all 0.3s ease;
+	min-height: 552px;
+	@include res(xl){
+		min-height: 360px;
+	}
+	@include res(s){
+		min-height: initial;
+	}
+
+	&.active{
+		position: relative;
+		display: block;
+		opacity: 1;
+		visibility: visible;
+		pointer-events: all;
+		z-index: 2;
+		
+		.preim__title{
+			opacity: 1;
+			transform: none;
+			transition: all 0.7s ease;
+		}
+		.preim__text{
+			opacity: 1;
+			transform: none;
+			transition: all 0.8s ease 0.1s;
+		}
+		.preim__logos{
+			opacity: 1;
+			transform: none;
+			transition: all 0.6s ease 0.2s;
+		}
+	}
+
+	&__left{
+		padding-top: 100px;
+		@include res(xl){
+			padding-top: 10px;
+		}
+	}
+
+	&__title{
+		margin-bottom: 0.3em;
+		opacity: 0;
+		transform: translate3d(-50px,0,0);
+		transition: all 0.2s ease;
+	}
+
+	&__text{
+		margin-bottom: $pad-m;
+		font-size: 14px;
+		opacity: 0;
+		transform: translate3d(-80px,0,0);
+		transition: all 0.2s ease;
+		@include res(s){
+			margin-bottom: $pad-s;
+		}
+	}
+
+	&__subtitle{
+		font-size: 18px;
+	}
+
+	&__logos{
+		padding-top: 10px;
+		opacity: 0;
+		transform: translate3d(-80px,0,0);
+		transition: all 0.2s ease;
+
+		img{
+			margin: 0 10px 5px 0;
+		}
+	}
+
+	&__right{
+		@include res(s){
+			padding-top: $pad-s;
+		}
+		@include res(xs){
+			padding-top: $pad-xxs;
+		}
+	}
+
+	&__imgwrap{
+		background: url("../img/preims/thumb.png") center center no-repeat;
+		background-size: contain;
+	}
+
+	.preimLazy{
+		display: block;
+		opacity: 0;
+		transition: all 0.5s ease;
+		@include res(xl){
+			width: 100%;
+			height: auto;
+		}
+		@include res(s){
+			width: 50%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		@include res(xs){
+			width: 80%;
+		}
+
+		&.loaded{
+			opacity: 1;
+		}
+	}
+}
