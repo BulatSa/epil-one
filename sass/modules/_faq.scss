@@ -1,9 +1,9 @@
 .s-faq{
-	background: url("../img/faq/bg.jpg") center top no-repeat;
+	background: url("../img/faq/bg.jpg") center top no-repeat $blue;
 	background-size: cover;
 	color: #FFF;
 	@include res(xs){
-		background: url("../img/faq/bg-xs.jpg") center top no-repeat;
+		background: url("../img/faq/bg-xs.jpg") center top no-repeat $blue;
 		background-size: cover;
 	}
 

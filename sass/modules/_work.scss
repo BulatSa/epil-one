@@ -1,0 +1,227 @@
+.s-work{
+	background: #fcfcfc;
+	@include res(m){
+		padding: 40px 0;
+	}
+
+	.page-title{
+		position: absolute;
+		z-index: 3;
+		top: 60px;
+		left: 0;
+		right: 0;
+		pointer-events: none;
+		@include res(xl){
+			top: 50px;
+		}
+		@media (max-height: 900px){
+			top: 50px;
+		}
+		@include res(m){
+			position: relative;
+			top: inherit;
+			margin-bottom: 20px;
+		}
+	}
+}
+
+//work-slider
+.work-slider{
+	position: relative;
+	z-index: 1;
+	opacity: 0;
+	height: 0;
+	@include res(m){
+		padding-top: 20px;
+	}
+
+	&.flickity-enabled{
+		opacity: 1;
+		height: auto;
+	}
+
+	.flickity-page-dots{
+		padding: 10px 0;
+		display: flex;
+		justify-content: center;
+		bottom: inherit;
+		top: 160px;
+		z-index: 3;
+		@include res(xl){
+			top: 120px;
+		}
+		@media (max-height: 900px){
+			top: 120px;
+		}
+		@include res(m){
+			top: 0;
+		}
+	}
+
+	.dot{
+		background: transparent;
+		position: relative;
+		opacity: 1;
+		width: 10px;
+		height: 10px;
+		//background: $blue-dark;
+		margin: 0 65px;
+		transition: all 0.3s ease;
+		@include res(xl){
+			margin: 0 20px;
+		}
+		@include res(xs){
+			margin: 0 15px;
+		}
+
+		&:after{
+			content: '';
+			width: 120px;
+			height: 2px;
+			background: $blue;
+			position: absolute;
+			left: calc(100% + 5px);
+			top: 4px;
+			transition: transform 0.3s ease;
+			transform: scale3d(0,1,1);
+			transform-origin: left center;
+			pointer-events: none;
+			@include res(xl){
+				width: 32px;
+			}
+			@include res(xs){
+				width: 22px;
+			}
+		}
+
+		&:before{
+			content: '';
+			width: 25px;
+			height: 25px;
+			left: -5px;
+			top: -5px;
+			border: 1px solid #bebebe;
+			background: transparent;
+			border-radius: 50%;
+			position: absolute;
+			margin: auto;
+			transition: all 0.3s ease;
+			opacity: 1;
+		}
+
+		&:hover{
+			//background: $blue-light;
+		}
+
+		&.active{
+			&:after{
+				transform: none;
+			}
+			&:before{
+				transform: scale3d(1,1,1);
+				opacity: 1;
+				transition: all 0.3s ease 0.2s;
+			}
+		}
+		
+		&.is-selected{
+			&:before{
+				transform: scale3d(1,1,1);
+				opacity: 1;
+				transition: all 0.3s ease 0.2s;
+			}
+		}
+	}
+}
+
+.work-slide{
+	width: 100%;
+	height: 900px;
+	overflow: hidden;
+	padding-top: 350px;
+	@include res(m){
+		display: block;
+		height: auto;
+		min-height: initial;
+		padding: 20px 0;
+	}
+
+	.container{
+		display: flex;
+		justify-content: flex-start;
+		@include res(m){
+			justify-content: center;
+		}
+	}
+
+	&__bg{
+		background-position: center top;
+		background-repeat: no-repeat;
+		background-size: cover;
+		position: absolute;
+		left: 0;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		transform: translate3d(0,0,0);
+		will-change: transform;
+		@include res(m){
+			position: relative;
+			height: 200px;
+			width: 380px;
+			max-width: calc(100% - 32px);
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: -20px;
+			border-radius: 20px 20px 0 0;
+		}
+	}
+}
+
+.work-panel{
+	display: flex;
+	flex-direction: column;
+	min-height: 460px;
+	background: #FFF;
+	width: 324px;
+	max-width: 100%;
+	padding: 30px 25px;
+	border-radius: 20px;
+	box-shadow: 0 0 43px 0 rgba(3, 82, 84, 0.14);
+	transform: translate3d(0,0,0);
+	will-change: transform;
+	@include res(xl){
+		font-size: 14px;
+	}
+	@media (max-height: 900px){
+		font-size: 14px;
+		padding: 20px;
+	}
+	@include res(m){
+		box-shadow: 0 6px 20px 0 transparentize(#0f2e59,0.8);
+	}
+
+	&__step{
+		font-size: 14px;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+
+	.h3{
+		margin-bottom: 10px;
+	}
+
+	&__text{
+		font-size: 14px;
+	}
+
+	footer{
+		margin-top: auto;
+		text-align: center;
+
+		.btn{
+			margin-top: 10px;
+		}
+	}
+}
+//work-slider
