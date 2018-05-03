@@ -3,6 +3,12 @@
 	background: url("../img/cons/bg-cons.jpg") no-repeat center;
 }
 
-.cons {}
+.cons {
+	display: flex;
+	flex-direction: column;
+}
 
-.cons__form {}
+.cons__form {
+	margin-left: auto;
+	margin-top: $pad-l;
+}
