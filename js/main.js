@@ -518,3 +518,17 @@ $(window).on('load',function () {
 /***********************
  Lazy END
  ***********************/
+
+
+/***********************
+Data Picker BEGIN
+***********************/
+$( ".datepicker" ).datepicker({
+	beforeShowDay: $.datepicker.noWeekends,
+	regional: 'ru'
+});
+
+
+/***********************
+Data Picker END
+***********************/

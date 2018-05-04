@@ -334,22 +334,28 @@
 <section class="cons-sec def-sec">
 	<div class="container">
 		<div class="cons">
+			<div class="page-title page-title--center anim">
+				<span>Забронируйте время</span>
+				<p class="h2">Запишитесь на консультацию</p>
+			</div>
 			<div class="cons__form form">
 				<div class="form__title">
 					<p class="h3">Оставьте заявку</p>
 					<span>Наш администратор обязательно свяжется с вами и согласует время консультации</span>
 				</div>
 				<form class="ajax-form">
-					<input type="text" name="user_name" placeholder="Введите имя" data-label="Имя пользователя" class="text-input" >
-					<input type="email" name="user_email" placeholder="Введите e-mail*" data-label="Email" class="text-input" data-req="true">
-					<input type="tel" name="user_tel" placeholder="Введите телефон*" data-label="Телефон"  class="text-input" data-req="true">
-					<input type="file" name="user_file" data-label="Файл">
+					<div class="datepicker"></div>
+					<input type="text" name="user_name" placeholder="Ваше имя" data-label="Имя пользователя" class="input-text" >
+					<input type="tel" name="user_tel" placeholder="Телефон*" data-label="Телефон"  class="input-text" data-req="true">
+					<textarea name="comment" class="input-textarea" placeholder="Ваш вопрос"></textarea>
 					<input type="hidden" value="Новая заявка" name="form_subject">
 					<label class="style-checkbox">
 						<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">
-						<span>Принимаю <a href="#" target="_blank">условия обработки</a> персональных данных</span>
+						<span>Соглашаюсь на обработку персональных данных и соглашаюсь с условиями <a href="#" target="_blank">политики конфиденциальности</a></span>
 					</label>
-					<button type="submit" class="btn radbtn">Отправить</button>
+					<div class="btn-center">
+						<button type="submit" class="btn radbtn">Отправить</button>
+					</div>
 				</form>
 			</div>
 		</div>

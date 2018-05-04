@@ -5,3 +5,5 @@
 //@prepros-append vendors/flickity.pkgd.min.js
 //@prepros-append vendors/bg-lazyload.js
 //@prepros-append vendors/jquery.nice-select.min.js
+//@prepros-append vendors/jquery-ui.min.js
+//@prepros-append vendors/datepicker-ru.js
