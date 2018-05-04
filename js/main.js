@@ -169,6 +169,8 @@ $(function($){
 	var wind = $(window);
 	var w_height = wind.height();
 
+	headerPanel.addClass('ready');
+
 	headerLinks.each(function () {
 		var target = $(this).attr('href');
 		$(target).addClass('__nav-section');
@@ -200,6 +202,8 @@ $(function($){
 	} else {
 		headerPanel.removeClass('sticky');
 	}
+
+
 });
 /***********************
 header END
@@ -477,4 +481,40 @@ $(function($){
 });
 /***********************
  Work slider END
+ ***********************/
+
+
+/***********************
+ Lazy BEGIN
+ ***********************/
+function lazyLoad(){
+	var $images = $('.lazy_load');
+
+	$images.each(function(){
+		var $img = $(this),
+			src = $img.attr('data-img');
+		$img.attr('src',src);
+	});
+}
+
+function lazyLoadBg(){
+	var $images = $('.lazy_loadbg');
+
+	$images.each(function(){
+		var $img = $(this),
+			src = $img.attr('data-img');
+		$img.css('background-image','url('+src+')');
+	});
+}
+
+$(function(){
+	lazyLoad();
+	lazyLoadBg();
+});
+
+$(window).on('load',function () {
+	Waypoint.refreshAll();
+});
+/***********************
+ Lazy END
  ***********************/

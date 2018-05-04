@@ -33,7 +33,7 @@
 			</div>
 			<div class="master__sert anim">
 				<a href="img/master/sert-prev.jpg" class="fancy">
-					<img src="img/master/sert-prev.jpg" alt="">
+					<img src="#" data-img="img/master/sert-prev.jpg" alt="sert" class="lazy_load">
 				</a>
 			</div>
 			<div class="master__sign anim">
@@ -41,7 +41,7 @@
 					Анна Афанасьева
 					<span>Косметолог–дерматолог «EpilOne» </span>
 				</p>
-				<img src="img/master/sign.png" alt="">
+				<img src="#" data-img="img/master/sign.png" alt="sign" class="lazy_load">
 			</div>
 		</div>
 	</div>
@@ -87,16 +87,16 @@
 						<div class="preim__logos">
 							<div class="preim__subtitle">Посмотрите сертификаты</div
 							<a href="/img/preims/1_1.png" class="fancy">
-								<img src="/img/preims/1_1.png" alt="1">
+								<img src="#" data-img="/img/preims/1_1.png" alt="1" class="lazy_load">
 							</a>
 							<a href="/img/preims/1_2.png" class="fancy">
-								<img src="/img/preims/1_2.png" alt="1">
+								<img src="#" data-img="/img/preims/1_2.png" alt="1" class="lazy_load">
 							</a>
 							<a href="/img/preims/1_3.png" class="fancy">
-								<img src="/img/preims/1_3.png" alt="1">
+								<img src="#" data-img="/img/preims/1_3.png" alt="1" class="lazy_load">
 							</a>
 							<a href="/img/preims/1_4.png" class="fancy">
-								<img src="/img/preims/1_4.png" alt="1">
+								<img src="#" data-img="/img/preims/1_4.png" alt="1" class="lazy_load">
 							</a>
 						</div>
 					</div>
@@ -237,13 +237,13 @@
 			<div class="about__serts">
 				<div class="about__sert">
 					<a href="img/about/sert-1.jpg" class="fancy">
-						<img src="img/about/sert-1.jpg" alt="">
+						<img src="#" data-img="img/about/sert-1.jpg" alt="sert" class="lazy_load">
 						<span>Лицензия на осуществление Медицинской деятельности</span>
 					</a>
 				</div>
 				<div class="about__sert">
 					<a href="img/about/sert-2.jpg" class="fancy">
-						<img src="img/about/sert-2.jpg" alt="">
+						<img src="#" data-img="img/about/sert-2.jpg" alt="sert" class="lazy_load">
 						<span>Лицензия на осуществление Медицинской деятельности</span>
 					</a>
 				</div>
@@ -297,7 +297,7 @@
 			<div class="row">
 				<div class="grid-4 grid-12_xs">
 					<div class="service__one">
-						<img src="img/service/service-1.jpg" alt="">
+						<img src="#" data-img="img/service/service-1.jpg" alt="alt" class="lazy_load">
 						<div class="service__one-info">
 							<p class="h3">Осветление кожи</p>
 							<a href="#" class="btn btn--mini btn--trans">Подробнее</a>
@@ -306,7 +306,7 @@
 				</div>
 				<div class="grid-4 grid-12_xs">
 					<div class="service__one">
-						<img src="img/service/service-2.jpg" alt="">
+						<img src="#" data-img="img/service/service-2.jpg" alt="alt" class="lazy_load">
 						<div class="service__one-info">
 							<p class="h3">Омоложение кожи</p>
 							<a href="#" class="btn btn--mini btn--trans">Подробнее</a>
@@ -315,7 +315,7 @@
 				</div>
 				<div class="grid-4 grid-12_xs">
 					<div class="service__one">
-						<img src="img/service/service-3.jpg" alt="">
+						<img src="#" data-img="img/service/service-3.jpg" alt="alt" class="lazy_load">
 						<div class="service__one-info">
 							<p class="h3">Лечение акне</p>
 							<a href="#" class="btn btn--mini btn--trans">Подробнее</a>
@@ -519,7 +519,6 @@
 							[55.744099, 37.525199]
 						];
 					</script>
-					<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkPgTO8QdC0-DMpiduIS8qBUd9BLWDns0"></script>
 				</div>
 			</div>
 
