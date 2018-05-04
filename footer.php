@@ -34,6 +34,7 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="js/assets.js" type="text/javascript" ></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkPgTO8QdC0-DMpiduIS8qBUd9BLWDns0"></script>
 <script src="js/main.js" type="text/javascript" ></script>
 
 	</body>

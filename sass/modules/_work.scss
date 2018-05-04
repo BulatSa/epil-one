@@ -235,7 +235,7 @@
 		will-change: transform;
 		@include res(m){
 			position: relative;
-			height: 200px;
+			height: 150px;
 			width: 320px;
 			max-width: calc(100% - 32px);
 			margin-left: auto;
@@ -261,12 +261,8 @@
 	@include res(xl){
 		min-height: 380px;
 	}
-	@media (max-height: 900px){
-		font-size: 14px;
-		padding: 20px;
-	}
-	@include res(m){
-		box-shadow: 0 6px 20px 0 transparentize(#0f2e59,0.8);
+	@include res(xs){
+		min-height: initial;
 	}
 
 	&__step{
@@ -281,6 +277,9 @@
 
 	&__text{
 		font-size: 14px;
+		@include res(xs){
+			font-size: 12px;
+		}
 	}
 
 	footer{
