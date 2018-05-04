@@ -344,7 +344,16 @@
 					<span>Наш администратор обязательно свяжется с вами и согласует время консультации</span>
 				</div>
 				<form class="ajax-form">
-					<div class="datepicker"></div>
+					<div class="datepicker">
+						<div class="datepicker__calendar">
+							<input id="datepicker" class="input-text" type="text" placeholder="06.05.2018">
+							<i class="i-calendar"></i>
+						</div>
+						<div class="datepicker__time">
+							<input id="timepicker" class="input-text" type="text" placeholder="15:00">
+							<i class="i-clock"></i>
+						</div>
+					</div>
 					<input type="text" name="user_name" placeholder="Ваше имя" data-label="Имя пользователя" class="input-text" >
 					<input type="tel" name="user_tel" placeholder="Телефон*" data-label="Телефон"  class="input-text" data-req="true">
 					<textarea name="comment" class="input-textarea" placeholder="Ваш вопрос"></textarea>

@@ -1,6 +1,17 @@
 .cons-sec {
 	min-height: 820px;
 	background: url("../img/cons/bg-cons.jpg") no-repeat center;
+	@include res(xl) {
+		min-height: 720px;
+		background-size: cover;
+	}
+	@include res(l) {
+		min-height: 680px;
+	}
+	@include res(s) {
+		min-height: initial;
+		background: #fff;
+	}
 }
 
 .cons {
@@ -11,4 +22,14 @@
 .cons__form {
 	margin-left: auto;
 	margin-top: $pad-l;
+	@include res(l) {
+		margin-top: $pad-s;
+	}
+	@include res(m) {
+		margin-top: $pad-xs;
+	}
+	@include res(s) {
+		margin-top: 10px;
+		margin-right: auto;
+	}
 }

@@ -521,14 +521,24 @@ $(window).on('load',function () {
 
 
 /***********************
-Data Picker BEGIN
-***********************/
-$( ".datepicker" ).datepicker({
-	beforeShowDay: $.datepicker.noWeekends,
-	regional: 'ru'
+ Data Picker BEGIN
+ ***********************/
+$(function ($) {
+	$.datetimepicker.setLocale('ru');
+	$('#datepicker').datetimepicker({
+		timepicker: false,
+		format:'d.m.Y',
+		todayButton: false
+	});
+
+	$('#timepicker').datetimepicker({
+		datepicker:false,
+		format:'H:i',
+		minTime:'9:00',
+		maxTime:'22:00',
+		step: 30
+	});
 });
-
-
 /***********************
-Data Picker END
-***********************/
+ Data Picker END
+ ***********************/
