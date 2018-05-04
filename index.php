@@ -85,7 +85,7 @@
 						<p class="h3 preim__title">Об аппарате MeDioStar NeXT PRO</p>
 						<p class="preim__text">Двухволновой лазер MeDioStar NeXT PRO производства компании Asclepion Laser Technologies GmbH (Германия). Применяется на всех типах кожи и для удаления волос любого цвета (кроме седых). Эффективен для лифтинга, омоложения, отбеливания кожи и избавления от акне. Показал хорошие результаты при лечении дерматитов, избавлении от пигментных пятен и сосудистых звёздочек.</p>
 						<div class="preim__logos">
-							<div class="preim__subtitle">Посмотрите сертификаты</div
+							<div class="preim__subtitle">Посмотрите сертификаты</div>
 							<a href="/img/preims/1_1.png" class="fancy">
 								<img src="#" data-img="/img/preims/1_1.png" alt="1" class="lazy_load">
 							</a>
