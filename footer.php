@@ -88,8 +88,26 @@
 	</div>
 
 
-	<div id="modal-thanks" class="modal">
-		<p>Спасибо за заявку!</p>
+	<div id="modal-thanks" class="modal modal--thanks">
+		<div class="user-content">
+			<p class="h3">Спасибо за заявку!</p>
+			<p>Наш администратор обязательно свяжется с вами!</p>
+		</div>
+	</div>
+
+	<div id="modal-social" class="modal modal--social">
+		<div class="user-content">
+			<p class="h3">Следите за нами в социальных сетях</p>
+			<p>Спасибо, что дочитали до конца. Мы очень стараемся максимально просто и понятно рассказать про Лазерную Эпиляцию в нашем салоне EpilOne.<br>Подписывайтесь на наши социальные сети:</p>
+		</div>
+		<div class="modal-soc-list">
+			<a href="#" target="_blank"><i class="i-soc-fb"></i></a>
+			<a href="#" target="_blank"><i class="i-soc-insta"></i></a>
+			<a href="#" target="_blank"><i class="i-soc-you"></i></a>
+		</div>
+		<div class="btn-center">
+			<a href="#" class="btn" data-fancybox-close>Спасибо, но я уже с вами!</a>
+		</div>
 	</div>
 
 	<div id="modal-error" class="modal">
