@@ -114,7 +114,7 @@
 	}
 
 	&__title{
-		margin-bottom: 0.3em;
+		margin-bottom: 0.5em;
 		opacity: 0;
 		transform: translate3d(-50px,0,0);
 		transition: all 0.2s ease;
@@ -127,7 +127,7 @@
 		transform: translate3d(-80px,0,0);
 		transition: all 0.2s ease;
 		@include res(s){
-			margin-bottom: $pad-s;
+			margin-bottom: $pad-xxs;
 		}
 	}
 
@@ -148,16 +148,17 @@
 
 	&__right{
 		@include res(s){
-			padding-top: $pad-s;
-		}
-		@include res(xs){
-			padding-top: $pad-xxs;
+			padding-top: 10px;
 		}
 	}
 
 	&__imgwrap{
 		background: url("../img/preims/thumb.png") center center no-repeat;
 		background-size: contain;
+
+		&.loaded{
+			background: transparent;
+		}
 	}
 
 	.preimLazy{
