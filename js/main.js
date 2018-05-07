@@ -531,7 +531,9 @@ function initPicker() {
 	$('.datepicker-input').datetimepicker({
 		timepicker: false,
 		format:'d.m.Y',
-		todayButton: false
+		todayButton: false,
+		minDate: 0,
+		dayOfWeekStart: 1
 	});
 
 	$('.timepicker-input').datetimepicker({
