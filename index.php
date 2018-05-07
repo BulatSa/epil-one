@@ -105,11 +105,11 @@
 
 			<div class="grid-6 grid-12_s">
 				<div class="tech-stage">
-					<img src="/img/tech/stage-bg.jpg" alt="bg" class="tech-stage__bg">
-					<img src="/img/tech/volos.png" alt="bg" class="tech-stage__volos">
-					<img src="/img/tech/geleza.png" alt="bg" class="tech-stage__geleza">
-					<img src="/img/tech/lazer.png" alt="bg" class="tech-stage__lazer">
-					<img src="/img/tech/legs.jpg" alt="bg" class="tech-stage__legs">
+					<img src="#" data-img="/img/tech/stage-bg.jpg" alt="bg" class="tech-stage__bg lazy_load">
+					<img src="#" data-img="/img/tech/volos.png" alt="bg" class="tech-stage__volos lazy_load">
+					<img src="#" data-img="/img/tech/geleza.png" alt="bg" class="tech-stage__geleza lazy_load">
+					<img src="#" data-img="/img/tech/lazer.png" alt="bg" class="tech-stage__lazer lazy_load">
+					<img src="#" data-img="/img/tech/legs.jpg" alt="bg" class="tech-stage__legs lazy_load">
 				</div>
 			</div>
 		</div>
