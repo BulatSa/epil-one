@@ -411,6 +411,7 @@ $(function($){
 				thisImg.attr('src',thisImg.data('imgsrc'));
 				thisImg.on('load',function () {
 					thisImg.addClass('loaded');
+					thisImg.parent('.preim__imgwrap').addClass('loaded');
 				})
 			}
 		})

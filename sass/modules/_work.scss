@@ -261,6 +261,9 @@
 	@include res(xl){
 		min-height: 380px;
 	}
+	@include res(m){
+		box-shadow: 0 0 20px 0 rgba(3, 82, 84, 0.14);
+	}
 	@include res(xs){
 		min-height: initial;
 	}

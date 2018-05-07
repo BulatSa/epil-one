@@ -70,20 +70,21 @@
 	<div class="container-big">
 		<nav class="preim-nav">
 			<button>Об аппарате</button>
-			<button>Безопасность</button>
-			<button>Комфорт и<br>безболезненность</button>
-			<button>Финансовая<br>прозрачность</button>
+			<button>Инновации</button>
+			<button>Комфорт</button>
 			<button>Экономичность</button>
-			<button>Долгосрочный<br>эффект</button>
-			<button>Эффективность</button>
+			<button>Наш подход</button>
+			<button>Безопасность</button>
+			<button>Медицинская<br>ответственность</button>
 		</nav>
 
 		<div class="preims-wrap">
+
 			<div class="preim">
 				<div class="row">
 					<div class="grid-6 grid-12_s preim__left">
 						<p class="h3 preim__title">Об аппарате MeDioStar NeXT PRO</p>
-						<p class="preim__text">Двухволновой лазер MeDioStar NeXT PRO производства компании Asclepion Laser Technologies GmbH (Германия). Применяется на всех типах кожи и для удаления волос любого цвета (кроме седых). Эффективен для лифтинга, омоложения, отбеливания кожи и избавления от акне. Показал хорошие результаты при лечении дерматитов, избавлении от пигментных пятен и сосудистых звёздочек.</p>
+						<p class="preim__text">Высокомощный диодный лазер 4 поколения MeDioStar NeXT PRO производства компании Asclepion Laser Technologies GmbH (Германия) – мирового лидера в производстве медицинских лазерных систем с более чем 40 летним опытом. <br><br>Оборудование прошло клинические испытания и имеет регистрационное удостоверение для использования в медицине. </p>
 						<div class="preim__logos">
 							<div class="preim__subtitle">Посмотрите сертификаты</div>
 							<a href="/img/preims/1_1.png" class="fancy">
@@ -91,6 +92,9 @@
 							</a>
 							<a href="/img/preims/1_2.png" class="fancy">
 								<img src="#" data-img="/img/preims/1_2.png" alt="1" class="lazy_load">
+							</a>
+							<a href="/img/preims/1_22.png" class="fancy">
+								<img src="#" data-img="/img/preims/1_22.png" alt="1" class="lazy_load">
 							</a>
 							<a href="/img/preims/1_3.png" class="fancy">
 								<img src="#" data-img="/img/preims/1_3.png" alt="1" class="lazy_load">
@@ -107,11 +111,12 @@
 					</div>
 				</div>
 			</div>
+
 			<div class="preim">
 				<div class="row">
 					<div class="grid-6 grid-12_s preim__left">
-						<p class="h3 preim__title">Об аппарате MeDioStar</p>
-						<p class="preim__text">Двухволновой лазер MeDioStar NeXT PRO производства компании Asclepion Laser Technologies GmbH (Германия). Применяется на всех типах кожи и для удаления волос любого цвета (кроме седых). Эффективен для лифтинга, омоложения, отбеливания кожи и избавления от акне. Показал хорошие результаты при лечении дерматитов, избавлении от пигментных пятен и сосудистых звёздочек.</p>
+						<p class="h3 preim__title">Инновация</p>
+						<p class="preim__text">MeDioStar NeXT PRO -- единственный в мире диодный лазер, который позволяет работать с двумя длинами волн – 810 и 940 нм для ещё большей эффективности. Благодаря технологии TAPER и специальному комплексу кварцевых волокон, лазерный луч подается максимально однородным пучком, что минимизирует пропуски при обработке сложных участков и гарантирует отсутствие эффекта «зебры».</p>
 					</div>
 					<div class="grid-6 grid-12_s preim__right">
 						<div class="preim__imgwrap">
@@ -120,19 +125,77 @@
 					</div>
 				</div>
 			</div>
+
 			<div class="preim">
 				<div class="row">
 					<div class="grid-6 grid-12_s preim__left">
-						<p class="h3 preim__title">Об аппарате MeDioStar</p>
-						<p class="preim__text">Двухволновой лазер MeDioStar NeXT PRO производства компании Asclepion Laser Technologies GmbH (Германия). Применяется на всех типах кожи и для удаления волос любого цвета (кроме седых). Эффективен для лифтинга, омоложения, отбеливания кожи и избавления от акне. Показал хорошие результаты при лечении дерматитов, избавлении от пигментных пятен и сосудистых звёздочек.</p>
+						<p class="h3 preim__title">Комфорт</p>
+						<p class="preim__text">Новая система охлаждения исключает перегрев кожи и обеспечивает непревзойдённый комфорт для пациентов во время процедуры, вне зависимости от её продолжительности. Максимум, что вы можете почувствовать — это легкое покалывание. Впервые, избавление от нежелательных волос является комфортной и безболезненной процедурой.</p>
 					</div>
 					<div class="grid-6 grid-12_s preim__right">
 						<div class="preim__imgwrap">
-							<img src="#" alt="1" class="preimLazy" data-imgsrc="/img/preims/2.png">
+							<img src="#" alt="1" class="preimLazy" data-imgsrc="/img/preims/3.png">
 						</div>
 					</div>
 				</div>
 			</div>
+
+			<div class="preim">
+				<div class="row">
+					<div class="grid-6 grid-12_s preim__left">
+						<p class="h3 preim__title">Экономичность</p>
+						<p class="preim__text">Лазерная эпиляция сделанная в профессиональном медицинском центре окупит себя в течение первого года. Работая с медицинским протоколом, можно с уверенностью 98.7% говорить о гарантированном избавлении от нежелательных волос за 5-8 сеансов.</p>
+					</div>
+					<div class="grid-6 grid-12_s preim__right">
+						<div class="preim__imgwrap">
+							<img src="#" alt="1" class="preimLazy" data-imgsrc="/img/preims/4.png">
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="preim">
+				<div class="row">
+					<div class="grid-6 grid-12_s preim__left">
+						<p class="h3 preim__title">Наш подход</p>
+						<p class="preim__text">Только сочетая импульсный и профессиональный режим работы, который позволяет индивидуально выбрать мощность импульса -- флюенс (от 12 до 47 Дж/см2), а также его частоту, можно говорить об эффективной процедуре. Мы храним параметры лазерной эпиляции каждого пациента, чтобы при следующем посещении воздействовать с той-же мощностью и постепенно её увеличивать. Это единственно правильный метод работы.</p>
+					</div>
+					<div class="grid-6 grid-12_s preim__right">
+						<div class="preim__imgwrap">
+							<img src="#" alt="1" class="preimLazy" data-imgsrc="/img/preims/5.png">
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="preim">
+				<div class="row">
+					<div class="grid-6 grid-12_s preim__left">
+						<p class="h3 preim__title">Безопасность</p>
+						<p class="preim__text">Лазерная эпиляция с помощью нашего оборудования эффективна и безопасна для всех фототипов – от светлой скандинавской до очень смуглой и темной кожи. Тем не менее, самое лучшее оборудование должно работать в руках профессиональных специалистов – врачей с высшим медицинским образованием. Тогда это будет безопасно и эффективно.</p>
+					</div>
+					<div class="grid-6 grid-12_s preim__right">
+						<div class="preim__imgwrap">
+							<img src="#" alt="1" class="preimLazy" data-imgsrc="/img/preims/6.png">
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="preim">
+				<div class="row">
+					<div class="grid-6 grid-12_s preim__left">
+						<p class="h3 preim__title">Медицинская ответственность</p>
+						<p class="preim__text">С каждым пациентом заключается договор об оказании медицинских услуг и заводится медицинская карта. Мы несем ответственность за оказание услуги и отвечаем за результат. </p>
+					</div>
+					<div class="grid-6 grid-12_s preim__right">
+						<div class="preim__imgwrap">
+							<img src="#" alt="1" class="preimLazy" data-imgsrc="/img/preims/7.png">
+						</div>
+					</div>
+				</div>
+			</div>
+
 		</div>
 
 	</div>
