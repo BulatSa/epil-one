@@ -32,7 +32,7 @@
 				<p>Теперь мы хотим делиться этими знаниями и планируем создать учебный центр с курсами для врачей-косметологов. Будем обучать работе с аппаратами и выпускать магистров лазерной эпиляции.</p>
 			</div>
 			<div class="master__sert anim">
-				<a href="img/master/sert-prev.jpg" class="fancy">
+				<a href="img/master/sert_full.jpg" class="fancy">
 					<img src="#" data-img="img/master/sert-prev.jpg" alt="sert" class="lazy_load">
 				</a>
 			</div>
@@ -87,21 +87,19 @@
 						<p class="preim__text">Высокомощный диодный лазер 4 поколения MeDioStar NeXT PRO производства компании Asclepion Laser Technologies GmbH (Германия) – мирового лидера в производстве медицинских лазерных систем с более чем 40 летним опытом. <br><br>Оборудование прошло клинические испытания и имеет регистрационное удостоверение для использования в медицине. </p>
 						<div class="preim__logos">
 							<div class="preim__subtitle">Посмотрите сертификаты</div>
-							<a href="/img/preims/1_1.png" class="fancy">
+							<a href="/img/preims/sert_1.jpg" class="fancy" data-fancybox="preim_serts">
 								<img src="#" data-img="/img/preims/1_1.png" alt="1" class="lazy_load">
 							</a>
-							<a href="/img/preims/1_2.png" class="fancy">
+							<a href="/img/preims/sert_3.jpg" class="fancy" data-fancybox="preim_serts">
 								<img src="#" data-img="/img/preims/1_2.png" alt="1" class="lazy_load">
 							</a>
-							<a href="/img/preims/1_22.png" class="fancy">
+							<a href="/img/preims/sert_2.jpg" class="fancy" data-fancybox="preim_serts">
 								<img src="#" data-img="/img/preims/1_22.png" alt="1" class="lazy_load">
 							</a>
-							<a href="/img/preims/1_3.png" class="fancy">
+							<a href="/img/preims/sert_4.jpg" class="fancy" data-fancybox="preim_serts">
 								<img src="#" data-img="/img/preims/1_3.png" alt="1" class="lazy_load">
 							</a>
-							<a href="/img/preims/1_4.png" class="fancy">
-								<img src="#" data-img="/img/preims/1_4.png" alt="1" class="lazy_load">
-							</a>
+							<img src="#" data-img="/img/preims/1_4.png" alt="1" class="lazy_load">
 						</div>
 					</div>
 					<div class="grid-6 grid-12_s preim__right">
@@ -299,13 +297,13 @@
 			</div>
 			<div class="about__serts">
 				<div class="about__sert">
-					<a href="img/about/sert-1.jpg" class="fancy">
+					<a href="img/about/sert-1_full.jpg" class="fancy" data-fancybox="about_serts">
 						<img src="#" data-img="img/about/sert-1.jpg" alt="sert" class="lazy_load">
 						<span>Лицензия на осуществление Медицинской деятельности</span>
 					</a>
 				</div>
 				<div class="about__sert">
-					<a href="img/about/sert-2.jpg" class="fancy">
+					<a href="img/about/sert-2_full.jpg" class="fancy" data-fancybox="about_serts">
 						<img src="#" data-img="img/about/sert-2.jpg" alt="sert" class="lazy_load">
 						<span>Лицензия на осуществление Медицинской деятельности</span>
 					</a>
