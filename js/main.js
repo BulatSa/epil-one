@@ -95,7 +95,10 @@ function init_fancy() {
 	$().fancybox({
 		selector: '.fancy-modal',
 		backFocus: false,
-		touch: false
+		touch: false,
+		afterShow: function () {
+			initPicker();
+		}
 	});
 	$().fancybox({
 		selector: '.fancy-map',
@@ -524,21 +527,27 @@ $(window).on('load',function () {
 /***********************
  Data Picker BEGIN
  ***********************/
-$(function ($) {
-	$.datetimepicker.setLocale('ru');
-	$('#datepicker').datetimepicker({
+function initPicker() {
+	$('.datepicker-input').datetimepicker({
 		timepicker: false,
 		format:'d.m.Y',
 		todayButton: false
 	});
 
-	$('#timepicker').datetimepicker({
+	$('.timepicker-input').datetimepicker({
 		datepicker:false,
 		format:'H:i',
 		minTime:'9:00',
 		maxTime:'22:00',
 		step: 30
 	});
+};
+
+$(function ($) {
+	$.datetimepicker.setLocale('ru');
+
+	initPicker();
+
 });
 /***********************
  Data Picker END

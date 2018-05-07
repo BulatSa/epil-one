@@ -10,7 +10,7 @@
 			<form class="ajax-form">
 				<input type="text" name="user_name" placeholder="Ваше имя" data-label="Имя пользователя" class="input-text" >
 				<input type="tel" name="user_tel" placeholder="Телефон*" data-label="Телефон"  class="input-text" data-req="true">
-				<textarea name="comment" class="input-textarea" placeholder="Ваш вопрос"></textarea>
+				<textarea name="comment" class="input-textarea" placeholder="Ваш вопрос" data-label="Вопрос"></textarea>
 				<input type="hidden" value="Новая заявка" name="form_subject">
 				<label class="style-checkbox">
 					<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">
@@ -32,17 +32,17 @@
 			<form class="ajax-form">
 				<div class="datepicker">
 					<div class="datepicker__calendar">
-						<input id="datepicker" class="input-text" type="text" placeholder="06.05.2018">
+						<input class="datepicker-input input-text" type="text" placeholder="06.05.2018" name="user_date" data-label="Дата записи">
 						<i class="i-calendar"></i>
 					</div>
 					<div class="datepicker__time">
-						<input id="timepicker" class="input-text" type="text" placeholder="15:00">
+						<input class="timepicker-input input-text" type="text" placeholder="15:00" name="user_time" data-label="Время записи">
 						<i class="i-clock"></i>
 					</div>
 				</div>
 				<input type="text" name="user_name" placeholder="Ваше имя" data-label="Имя пользователя" class="input-text" >
 				<input type="tel" name="user_tel" placeholder="Телефон*" data-label="Телефон"  class="input-text" data-req="true">
-				<textarea name="comment" class="input-textarea" placeholder="Ваш вопрос"></textarea>
+				<textarea name="comment" class="input-textarea" placeholder="Ваш вопрос" data-label="Вопрос"></textarea>
 				<input type="hidden" value="Новая заявка" name="form_subject">
 				<label class="style-checkbox">
 					<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">
@@ -64,17 +64,17 @@
 			<form class="ajax-form">
 				<div class="datepicker">
 					<div class="datepicker__calendar">
-						<input id="datepicker" class="input-text" type="text" placeholder="06.05.2018">
+						<input class="datepicker-input input-text" type="text" placeholder="06.05.2018" name="user_date" data-label="Дата записи">
 						<i class="i-calendar"></i>
 					</div>
 					<div class="datepicker__time">
-						<input id="timepicker" class="input-text" type="text" placeholder="15:00">
+						<input class="timepicker-input input-text" type="text" placeholder="15:00" name="user_time" data-label="Время записи">
 						<i class="i-clock"></i>
 					</div>
 				</div>
 				<input type="text" name="user_name" placeholder="Ваше имя" data-label="Имя пользователя" class="input-text" >
 				<input type="tel" name="user_tel" placeholder="Телефон*" data-label="Телефон"  class="input-text" data-req="true">
-				<textarea name="comment" class="input-textarea" placeholder="Ваш вопрос"></textarea>
+				<textarea name="comment" class="input-textarea" placeholder="Ваш вопрос" data-label="Вопрос"></textarea>
 				<input type="hidden" value="Новая заявка" name="form_subject">
 				<label class="style-checkbox">
 					<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">

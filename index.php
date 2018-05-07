@@ -9,7 +9,7 @@
 					<h1>Гарантированное избавление от волос</h1>
 					<p>Если вы не получаете результата, мы даем скидку 70% на следующие визиты до полного избавления от нежелательных волос.</p>
 				</div>
-				<a href="#modal-record" class="btn radbtn fancy">Записаться онлайн</a>
+				<a href="#modal-record" class="btn radbtn fancy-modal">Записаться онлайн</a>
 			</div>
 		</div>
 	</div>
@@ -52,7 +52,7 @@
 	<div class="container">
 		<div class="akcia">
 			<p class="akcia__title">Акция до 26 апреля!</p>
-			<a href="#modal-akcia" class="btn btn--white radbtn-white fancy">Участвовать в акции</a>
+			<a href="#modal-akcia" class="btn btn--white radbtn-white fancy-modal">Участвовать в акции</a>
 		</div>
 	</div>
 </section>
@@ -218,7 +218,7 @@
 					<p class="work-panel__text">Определяем фототип вашей кожи и тип волос. Раскрываем для вас тему показаний к лазерной эпиляции и предупреждаем о противопоказаниях. Подписываем договор и информационное соглашение.</p>
 					<footer>
 						<p>Сделайте самый простой шаг</p>
-						<button class="btn radbtn fancy" data-src="#modal-record">Забронировать время</button>
+						<button class="btn radbtn fancy-modal" data-src="#modal-record">Забронировать время</button>
 					</footer>
 				</div>
 			</div>
@@ -407,17 +407,17 @@
 				<form class="ajax-form">
 					<div class="datepicker">
 						<div class="datepicker__calendar">
-							<input id="datepicker" class="input-text" type="text" placeholder="06.05.2018">
+							<input class="datepicker-input input-text" type="text" placeholder="06.05.2018" name="user_date" data-label="Дата записи">
 							<i class="i-calendar"></i>
 						</div>
 						<div class="datepicker__time">
-							<input id="timepicker" class="input-text" type="text" placeholder="15:00">
+							<input class="timepicker-input input-text" type="text" placeholder="15:00" name="user_time" data-label="Время записи">
 							<i class="i-clock"></i>
 						</div>
 					</div>
 					<input type="text" name="user_name" placeholder="Ваше имя" data-label="Имя пользователя" class="input-text" >
 					<input type="tel" name="user_tel" placeholder="Телефон*" data-label="Телефон"  class="input-text" data-req="true">
-					<textarea name="comment" class="input-textarea" placeholder="Ваш вопрос"></textarea>
+					<textarea name="comment" class="input-textarea" placeholder="Ваш вопрос" data-label="Вопрос"></textarea>
 					<input type="hidden" value="Новая заявка" name="form_subject">
 					<label class="style-checkbox">
 						<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">
@@ -580,7 +580,7 @@
 					</div>
 
 					<div>
-						<a href="#modal-call" class="btn btn--mini radbtn fancy">Заказать обратный звонок</a>
+						<a href="#modal-call" class="btn btn--mini radbtn fancy-modal">Заказать обратный звонок</a>
 					</div>
 				</div>
 			</div>
