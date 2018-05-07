@@ -9,7 +9,7 @@
 					<h1>Гарантированное избавление от волос</h1>
 					<p>Если вы не получаете результата, мы даем скидку 70% на следующие визиты до полного избавления от нежелательных волос.</p>
 				</div>
-				<a href="#" class="btn radbtn">Записаться онлайн</a>
+				<a href="#modal-record" class="btn radbtn fancy">Записаться онлайн</a>
 			</div>
 		</div>
 	</div>
@@ -52,7 +52,7 @@
 	<div class="container">
 		<div class="akcia">
 			<p class="akcia__title">Акция до 26 апреля!</p>
-			<a href="#" class="btn btn--white radbtn-white">Участвовать в акции</a>
+			<a href="#modal-akcia" class="btn btn--white radbtn-white fancy">Участвовать в акции</a>
 		</div>
 	</div>
 </section>
@@ -144,7 +144,7 @@
 
 	<div class="page-title page-title--center">
 		<span>Как мы работаем</span>
-		<p class="h2">5 шаговов к гладкой коже</p>
+		<p class="h2">5 шагов к гладкой коже</p>
 	</div>
 
 	<div class="work-slider">
@@ -157,7 +157,7 @@
 					<p class="work-panel__text">Определяем фототип вашей кожи и тип волос. Раскрываем для вас тему показаний к лазерной эпиляции и предупреждаем о противопоказаниях. Подписываем договор и информационное соглашение.</p>
 					<footer>
 						<p>Сделайте самый простой шаг</p>
-						<button class="btn radbtn">Забронировать время</button>
+						<button class="btn radbtn fancy" data-src="#modal-record">Забронировать время</button>
 					</footer>
 				</div>
 			</div>
@@ -519,7 +519,7 @@
 					</div>
 
 					<div>
-						<a href="#" class="btn btn--mini radbtn">Заказать обратный звонок</a>
+						<a href="#modal-call" class="btn btn--mini radbtn fancy">Заказать обратный звонок</a>
 					</div>
 				</div>
 			</div>

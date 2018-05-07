@@ -1,22 +1,92 @@
 <!-- Модальные окна -->
 <div class="modals-sec">
 
-	<div id="modal-order" class="modal">
-		<p>Заказать обратный звонок</p>
-		<p>Оставьте заявку и наш администратор свяжется с&nbsp;Вами в течение 10 минут</p>
-		<form class="ajax-form">
-			<input type="text" name="user_name" placeholder="Введите имя" data-label="Имя пользователя" class="text-input" >
-			<input type="email" name="user_email" placeholder="Введите e-mail*" data-label="Email" class="text-input" data-req="true">
-			<input type="tel" name="user_tel" placeholder="Введите телефон*" data-label="Телефон"  class="text-input" data-req="true">
-			<input type="file" name="user_file" data-label="Файл">
-			<input type="hidden" value="Новая заявка" name="form_subject">
-			<button type="submit" class="btn">Отправить</button>
-			<label class="style-checkbox">
-				<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">
-				<span>Принимаю <a href="#" target="_blank">условия обработки</a> персональных данных</span>
-			</label>
-		</form>
+	<div id="modal-call" class="modal modal--form">
+		<div class="form">
+			<div class="form__title">
+				<p class="h3">Перезвоните мне</p>
+				<span>Наш администратор обязательно свяжется с вами и ответит на все ваши вопросы</span>
+			</div>
+			<form class="ajax-form">
+				<input type="text" name="user_name" placeholder="Ваше имя" data-label="Имя пользователя" class="input-text" >
+				<input type="tel" name="user_tel" placeholder="Телефон*" data-label="Телефон"  class="input-text" data-req="true">
+				<textarea name="comment" class="input-textarea" placeholder="Ваш вопрос"></textarea>
+				<input type="hidden" value="Новая заявка" name="form_subject">
+				<label class="style-checkbox">
+					<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">
+					<span>Соглашаюсь на обработку персональных данных и соглашаюсь с условиями <a href="#" target="_blank">политики конфиденциальности</a></span>
+				</label>
+				<div class="btn-center">
+					<button type="submit" class="btn radbtn">Отправить</button>
+				</div>
+			</form>
+		</div>
 	</div>
+
+	<div id="modal-akcia" class="modal modal--form">
+		<div class="form">
+			<div class="form__title">
+				<p class="h3">Участвовать в акции!</p>
+				<span>Наш администратор обязательно свяжется с вами и ответит на все ваши вопросы</span>
+			</div>
+			<form class="ajax-form">
+				<div class="datepicker">
+					<div class="datepicker__calendar">
+						<input id="datepicker" class="input-text" type="text" placeholder="06.05.2018">
+						<i class="i-calendar"></i>
+					</div>
+					<div class="datepicker__time">
+						<input id="timepicker" class="input-text" type="text" placeholder="15:00">
+						<i class="i-clock"></i>
+					</div>
+				</div>
+				<input type="text" name="user_name" placeholder="Ваше имя" data-label="Имя пользователя" class="input-text" >
+				<input type="tel" name="user_tel" placeholder="Телефон*" data-label="Телефон"  class="input-text" data-req="true">
+				<textarea name="comment" class="input-textarea" placeholder="Ваш вопрос"></textarea>
+				<input type="hidden" value="Новая заявка" name="form_subject">
+				<label class="style-checkbox">
+					<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">
+					<span>Соглашаюсь на обработку персональных данных и соглашаюсь с условиями <a href="#" target="_blank">политики конфиденциальности</a></span>
+				</label>
+				<div class="btn-center">
+					<button type="submit" class="btn radbtn">Отправить</button>
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<div id="modal-record" class="modal modal--form">
+		<div class="form">
+			<div class="form__title">
+				<p class="h3">Записаться онлайн</p>
+				<span>Наш администратор обязательно свяжется с вами и ответит на все ваши вопросы</span>
+			</div>
+			<form class="ajax-form">
+				<div class="datepicker">
+					<div class="datepicker__calendar">
+						<input id="datepicker" class="input-text" type="text" placeholder="06.05.2018">
+						<i class="i-calendar"></i>
+					</div>
+					<div class="datepicker__time">
+						<input id="timepicker" class="input-text" type="text" placeholder="15:00">
+						<i class="i-clock"></i>
+					</div>
+				</div>
+				<input type="text" name="user_name" placeholder="Ваше имя" data-label="Имя пользователя" class="input-text" >
+				<input type="tel" name="user_tel" placeholder="Телефон*" data-label="Телефон"  class="input-text" data-req="true">
+				<textarea name="comment" class="input-textarea" placeholder="Ваш вопрос"></textarea>
+				<input type="hidden" value="Новая заявка" name="form_subject">
+				<label class="style-checkbox">
+					<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">
+					<span>Соглашаюсь на обработку персональных данных и соглашаюсь с условиями <a href="#" target="_blank">политики конфиденциальности</a></span>
+				</label>
+				<div class="btn-center">
+					<button type="submit" class="btn radbtn">Отправить</button>
+				</div>
+			</form>
+		</div>
+	</div>
+
 
 	<div id="modal-thanks" class="modal">
 		<p>Спасибо за заявку!</p>

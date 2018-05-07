@@ -4,6 +4,11 @@
 	max-width: 100%;
 	will-change: transform,opacity;
 	overflow: visible !important;
+	&--form {
+		max-width: 380px;
+		padding: 0;
+		background: transparent;
+	}
 }
 
 .fancybox-slide--current {
