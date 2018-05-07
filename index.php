@@ -48,6 +48,83 @@
 </section>
 
 
+<section class="s-tech def-sec">
+	<div class="container">
+		<div class="page-title page-title--center">
+			<span>Технология</span>
+			<p class="h2">Принцип действия лазерного удаления&nbsp;волос</p>
+		</div>
+	</div>
+
+
+	<div class="tech-slider container">
+		<div class="tech-arrows">
+			<i class="i-left js-tech-prev"></i>
+			<i class="i-right js-tech-next"></i>
+		</div>
+		<div class="row">
+			<div class="grid-6 grid-12_s tech-slider__texts">
+				<div class="tech-slider__textwrap">
+					<div class="tech-slide">
+						<p class="h3">1. Немного теории</p>
+						<div class="tech-slide__text">
+							<p>Цикл роста волос на нашем теле подразделяется на три фазы: </p>
+							<ol>
+								<li>Анаген или фаза активного роста.</li>
+								<li>Катаген или фаза регрессии, при которой синтез прекращается и волос перестает расти.</li>
+								<li>Телоген или фаза отдыха, во время которой волос постепенно выпадает.</li>
+							</ol>
+							<br>
+							<p>Лазер воздействует на 20-30% волос находящихся в активной фазе роста. Именно поэтому всегда необходимо несколько сеансов по лазерному удалению волос.</p>
+						</div>
+						<button class="btn radbtn js-tech-next">Следующий этап</button>
+					</div>
+					<div class="tech-slide">
+						<p class="h3">2. Во время процедуры</p>
+						<div class="tech-slide__text">
+							<p>На волосяной фолликул воздействует узконаправленный пучок световых волн. Он проникает на глубину 2-3 мм от поверхности кожи. Эти волны влияют только на луковицу и не отражаются на остальных клетках эпидермиса. В процессе лазерной эпиляции меланин, который содержится в волосах, поглощает направленный на него свет (вспышки лазера). Это приводит к нагреванию волоса изнутри и разрушению волосяного фолликула. Этот процесс называется селективный фототермолиз, который был представлен Джоном Пэрришем в Гарвардской медицинской школе в 1983 году. На сегодняшний день технология эволюционировала и является самой эффективной для избавления от нежелательных волос. </p>
+						</div>
+						<button class="btn radbtn js-tech-next">Следующий этап</button>
+					</div>
+					<div class="tech-slide">
+						<p class="h3">3. После процедуры</p>
+						<div class="tech-slide__text">
+							<p>Все волосы в фазе активного роста выпадают вместе с корнем в течение 2-х недель после первой процедуры. Остальные волоски, которые были в неактивной фазе удаляются во время повторных процедур — 15-20% волосяных луковиц. Количество процедур и интервалы зависят от структуры волос пациента. В среднем курс составляет от 5 до 8 сеансов для женщин и от 6 до 10 для мужчин. Результат сохраняется надолго, но волосяные фолликулы восстанавливаются, срок варьируется от 1 до 8 лет. Чем светлее кожа и темнее волосы, тем меньше нужно процедур.</p>
+						</div>
+						<button class="btn radbtn js-tech-next">Следующий этап</button>
+					</div>
+					<div class="tech-slide">
+						<p class="h3">4. Результат</p>
+						<div class="tech-slide__text">
+							<p>За 1 день до посещения салона  волосы сбривают обычным бритвенным станком. Это делается для того чтобы вывести больше волос в активную фазу, а значит, удалить как можно больше волос с первой процедуры. Перед процедурой кожу нужно очистить там, где будет делаться эпиляция. Откажитесь от дезодоранта, тонального крема и посещения пляжа и солярия за 2 недели до эпиляции.<br><br>Перед ней мы проводим лазертест, чтобы посмотреть на реакцию кожи и определить болевой порог.</p>
+						</div>
+						<button class="btn radbtn fancy-modal" data-src="#modal-record">Забронировать время</button>
+					</div>
+				</div>
+			</div>
+
+			<div class="grid-6 grid-12_s">
+				<div class="tech-stage">
+					<img src="#" data-img="/img/tech/stage-bg.jpg" alt="bg" class="tech-stage__bg lazy_load">
+					<img src="#" data-img="/img/tech/volos.png" alt="bg" class="tech-stage__volos lazy_load">
+					<img src="#" data-img="/img/tech/geleza.png" alt="bg" class="tech-stage__geleza lazy_load">
+					<img src="#" data-img="/img/tech/lazer.png" alt="bg" class="tech-stage__lazer lazy_load">
+					<img src="#" data-img="/img/tech/legs.jpg" alt="bg" class="tech-stage__legs lazy_load">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="tech-nav">
+		<button class="tech-nav__btn"><figure></figure></button>
+		<button class="tech-nav__btn"><figure></figure></button>
+		<button class="tech-nav__btn"><figure></figure></button>
+		<button class="tech-nav__btn"><figure></figure></button>
+	</div>
+
+</section>
+
+
 <section class="akcia-sec def-sec" style="background-image:url('../img/akcia/bg-akcia.jpg');" id="sale">
 	<div class="container">
 		<div class="akcia">
@@ -224,12 +301,12 @@
 			</div>
 		</div>
 		<div class="work-slide">
-			<div class="work-slide__bg" data-flickity-bg-lazyload="/img/work/1.jpg"></div>
+			<div class="work-slide__bg" data-flickity-bg-lazyload="/img/work/2.jpg"></div>
 			<div class="container">
 				<div class="work-panel">
 					<p class="work-panel__step">ШАГ №2</p>
-					<p class="h3">Консультация</p>
-					<p class="work-panel__text">Определяем фототип вашей кожи и тип волос. Раскрываем для вас тему показаний к лазерной эпиляции и предупреждаем о противопоказаниях. Подписываем договор и информационное соглашение. Определяем фототип вашей кожи и тип волос. Раскрываем для вас тему показаний к лазерной эпиляции и предупреждаем о противопоказаниях. Подписываем договор и информационное соглашение.</p>
+					<p class="h3">Лазертест</p>
+					<p class="work-panel__text">Тестируем воздействие лазера на определенном участке кожи. Смотрим на реакцию, оцениваем ваши ощущения, подбираем подходящий режим работы.</p>
 					<footer>
 						<p>Сделайте самый простой шаг</p>
 						<button class="btn radbtn">Забронировать время</button>
@@ -238,12 +315,12 @@
 			</div>
 		</div>
 		<div class="work-slide">
-			<div class="work-slide__bg" data-flickity-bg-lazyload="/img/work/1.jpg"></div>
+			<div class="work-slide__bg" data-flickity-bg-lazyload="/img/work/3.jpg"></div>
 			<div class="container">
 				<div class="work-panel">
 					<p class="work-panel__step">ШАГ №3</p>
-					<p class="h3">Консультация</p>
-					<p class="work-panel__text">Определяем фототип вашей кожи и тип волос. Раскрываем для вас тему показаний к лазерной эпиляции и предупреждаем о противопоказаниях. Подписываем договор и информационное соглашение.</p>
+					<p class="h3">Процесс эпиляции</p>
+					<p class="work-panel__text">Сначала наносим специальный гель. Он обеспечивает максимальную проводимость луча и легкость скольжения насадки. Вы надеваете защитные очки. Врач приступает к эпиляции, корректируя мощность, частоту и режим воздействия лазера. По окончанию врач удаляет с кожи остатки геля.</p>
 					<footer>
 						<p>Сделайте самый простой шаг</p>
 						<button class="btn radbtn">Забронировать время</button>
@@ -252,12 +329,12 @@
 			</div>
 		</div>
 		<div class="work-slide">
-			<div class="work-slide__bg" data-flickity-bg-lazyload="/img/work/1.jpg"></div>
+			<div class="work-slide__bg" data-flickity-bg-lazyload="/img/work/4.jpg"></div>
 			<div class="container">
 				<div class="work-panel">
 					<p class="work-panel__step">ШАГ №4</p>
-					<p class="h3">Консультация</p>
-					<p class="work-panel__text">Определяем фототип вашей кожи и тип волос. Раскрываем для вас тему показаний к лазерной эпиляции и предупреждаем о противопоказаниях. Подписываем договор и информационное соглашение. Определяем фототип вашей кожи и тип волос. Раскрываем для вас тему показаний к лазерной эпиляции и предупреждаем о противопоказаниях. Подписываем договор и информационное соглашение.</p>
+					<p class="h3">Нанесение крема с&nbsp;SPF</p>
+					<p class="work-panel__text">Актуально для любой зоны, но в особенности для лица. Кожа после лазерной эпиляции выглядит гладкой и нежной, тем не менее, сейчас она особенно нуждается в уходе и защите.</p>
 					<footer>
 						<p>Сделайте самый простой шаг</p>
 						<button class="btn radbtn">Забронировать время</button>
@@ -266,12 +343,12 @@
 			</div>
 		</div>
 		<div class="work-slide">
-			<div class="work-slide__bg" data-flickity-bg-lazyload="/img/work/1.jpg"></div>
+			<div class="work-slide__bg" data-flickity-bg-lazyload="/img/work/5.jpg"></div>
 			<div class="container">
 				<div class="work-panel">
 					<p class="work-panel__step">ШАГ №5</p>
-					<p class="h3">Консультация</p>
-					<p class="work-panel__text">Определяем фототип вашей кожи и тип волос. Раскрываем для вас тему показаний к лазерной эпиляции и предупреждаем о противопоказаниях. Подписываем договор и информационное соглашение. Определяем фототип вашей кожи и тип волос. Раскрываем для вас тему показаний к лазерной эпиляции и предупреждаем о противопоказаниях. Подписываем договор и информационное соглашение.</p>
+					<p class="h3">Составление графика</p>
+					<p class="work-panel__text">Врач составляет персональный курс лазерной эпиляции и дает рекомендации по домашнему уходу.</p>
 					<footer>
 						<p>Сделайте самый простой шаг</p>
 						<button class="btn radbtn">Забронировать время</button>

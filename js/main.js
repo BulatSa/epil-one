@@ -552,3 +552,83 @@ $(function ($) {
 /***********************
  Data Picker END
  ***********************/
+
+
+/***********************
+Tech slider BEGIN
+***********************/
+$(function($){
+	var dots = $('.tech-nav button');
+	var techBlocks = $('.tech-slide');
+	var techStage = $('.tech-stage');
+	var nextArrow = $('.tech-arrows .i-right');
+	var prevArrow = $('.tech-arrows .i-left');
+
+	function selectTech(index) {
+
+		// nav
+		var this_dot = dots.eq(index);
+		dots.removeClass('selected');
+		dots.removeClass('active');
+		this_dot.addClass('selected');
+		this_dot.prevAll(dots).addClass('active');
+		this_dot.nextAll(dots).removeClass('active');
+		// nav
+
+		// text
+		techBlocks.removeClass('active');
+		techBlocks.eq(index).addClass('active');
+		// text
+
+		//stage
+		var indexStage = parseInt(index) + 1;
+		techStage.removeClass('tech-stage--1 tech-stage--2 tech-stage--3 tech-stage--4');
+		techStage.addClass('tech-stage--'+indexStage);
+		//stage
+
+		if (index === dots.length-1){
+			nextArrow.addClass('disabled');
+		} else {
+			nextArrow.removeClass('disabled');
+		}
+
+		if (index === 0){
+			prevArrow.addClass('disabled');
+		} else {
+			prevArrow.removeClass('disabled');
+		}
+	}
+
+
+	function techNext(){
+		var currentIndex = dots.filter('.selected').index();
+		var nextIndex = parseInt(currentIndex) + 1;
+		console.log(dots.length);
+		if (currentIndex < dots.length-1){
+			selectTech(nextIndex);
+		}
+	}
+	function techPrev(){
+		var currentIndex = dots.filter('.selected').index();
+		var prevIndex = parseInt(currentIndex) - 1;
+		selectTech(prevIndex);
+	}
+
+	dots.on('click',function () {
+		var thisIndex = $(this).index();
+		selectTech(thisIndex);
+	});
+
+
+	selectTech(0);
+
+	$('.js-tech-next').on('click',function () {
+		techNext();
+	});
+	$('.js-tech-prev').on('click',function () {
+		techPrev();
+	});
+});
+/***********************
+Tech slider END
+***********************/
