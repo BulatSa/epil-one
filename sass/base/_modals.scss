@@ -16,6 +16,16 @@
 		border-radius: 20px;
 		background: #fff;
 	}
+	&--service {
+		width: 800px;
+		padding: $pad-s $pad-s;
+		text-align: center;
+		border-radius: 20px;
+		background: #fff;
+		@include res(xs) {
+			padding: $pad-s $pad-xs;
+		}
+	}
 	&--social {
 		width: 800px;
 		padding: $pad-xl $pad-xl;

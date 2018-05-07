@@ -361,7 +361,38 @@
 						<img src="#" data-img="img/service/service-1.jpg" alt="alt" class="lazy_load">
 						<div class="service__one-info">
 							<p class="h3">Осветление кожи</p>
-							<a href="#" class="btn btn--mini btn--trans">Подробнее</a>
+							<a href="#service-1" class="btn btn--mini btn--trans fancy-modal">Подробнее</a>
+						</div>
+						<div id="service-1" class="modal modal--service">
+							<div class="service-more">
+								<div class="service-more__img">
+									<img src="img/service/service-more-11.jpg" alt="" class="before">
+									<img src="img/service/service-more-12.jpg" alt="" class="after">
+								</div>
+								<div class="service-more__info">
+									<div class="user-content">
+										<p class="h3">Осветление кожи</p>
+										<p>Двухволновой лазер MeDioStar NeXT PRO производства компании Asclepion Laser Technologies GmbH (Германия). Применяется на всех типах кожи и для удаления волос любого цвета (кроме седых). </p>
+									</div>
+									<div class="form">
+										<div class="form__title">
+											<p class="h4">Запишитесь на консультацию:</p>
+										</div>
+										<form class="ajax-form">
+											<input type="text" name="user_name" placeholder="Ваше имя" data-label="Имя пользователя" class="input-text" >
+											<input type="tel" name="user_tel" placeholder="Телефон*" data-label="Телефон"  class="input-text" data-req="true">
+											<input type="hidden" value="Новая заявка - Осветление кожи" name="form_subject">
+											<label class="style-checkbox">
+												<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">
+												<span>Соглашаюсь на обработку персональных данных и соглашаюсь с условиями <a href="#" target="_blank">политики конфиденциальности</a></span>
+											</label>
+											<div class="btn-center">
+												<button type="submit" class="btn radbtn">Отправить</button>
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -370,7 +401,38 @@
 						<img src="#" data-img="img/service/service-2.jpg" alt="alt" class="lazy_load">
 						<div class="service__one-info">
 							<p class="h3">Омоложение кожи</p>
-							<a href="#" class="btn btn--mini btn--trans">Подробнее</a>
+							<a href="#service-2" class="btn btn--mini btn--trans fancy-modal">Подробнее</a>
+						</div>
+						<div id="service-2" class="modal modal--service">
+							<div class="service-more">
+								<div class="service-more__img">
+									<img src="img/service/service-more-21.jpg" alt="" class="before">
+									<img src="img/service/service-more-22.jpg" alt="" class="after">
+								</div>
+								<div class="service-more__info">
+									<div class="user-content">
+										<p class="h3">Омоложение кожи</p>
+										<p>Двухволновой лазер MeDioStar NeXT PRO производства компании Asclepion Laser Technologies GmbH (Германия). Применяется на всех типах кожи и для удаления волос любого цвета (кроме седых).</p>
+									</div>
+									<div class="form">
+										<div class="form__title">
+											<p class="h4">Запишитесь на консультацию:</p>
+										</div>
+										<form class="ajax-form">
+											<input type="text" name="user_name" placeholder="Ваше имя" data-label="Имя пользователя" class="input-text" >
+											<input type="tel" name="user_tel" placeholder="Телефон*" data-label="Телефон"  class="input-text" data-req="true">
+											<input type="hidden" value="Новая заявка - Омоложение кожи" name="form_subject">
+											<label class="style-checkbox">
+												<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">
+												<span>Соглашаюсь на обработку персональных данных и соглашаюсь с условиями <a href="#" target="_blank">политики конфиденциальности</a></span>
+											</label>
+											<div class="btn-center">
+												<button type="submit" class="btn radbtn">Отправить</button>
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -379,7 +441,38 @@
 						<img src="#" data-img="img/service/service-3.jpg" alt="alt" class="lazy_load">
 						<div class="service__one-info">
 							<p class="h3">Лечение акне</p>
-							<a href="#" class="btn btn--mini btn--trans">Подробнее</a>
+							<a href="#service-3" class="btn btn--mini btn--trans fancy-modal">Подробнее</a>
+						</div>
+						<div id="service-3" class="modal modal--service">
+							<div class="service-more">
+								<div class="service-more__img">
+									<img src="img/service/service-more-31.jpg" alt="" class="before">
+									<img src="img/service/service-more-32.jpg" alt="" class="after">
+								</div>
+								<div class="service-more__info">
+									<div class="user-content">
+										<p class="h3">Лечение акне</p>
+										<p>Двухволновой лазер MeDioStar NeXT PRO производства компании Asclepion Laser Technologies GmbH (Германия). Применяется на всех типах кожи и для удаления волос любого цвета (кроме седых). </p>
+									</div>
+									<div class="form">
+										<div class="form__title">
+											<p class="h4">Запишитесь на консультацию:</p>
+										</div>
+										<form class="ajax-form">
+											<input type="text" name="user_name" placeholder="Ваше имя" data-label="Имя пользователя" class="input-text" >
+											<input type="tel" name="user_tel" placeholder="Телефон*" data-label="Телефон"  class="input-text" data-req="true">
+											<input type="hidden" value="Новая заявка - Лечение акне" name="form_subject">
+											<label class="style-checkbox">
+												<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">
+												<span>Соглашаюсь на обработку персональных данных и соглашаюсь с условиями <a href="#" target="_blank">политики конфиденциальности</a></span>
+											</label>
+											<div class="btn-center">
+												<button type="submit" class="btn radbtn">Отправить</button>
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
