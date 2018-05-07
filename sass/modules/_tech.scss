@@ -368,6 +368,7 @@
 
 //tech-arrows
 .tech-arrows{
+	user-select: none;
 	@include res(xl){
 		margin-bottom: 20px;
 		text-align: center;
