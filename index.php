@@ -359,6 +359,7 @@
 				<div class="grid-4 grid-12_xs">
 					<div class="service__one">
 						<img src="#" data-img="img/service/service-1.jpg" alt="alt" class="lazy_load">
+						<img src="#" data-img="img/service/service-12.jpg" alt="alt" class="lazy_load after">
 						<div class="service__one-info">
 							<p class="h3">Осветление кожи</p>
 							<a href="#service-1" class="btn btn--mini btn--trans fancy-modal">Подробнее</a>
@@ -366,8 +367,7 @@
 						<div id="service-1" class="modal modal--service">
 							<div class="service-more">
 								<div class="service-more__img">
-									<img src="img/service/service-more-11.jpg" alt="" class="before">
-									<img src="img/service/service-more-12.jpg" alt="" class="after">
+									<img src="img/service/service-more-1.jpg" alt="">
 								</div>
 								<div class="service-more__info">
 									<div class="user-content">
@@ -399,6 +399,7 @@
 				<div class="grid-4 grid-12_xs">
 					<div class="service__one">
 						<img src="#" data-img="img/service/service-2.jpg" alt="alt" class="lazy_load">
+						<img src="#" data-img="img/service/service-22.jpg" alt="alt" class="lazy_load after">
 						<div class="service__one-info">
 							<p class="h3">Омоложение кожи</p>
 							<a href="#service-2" class="btn btn--mini btn--trans fancy-modal">Подробнее</a>
@@ -406,8 +407,7 @@
 						<div id="service-2" class="modal modal--service">
 							<div class="service-more">
 								<div class="service-more__img">
-									<img src="img/service/service-more-21.jpg" alt="" class="before">
-									<img src="img/service/service-more-22.jpg" alt="" class="after">
+									<img src="img/service/service-more-2.jpg" alt="">
 								</div>
 								<div class="service-more__info">
 									<div class="user-content">
@@ -439,6 +439,7 @@
 				<div class="grid-4 grid-12_xs">
 					<div class="service__one">
 						<img src="#" data-img="img/service/service-3.jpg" alt="alt" class="lazy_load">
+						<img src="#" data-img="img/service/service-32.jpg" alt="alt" class="lazy_load after">
 						<div class="service__one-info">
 							<p class="h3">Лечение акне</p>
 							<a href="#service-3" class="btn btn--mini btn--trans fancy-modal">Подробнее</a>
@@ -446,8 +447,7 @@
 						<div id="service-3" class="modal modal--service">
 							<div class="service-more">
 								<div class="service-more__img">
-									<img src="img/service/service-more-31.jpg" alt="" class="before">
-									<img src="img/service/service-more-32.jpg" alt="" class="after">
+									<img src="img/service/service-more-3.jpg" alt="">
 								</div>
 								<div class="service-more__info">
 									<div class="user-content">
