@@ -16,9 +16,6 @@
 </section>
 
 
-<section id="prices"></section>
-
-
 <section class="master-sec def-sec">
 	<div class="container">
 		<div class="master">
@@ -45,6 +42,508 @@
 			</div>
 		</div>
 	</div>
+</section>
+
+
+<section class="s-services def-sec-top" id="prices">
+	<div class="container">
+		<div class="page-title page-title--center">
+			<span>Услуги</span>
+			<p class="h2">Лазерная эпиляция</p>
+		</div>
+
+		<nav class="gender-nav">
+			<button class="btn-serv">Для женщин</button>
+			<button class="btn-serv">Для мужчин</button>
+		</nav>
+
+	</div>
+
+
+	<div class="container-big">
+
+		<!--женщины-->
+		<div class="services">
+
+			<!--часть тела-->
+			<div class="services__left">
+				<div class="serv-step">
+					<figure>1</figure>
+					<span>Выберите часть тела</span>
+				</div>
+				<nav class="part-nav">
+					<button class="btn-serv btn-serv--part">Лицо</button>
+					<button class="btn-serv btn-serv--part">Шея</button>
+					<button class="btn-serv btn-serv--part">Подмышки</button>
+					<button class="btn-serv btn-serv--part">Спина</button>
+					<button class="btn-serv btn-serv--part">Грудь</button>
+					<button class="btn-serv btn-serv--part">Живот</button>
+					<button class="btn-serv btn-serv--part">Ягодицы</button>
+					<button class="btn-serv btn-serv--part">Глубокое бикини</button>
+					<button class="btn-serv btn-serv--part">Руки</button>
+					<button class="btn-serv btn-serv--part">Ноги</button>
+					<button class="btn-serv btn-serv--part">Тело полностью</button>
+				</nav>
+			</div>
+			<!--часть тела-->
+
+			<div class="services__right">
+				<div class="serv-step">
+					<figure>2</figure>
+					<span>Выберите область</span>
+				</div>
+
+				<div class="service-partwrap">
+					<div class="service-part">
+						<!--выбор области-->
+						<nav class="smallpart-nav">
+							<button class="btn-serv" data-img="1_1" data-mask="1_1">Лицо полностью</button>
+							<button class="btn-serv" data-img="1_1" data-mask="1_2">Брови</button>
+							<button class="btn-serv" data-img="1_3" data-mask="1_3">Щеки</button>
+							<button class="btn-serv" data-img="1_1" data-mask="1_1">Бакенбарды</button>
+							<button class="btn-serv" data-img="1_1" data-mask="1_1">Подбородок</button>
+							<button class="btn-serv" data-img="1_1" data-mask="1_1">Верхняя губа</button>
+						</nav>
+						<!--выбор области-->
+
+						<!--услуги-->
+						<div class="services-wrap">
+							<div class="service">
+								<div class="service__time"><i class="i-clock"></i>30 минут</div>
+								<div class="service__descr">Процедуру эпиляции можно проводить на всей поверхности лица, кроме зоны вокруг глаз. Она позволяет полностью избавиться или скорректировать линии роста бровей и бакенбард, зон верхней губы, подбородка и щёк. Благодаря системе охлаждения кожа защищена от ожогов. А значит уменьшается болезненность. Обычно для полного избавления нужно около 4-6 процедур по 5-10 минут с интервалом в 1 месяц.</div>
+								<div class="service__priceblock">
+									<p>Стоимость</p>
+									<span class="service__price">2200 <span class="rub">&#x20bd;</span></span>
+								</div>
+								<div class="serv-step">
+									<figure>3</figure>
+									<span>Запишитесь на процедуру</span>
+								</div>
+								<a href="#" class="btn btn--white radbtn-white fancy-modal" data-src="#modal-record">Записаться онлайн</a>
+							</div>
+							<div class="service">
+								<div class="service__time"><i class="i-clock"></i>10 минут</div>
+								<div class="service__descr">Процедуру эпиляции можно проводить на всей поверхности лица, кроме зоны вокруг глаз. Она позволяет полностью избавиться или скорректировать линии роста бровей и бакенбард, зон верхней губы, подбородка и щёк.</div>
+								<div class="service__priceblock">
+									<p>Стоимость</p>
+									<span class="service__price">1500 <span class="rub">&#x20bd;</span></span>
+								</div>
+								<div class="serv-step">
+									<figure>3</figure>
+									<span>Запишитесь на процедуру</span>
+								</div>
+								<a href="#" class="btn btn--white radbtn-white fancy-modal" data-src="#modal-record">Записаться онлайн</a>
+							</div>
+							<div class="service">
+								<div class="service__time"><i class="i-clock"></i>20 минут</div>
+								<div class="service__descr">Процедуру эпиляции можно проводить на всей поверхности лица, кроме зоны вокруг глаз. Она позволяет полностью избавиться или скорректировать линии роста бровей и бакенбард, зон верхней губы, подбородка и щёк.</div>
+								<div class="service__priceblock">
+									<p>Стоимость</p>
+									<span class="service__price">1500 <span class="rub">&#x20bd;</span></span>
+								</div>
+								<div class="serv-step">
+									<figure>3</figure>
+									<span>Запишитесь на процедуру</span>
+								</div>
+								<a href="#" class="btn btn--white radbtn-white fancy-modal" data-src="#modal-record">Записаться онлайн</a>
+							</div>
+							<div class="service">
+								<div class="service__time"><i class="i-clock"></i>50 минут</div>
+								<div class="service__descr">Процедуру эпиляции можно проводить на всей поверхности лица, кроме зоны вокруг глаз. Она позволяет полностью избавиться или скорректировать линии роста бровей и бакенбард, зон верхней губы, подбородка и щёк.</div>
+								<div class="service__priceblock">
+									<p>Стоимость</p>
+									<span class="service__price">1500 <span class="rub">&#x20bd;</span></span>
+								</div>
+								<div class="serv-step">
+									<figure>3</figure>
+									<span>Запишитесь на процедуру</span>
+								</div>
+								<a href="#" class="btn btn--white radbtn-white fancy-modal" data-src="#modal-record">Записаться онлайн</a>
+							</div>
+							<div class="service">
+								<div class="service__time"><i class="i-clock"></i>10 минут</div>
+								<div class="service__descr">Процедуру эпиляции можно проводить на всей поверхности лица, кроме зоны вокруг глаз. Она позволяет полностью избавиться или скорректировать линии роста бровей и бакенбард, зон верхней губы, подбородка и щёк.</div>
+								<div class="service__priceblock">
+									<p>Стоимость</p>
+									<span class="service__price">1500 <span class="rub">&#x20bd;</span></span>
+								</div>
+								<div class="serv-step">
+									<figure>3</figure>
+									<span>Запишитесь на процедуру</span>
+								</div>
+								<a href="#" class="btn btn--white radbtn-white fancy-modal" data-src="#modal-record">Записаться онлайн</a>
+							</div>
+							<div class="service">
+								<div class="service__time"><i class="i-clock"></i>10 минут</div>
+								<div class="service__descr">Процедуру эпиляции можно проводить на всей поверхности лица, кроме зоны вокруг глаз. Она позволяет полностью избавиться или скорректировать линии роста бровей и бакенбард, зон верхней губы, подбородка и щёк.</div>
+								<div class="service__priceblock">
+									<p>Стоимость</p>
+									<span class="service__price">1500 <span class="rub">&#x20bd;</span></span>
+								</div>
+								<div class="serv-step">
+									<figure>3</figure>
+									<span>Запишитесь на процедуру</span>
+								</div>
+								<a href="#" class="btn btn--white radbtn-white fancy-modal" data-src="#modal-record">Записаться онлайн</a>
+							</div>
+						</div>
+						<!--услуги-->
+					</div>
+					<div class="service-part">
+						<!--выбор области-->
+						<nav class="smallpart-nav">
+							<button class="btn-serv">Лицо полностью</button>
+							<button class="btn-serv">Брови</button>
+							<button class="btn-serv">Щеки</button>
+						</nav>
+						<!--выбор области-->
+
+						<!--услуги-->
+						<div class="services-wrap">
+							<div class="service">
+								<div class="service__time"><i class="i-clock"></i>30 минут</div>
+								<div class="service__descr">Процедуру эпиляции можно проводить на всей поверхности лица, кроме зоны вокруг глаз. Она позволяет полностью избавиться или скорректировать линии роста бровей и бакенбард, зон верхней губы, подбородка и щёк. Благодаря системе охлаждения кожа защищена от ожогов. А значит уменьшается болезненность. Обычно для полного избавления нужно около 4-6 процедур по 5-10 минут с интервалом в 1 месяц.</div>
+								<div class="service__priceblock">
+									<p>Стоимость</p>
+									<span class="service__price">2200 <span class="rub">&#x20bd;</span></span>
+								</div>
+								<div class="serv-step">
+									<figure>3</figure>
+									<span>Запишитесь на процедуру</span>
+								</div>
+								<a href="#" class="btn btn--white radbtn-white fancy-modal" data-src="#modal-record">Записаться онлайн</a>
+							</div>
+							<div class="service">
+								<div class="service__time"><i class="i-clock"></i>10 минут</div>
+								<div class="service__descr">Процедуру эпиляции можно проводить на всей поверхности лица, кроме зоны вокруг глаз. Она позволяет полностью избавиться или скорректировать линии роста бровей и бакенбард, зон верхней губы, подбородка и щёк.</div>
+								<div class="service__priceblock">
+									<p>Стоимость</p>
+									<span class="service__price">1500 <span class="rub">&#x20bd;</span></span>
+								</div>
+								<div class="serv-step">
+									<figure>3</figure>
+									<span>Запишитесь на процедуру</span>
+								</div>
+								<a href="#" class="btn btn--white radbtn-white fancy-modal" data-src="#modal-record">Записаться онлайн</a>
+							</div>
+							<div class="service">
+								<div class="service__time"><i class="i-clock"></i>20 минут</div>
+								<div class="service__descr">Процедуру эпиляции можно проводить на всей поверхности лица, кроме зоны вокруг глаз. Она позволяет полностью избавиться или скорректировать линии роста бровей и бакенбард, зон верхней губы, подбородка и щёк.</div>
+								<div class="service__priceblock">
+									<p>Стоимость</p>
+									<span class="service__price">1500 <span class="rub">&#x20bd;</span></span>
+								</div>
+								<div class="serv-step">
+									<figure>3</figure>
+									<span>Запишитесь на процедуру</span>
+								</div>
+								<a href="#" class="btn btn--white radbtn-white fancy-modal" data-src="#modal-record">Записаться онлайн</a>
+							</div>
+							<div class="service">
+								<div class="service__time"><i class="i-clock"></i>50 минут</div>
+								<div class="service__descr">Процедуру эпиляции можно проводить на всей поверхности лица, кроме зоны вокруг глаз. Она позволяет полностью избавиться или скорректировать линии роста бровей и бакенбард, зон верхней губы, подбородка и щёк.</div>
+								<div class="service__priceblock">
+									<p>Стоимость</p>
+									<span class="service__price">1500 <span class="rub">&#x20bd;</span></span>
+								</div>
+								<div class="serv-step">
+									<figure>3</figure>
+									<span>Запишитесь на процедуру</span>
+								</div>
+								<a href="#" class="btn btn--white radbtn-white fancy-modal" data-src="#modal-record">Записаться онлайн</a>
+							</div>
+							<div class="service">
+								<div class="service__time"><i class="i-clock"></i>10 минут</div>
+								<div class="service__descr">Процедуру эпиляции можно проводить на всей поверхности лица, кроме зоны вокруг глаз. Она позволяет полностью избавиться или скорректировать линии роста бровей и бакенбард, зон верхней губы, подбородка и щёк.</div>
+								<div class="service__priceblock">
+									<p>Стоимость</p>
+									<span class="service__price">1500 <span class="rub">&#x20bd;</span></span>
+								</div>
+								<div class="serv-step">
+									<figure>3</figure>
+									<span>Запишитесь на процедуру</span>
+								</div>
+								<a href="#" class="btn btn--white radbtn-white fancy-modal" data-src="#modal-record">Записаться онлайн</a>
+							</div>
+							<div class="service">
+								<div class="service__time"><i class="i-clock"></i>10 минут</div>
+								<div class="service__descr">Процедуру эпиляции можно проводить на всей поверхности лица, кроме зоны вокруг глаз. Она позволяет полностью избавиться или скорректировать линии роста бровей и бакенбард, зон верхней губы, подбородка и щёк.</div>
+								<div class="service__priceblock">
+									<p>Стоимость</p>
+									<span class="service__price">1500 <span class="rub">&#x20bd;</span></span>
+								</div>
+								<div class="serv-step">
+									<figure>3</figure>
+									<span>Запишитесь на процедуру</span>
+								</div>
+								<a href="#" class="btn btn--white radbtn-white fancy-modal" data-src="#modal-record">Записаться онлайн</a>
+							</div>
+						</div>
+						<!--услуги-->
+					</div>
+				</div>
+
+			</div>
+
+
+			<!--фото-->
+			<div class="services__photowrap">
+				<div class="services-masks">
+					<img src="#" data-src="/img/services/m_1_1.png" alt="1" data-mask="1_1">
+					<img src="#" data-src="/img/services/m_1_2.png" alt="1" data-mask="1_2">
+					<img src="#" data-src="/img/services/m_1_3.png" alt="1" data-mask="1_3">
+				</div>
+				<div class="services-photos">
+					<img src="#" data-src="/img/services/1_1.jpg" alt="1" data-img="1_1">
+					<img src="#" data-src="/img/services/1_3.jpg" alt="1" data-img="1_3">
+				</div>
+			</div>
+			<!--фото-->
+
+		</div>
+		<!--женщины-->
+
+		<!--мужчины-->
+		<div class="services">
+
+			<!--часть тела-->
+			<div class="services__left">
+				<div class="serv-step">
+					<figure>1</figure>
+					<span>Выберите часть тела</span>
+				</div>
+				<nav class="part-nav">
+					<button class="btn-serv btn-serv--part">Лицо</button>
+					<button class="btn-serv btn-serv--part">Шея</button>
+					<button class="btn-serv btn-serv--part">Подмышки</button>
+					<button class="btn-serv btn-serv--part">Спина</button>
+					<button class="btn-serv btn-serv--part">Грудь</button>
+					<button class="btn-serv btn-serv--part">Живот</button>
+					<button class="btn-serv btn-serv--part">Ягодицы</button>
+					<button class="btn-serv btn-serv--part">Глубокое бикини</button>
+				</nav>
+			</div>
+			<!--часть тела-->
+
+			<div class="services__right">
+				<div class="serv-step">
+					<figure>2</figure>
+					<span>Выберите область</span>
+				</div>
+
+				<div class="service-partwrap">
+					<div class="service-part">
+						<!--выбор области-->
+						<nav class="smallpart-nav">
+							<button class="btn-serv" data-img="1_1" data-mask="1_1">Лицо полностью</button>
+							<button class="btn-serv" data-img="1_1" data-mask="1_2">Брови</button>
+							<button class="btn-serv" data-img="1_3" data-mask="1_3">Щеки</button>
+							<button class="btn-serv" data-img="1_1" data-mask="1_1">Бакенбарды</button>
+							<button class="btn-serv" data-img="1_1" data-mask="1_1">Подбородок</button>
+							<button class="btn-serv" data-img="1_1" data-mask="1_1">Верхняя губа</button>
+						</nav>
+						<!--выбор области-->
+
+						<!--услуги-->
+						<div class="services-wrap">
+							<div class="service">
+								<div class="service__time"><i class="i-clock"></i>30 минут</div>
+								<div class="service__descr">Процедуру эпиляции можно проводить на всей поверхности лица, кроме зоны вокруг глаз. Она позволяет полностью избавиться или скорректировать линии роста бровей и бакенбард, зон верхней губы, подбородка и щёк. Благодаря системе охлаждения кожа защищена от ожогов. А значит уменьшается болезненность. Обычно для полного избавления нужно около 4-6 процедур по 5-10 минут с интервалом в 1 месяц.</div>
+								<div class="service__priceblock">
+									<p>Стоимость</p>
+									<span class="service__price">2200 <span class="rub">&#x20bd;</span></span>
+								</div>
+								<div class="serv-step">
+									<figure>3</figure>
+									<span>Запишитесь на процедуру</span>
+								</div>
+								<a href="#" class="btn btn--white radbtn-white fancy-modal" data-src="#modal-record">Записаться онлайн</a>
+							</div>
+							<div class="service">
+								<div class="service__time"><i class="i-clock"></i>10 минут</div>
+								<div class="service__descr">Процедуру эпиляции можно проводить на всей поверхности лица, кроме зоны вокруг глаз. Она позволяет полностью избавиться или скорректировать линии роста бровей и бакенбард, зон верхней губы, подбородка и щёк.</div>
+								<div class="service__priceblock">
+									<p>Стоимость</p>
+									<span class="service__price">1500 <span class="rub">&#x20bd;</span></span>
+								</div>
+								<div class="serv-step">
+									<figure>3</figure>
+									<span>Запишитесь на процедуру</span>
+								</div>
+								<a href="#" class="btn btn--white radbtn-white fancy-modal" data-src="#modal-record">Записаться онлайн</a>
+							</div>
+							<div class="service">
+								<div class="service__time"><i class="i-clock"></i>20 минут</div>
+								<div class="service__descr">Процедуру эпиляции можно проводить на всей поверхности лица, кроме зоны вокруг глаз. Она позволяет полностью избавиться или скорректировать линии роста бровей и бакенбард, зон верхней губы, подбородка и щёк.</div>
+								<div class="service__priceblock">
+									<p>Стоимость</p>
+									<span class="service__price">1500 <span class="rub">&#x20bd;</span></span>
+								</div>
+								<div class="serv-step">
+									<figure>3</figure>
+									<span>Запишитесь на процедуру</span>
+								</div>
+								<a href="#" class="btn btn--white radbtn-white fancy-modal" data-src="#modal-record">Записаться онлайн</a>
+							</div>
+							<div class="service">
+								<div class="service__time"><i class="i-clock"></i>50 минут</div>
+								<div class="service__descr">Процедуру эпиляции можно проводить на всей поверхности лица, кроме зоны вокруг глаз. Она позволяет полностью избавиться или скорректировать линии роста бровей и бакенбард, зон верхней губы, подбородка и щёк.</div>
+								<div class="service__priceblock">
+									<p>Стоимость</p>
+									<span class="service__price">1500 <span class="rub">&#x20bd;</span></span>
+								</div>
+								<div class="serv-step">
+									<figure>3</figure>
+									<span>Запишитесь на процедуру</span>
+								</div>
+								<a href="#" class="btn btn--white radbtn-white fancy-modal" data-src="#modal-record">Записаться онлайн</a>
+							</div>
+							<div class="service">
+								<div class="service__time"><i class="i-clock"></i>10 минут</div>
+								<div class="service__descr">Процедуру эпиляции можно проводить на всей поверхности лица, кроме зоны вокруг глаз. Она позволяет полностью избавиться или скорректировать линии роста бровей и бакенбард, зон верхней губы, подбородка и щёк.</div>
+								<div class="service__priceblock">
+									<p>Стоимость</p>
+									<span class="service__price">1500 <span class="rub">&#x20bd;</span></span>
+								</div>
+								<div class="serv-step">
+									<figure>3</figure>
+									<span>Запишитесь на процедуру</span>
+								</div>
+								<a href="#" class="btn btn--white radbtn-white fancy-modal" data-src="#modal-record">Записаться онлайн</a>
+							</div>
+							<div class="service">
+								<div class="service__time"><i class="i-clock"></i>10 минут</div>
+								<div class="service__descr">Процедуру эпиляции можно проводить на всей поверхности лица, кроме зоны вокруг глаз. Она позволяет полностью избавиться или скорректировать линии роста бровей и бакенбард, зон верхней губы, подбородка и щёк.</div>
+								<div class="service__priceblock">
+									<p>Стоимость</p>
+									<span class="service__price">1500 <span class="rub">&#x20bd;</span></span>
+								</div>
+								<div class="serv-step">
+									<figure>3</figure>
+									<span>Запишитесь на процедуру</span>
+								</div>
+								<a href="#" class="btn btn--white radbtn-white fancy-modal" data-src="#modal-record">Записаться онлайн</a>
+							</div>
+						</div>
+						<!--услуги-->
+					</div>
+					<div class="service-part">
+						<!--выбор области-->
+						<nav class="smallpart-nav">
+							<button class="btn-serv">Лицо полностью</button>
+							<button class="btn-serv">Брови</button>
+							<button class="btn-serv">Щеки</button>
+						</nav>
+						<!--выбор области-->
+
+						<!--услуги-->
+						<div class="services-wrap">
+							<div class="service">
+								<div class="service__time"><i class="i-clock"></i>30 минут</div>
+								<div class="service__descr">Процедуру эпиляции можно проводить на всей поверхности лица, кроме зоны вокруг глаз. Она позволяет полностью избавиться или скорректировать линии роста бровей и бакенбард, зон верхней губы, подбородка и щёк. Благодаря системе охлаждения кожа защищена от ожогов. А значит уменьшается болезненность. Обычно для полного избавления нужно около 4-6 процедур по 5-10 минут с интервалом в 1 месяц.</div>
+								<div class="service__priceblock">
+									<p>Стоимость</p>
+									<span class="service__price">2200 <span class="rub">&#x20bd;</span></span>
+								</div>
+								<div class="serv-step">
+									<figure>3</figure>
+									<span>Запишитесь на процедуру</span>
+								</div>
+								<a href="#" class="btn btn--white radbtn-white fancy-modal" data-src="#modal-record">Записаться онлайн</a>
+							</div>
+							<div class="service">
+								<div class="service__time"><i class="i-clock"></i>10 минут</div>
+								<div class="service__descr">Процедуру эпиляции можно проводить на всей поверхности лица, кроме зоны вокруг глаз. Она позволяет полностью избавиться или скорректировать линии роста бровей и бакенбард, зон верхней губы, подбородка и щёк.</div>
+								<div class="service__priceblock">
+									<p>Стоимость</p>
+									<span class="service__price">1500 <span class="rub">&#x20bd;</span></span>
+								</div>
+								<div class="serv-step">
+									<figure>3</figure>
+									<span>Запишитесь на процедуру</span>
+								</div>
+								<a href="#" class="btn btn--white radbtn-white fancy-modal" data-src="#modal-record">Записаться онлайн</a>
+							</div>
+							<div class="service">
+								<div class="service__time"><i class="i-clock"></i>20 минут</div>
+								<div class="service__descr">Процедуру эпиляции можно проводить на всей поверхности лица, кроме зоны вокруг глаз. Она позволяет полностью избавиться или скорректировать линии роста бровей и бакенбард, зон верхней губы, подбородка и щёк.</div>
+								<div class="service__priceblock">
+									<p>Стоимость</p>
+									<span class="service__price">1500 <span class="rub">&#x20bd;</span></span>
+								</div>
+								<div class="serv-step">
+									<figure>3</figure>
+									<span>Запишитесь на процедуру</span>
+								</div>
+								<a href="#" class="btn btn--white radbtn-white fancy-modal" data-src="#modal-record">Записаться онлайн</a>
+							</div>
+							<div class="service">
+								<div class="service__time"><i class="i-clock"></i>50 минут</div>
+								<div class="service__descr">Процедуру эпиляции можно проводить на всей поверхности лица, кроме зоны вокруг глаз. Она позволяет полностью избавиться или скорректировать линии роста бровей и бакенбард, зон верхней губы, подбородка и щёк.</div>
+								<div class="service__priceblock">
+									<p>Стоимость</p>
+									<span class="service__price">1500 <span class="rub">&#x20bd;</span></span>
+								</div>
+								<div class="serv-step">
+									<figure>3</figure>
+									<span>Запишитесь на процедуру</span>
+								</div>
+								<a href="#" class="btn btn--white radbtn-white fancy-modal" data-src="#modal-record">Записаться онлайн</a>
+							</div>
+							<div class="service">
+								<div class="service__time"><i class="i-clock"></i>10 минут</div>
+								<div class="service__descr">Процедуру эпиляции можно проводить на всей поверхности лица, кроме зоны вокруг глаз. Она позволяет полностью избавиться или скорректировать линии роста бровей и бакенбард, зон верхней губы, подбородка и щёк.</div>
+								<div class="service__priceblock">
+									<p>Стоимость</p>
+									<span class="service__price">1500 <span class="rub">&#x20bd;</span></span>
+								</div>
+								<div class="serv-step">
+									<figure>3</figure>
+									<span>Запишитесь на процедуру</span>
+								</div>
+								<a href="#" class="btn btn--white radbtn-white fancy-modal" data-src="#modal-record">Записаться онлайн</a>
+							</div>
+							<div class="service">
+								<div class="service__time"><i class="i-clock"></i>10 минут</div>
+								<div class="service__descr">Процедуру эпиляции можно проводить на всей поверхности лица, кроме зоны вокруг глаз. Она позволяет полностью избавиться или скорректировать линии роста бровей и бакенбард, зон верхней губы, подбородка и щёк.</div>
+								<div class="service__priceblock">
+									<p>Стоимость</p>
+									<span class="service__price">1500 <span class="rub">&#x20bd;</span></span>
+								</div>
+								<div class="serv-step">
+									<figure>3</figure>
+									<span>Запишитесь на процедуру</span>
+								</div>
+								<a href="#" class="btn btn--white radbtn-white fancy-modal" data-src="#modal-record">Записаться онлайн</a>
+							</div>
+						</div>
+						<!--услуги-->
+					</div>
+				</div>
+
+			</div>
+
+
+			<!--фото-->
+			<div class="services__photowrap">
+				<div class="services-masks">
+					<img src="#" data-src="/img/services/m_1_1.png" alt="1" data-mask="1_1">
+					<img src="#" data-src="/img/services/m_1_2.png" alt="1" data-mask="1_2">
+					<img src="#" data-src="/img/services/m_1_3.png" alt="1" data-mask="1_3">
+				</div>
+				<div class="services-photos">
+					<img src="#" data-src="/img/services/1_1.jpg" alt="1" data-img="1_1">
+					<img src="#" data-src="/img/services/1_3.jpg" alt="1" data-img="1_3">
+				</div>
+			</div>
+			<!--фото-->
+
+		</div>
+		<!--мужчины-->
+
+	</div>
+
+
 </section>
 
 

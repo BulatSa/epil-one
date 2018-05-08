@@ -595,7 +595,7 @@ function initPicker() {
 		maxTime:'22:00',
 		step: 30
 	});
-};
+}
 
 $(function ($) {
 	$.datetimepicker.setLocale('ru');
@@ -685,4 +685,110 @@ $(function($){
 });
 /***********************
 Tech slider END
+***********************/
+
+
+/***********************
+Services BEGIN
+***********************/
+$(function($){
+
+
+	function selectOblast(index) {
+		var thisGender = $('.services.active');
+		var thisPart = thisGender.find('.service-part.active');
+		var thisOblastNav = thisPart.find('.smallpart-nav');
+		var thisNavBtn = thisOblastNav.find('.btn-serv').eq(index);
+		var thisOblastServices = thisPart.find('.services-wrap .service');
+
+		var photoImg = thisNavBtn.data('img');
+		var photoMask = thisNavBtn.data('mask');
+
+		var imgs = thisGender.find('.services-photos img');
+		var masks = thisGender.find('.services-masks img');
+		var thisImg = imgs.filter('[data-img='+ photoImg +']');
+		var thisMask = masks.filter('[data-mask='+ photoMask +']');
+		var thisImgSrc = thisImg.data('src');
+		var thisMaskSrc = thisMask.data('src');
+
+
+		thisOblastNav.find('.btn-serv').removeClass('active');
+		thisNavBtn.addClass('active');
+
+		thisOblastServices.removeClass('active');
+		thisOblastServices.eq(index).addClass('active');
+
+		imgs.removeClass('active');
+		if (!thisImg.hasClass('loaded')){
+			thisImg.attr('src',thisImgSrc);
+			thisImg.on('load',function () {
+				thisImg.addClass('loaded');
+				thisImg.addClass('active');
+			})
+		}
+		thisImg.addClass('active');
+
+
+		masks.removeClass('active');
+		if (!thisMask.hasClass('loaded')){
+			thisMask.attr('src',thisMaskSrc);
+			thisMask.on('load',function () {
+				thisMask.addClass('loaded');
+				thisMask.addClass('active');
+			})
+		}
+		thisMask.addClass('active');
+	}
+
+
+	function selectPart(index){
+		var thisGender = $('.services.active');
+		var thisPartNav = thisGender.find('.part-nav');
+		var thisNavBtn = thisPartNav.find('.btn-serv').eq(index);
+		var thisPart = thisGender.find('.service-part');
+
+		thisPartNav.find('.btn-serv').removeClass('active');
+		thisNavBtn.addClass('active');
+
+		thisPart.removeClass('active');
+		thisPart.eq(index).addClass('active');
+
+		selectOblast(0);
+	}
+
+
+	function selectGender(index){
+		var genders = $('.services');
+		var genderNav= $('.gender-nav');
+		var thisNavBtn = genderNav.find('.btn-serv').eq(index);
+
+		genders.removeClass('active');
+		genders.eq(index).addClass('active');
+
+		genderNav.find('.btn-serv').removeClass('active');
+		thisNavBtn.addClass('active');
+
+		selectPart(0);
+	}
+
+
+	$('.smallpart-nav .btn-serv').on('click',function () {
+		var index = $(this).index();
+		selectOblast(index);
+	});
+
+	$('.part-nav .btn-serv').on('click',function () {
+		var index = $(this).index();
+		selectPart(index);
+	});
+
+	$('.gender-nav .btn-serv').on('click',function () {
+		var index = $(this).index();
+		selectGender(index);
+	});
+
+	selectGender(0);
+});
+/***********************
+Services END
 ***********************/
