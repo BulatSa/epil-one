@@ -89,6 +89,7 @@
 
 
 	<div id="modal-thanks" class="modal modal--thanks">
+		<img src="img/logo-thanks.svg" alt="">
 		<div class="user-content">
 			<p class="h3">Спасибо за заявку!</p>
 			<p>Наш администратор обязательно свяжется с вами!</p>

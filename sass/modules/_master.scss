@@ -1,6 +1,7 @@
 .master-sec {
 	position: relative;
 	min-height: 850px;
+	padding-top: 120px;
 	background: url("../img/master/bg-master.jpg") no-repeat bottom center, #fff;
 	@include res(l) {
 		background: url("../img/master/bg-master-tablet.jpg") no-repeat bottom center, #fff;

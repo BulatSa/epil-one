@@ -13,6 +13,10 @@
 			</div>
 		</div>
 	</div>
+	<a href="https://www.youtube.com/watch?v=w9CpbaFmNoY" class="big-head__video fancy-video">
+		<img src="img/big-header/bh-text.png" class="bh-text" alt="">
+		<img src="img/big-header/bh-icon.png" class="bh-icon" alt="">
+	</a>
 </section>
 
 

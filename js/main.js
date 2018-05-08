@@ -209,6 +209,17 @@ $(function () {
 	}, {
 		offset: '85%'
 	});
+
+	$('.s-contacts').waypoint(function (direction) {
+		if (direction === 'down') {
+			$.fancybox.open({
+				src  : '#modal-social'
+			});
+		}
+	}, {
+		offset: '85%'
+	});
+
 });
 /***********************
  Waypoints END
