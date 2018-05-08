@@ -10,8 +10,8 @@
 			<form class="ajax-form">
 				<input type="text" name="user_name" placeholder="Ваше имя" data-label="Имя пользователя" class="input-text" >
 				<input type="tel" name="user_tel" placeholder="Телефон*" data-label="Телефон"  class="input-text" data-req="true">
-				<textarea name="comment" class="input-textarea" placeholder="Ваш вопрос" data-label="Вопрос"></textarea>
-				<input type="hidden" value="Новая заявка" name="form_subject">
+				<textarea name="user_comment" class="input-textarea" placeholder="Ваш вопрос" data-label="Вопрос"></textarea>
+				<input type="hidden" value="Заказ обратного звонка" name="form_subject">
 				<label class="style-checkbox">
 					<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">
 					<span>Соглашаюсь на обработку персональных данных и соглашаюсь с условиями <a href="#" target="_blank">политики конфиденциальности</a></span>
@@ -42,8 +42,8 @@
 				</div>
 				<input type="text" name="user_name" placeholder="Ваше имя" data-label="Имя пользователя" class="input-text" >
 				<input type="tel" name="user_tel" placeholder="Телефон*" data-label="Телефон"  class="input-text" data-req="true">
-				<textarea name="comment" class="input-textarea" placeholder="Ваш вопрос" data-label="Вопрос"></textarea>
-				<input type="hidden" value="Новая заявка" name="form_subject">
+				<textarea name="user_comment" class="input-textarea" placeholder="Ваш вопрос" data-label="Вопрос"></textarea>
+				<input type="hidden" value="Участие в акции" name="form_subject">
 				<label class="style-checkbox">
 					<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">
 					<span>Соглашаюсь на обработку персональных данных и соглашаюсь с условиями <a href="#" target="_blank">политики конфиденциальности</a></span>

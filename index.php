@@ -9,7 +9,7 @@
 					<h1>Гарантированное избавление от волос</h1>
 					<p>Если вы не получаете результата, мы даем скидку 70% на следующие визиты до полного избавления от нежелательных волос.</p>
 				</div>
-				<a href="#modal-record" class="btn radbtn fancy-modal">Записаться онлайн</a>
+				<a href="#" class="btn radbtn fancy-modal" data-src="#modal-record">Записаться онлайн</a>
 			</div>
 		</div>
 	</div>
@@ -129,7 +129,7 @@
 	<div class="container">
 		<div class="akcia">
 			<p class="akcia__title">Акция до 26 апреля!</p>
-			<a href="#modal-akcia" class="btn btn--white radbtn-white fancy-modal">Участвовать в акции</a>
+			<a href="#" class="btn btn--white radbtn-white fancy-modal" data-src="#modal-akcia">Участвовать в акции</a>
 		</div>
 	</div>
 </section>
@@ -309,7 +309,7 @@
 					<p class="work-panel__text">Тестируем воздействие лазера на определенном участке кожи. Смотрим на реакцию, оцениваем ваши ощущения, подбираем подходящий режим работы.</p>
 					<footer>
 						<p>Сделайте самый простой шаг</p>
-						<button class="btn radbtn">Забронировать время</button>
+						<button class="btn radbtn fancy-modal" data-src="#modal-record">Забронировать время</button>
 					</footer>
 				</div>
 			</div>
@@ -323,7 +323,7 @@
 					<p class="work-panel__text">Сначала наносим специальный гель. Он обеспечивает максимальную проводимость луча и легкость скольжения насадки. Вы надеваете защитные очки. Врач приступает к эпиляции, корректируя мощность, частоту и режим воздействия лазера. По окончанию врач удаляет с кожи остатки геля.</p>
 					<footer>
 						<p>Сделайте самый простой шаг</p>
-						<button class="btn radbtn">Забронировать время</button>
+						<button class="btn radbtn fancy-modal" data-src="#modal-record">Забронировать время</button>
 					</footer>
 				</div>
 			</div>
@@ -337,7 +337,7 @@
 					<p class="work-panel__text">Актуально для любой зоны, но в особенности для лица. Кожа после лазерной эпиляции выглядит гладкой и нежной, тем не менее, сейчас она особенно нуждается в уходе и защите.</p>
 					<footer>
 						<p>Сделайте самый простой шаг</p>
-						<button class="btn radbtn">Забронировать время</button>
+						<button class="btn radbtn fancy-modal" data-src="#modal-record">Забронировать время</button>
 					</footer>
 				</div>
 			</div>
@@ -351,7 +351,7 @@
 					<p class="work-panel__text">Врач составляет персональный курс лазерной эпиляции и дает рекомендации по домашнему уходу.</p>
 					<footer>
 						<p>Сделайте самый простой шаг</p>
-						<button class="btn radbtn">Забронировать время</button>
+						<button class="btn radbtn fancy-modal" data-src="#modal-record">Забронировать время</button>
 					</footer>
 				</div>
 			</div>
@@ -587,7 +587,7 @@
 					</div>
 					<input type="text" name="user_name" placeholder="Ваше имя" data-label="Имя пользователя" class="input-text" >
 					<input type="tel" name="user_tel" placeholder="Телефон*" data-label="Телефон"  class="input-text" data-req="true">
-					<textarea name="comment" class="input-textarea" placeholder="Ваш вопрос" data-label="Вопрос"></textarea>
+					<textarea name="user_comment" class="input-textarea" placeholder="Ваш вопрос" data-label="Вопрос"></textarea>
 					<input type="hidden" value="Новая заявка" name="form_subject">
 					<label class="style-checkbox">
 						<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">
