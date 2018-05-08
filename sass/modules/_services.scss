@@ -1,0 +1,365 @@
+.s-services{
+	background: #46c7e3;
+	padding-bottom: 1px;
+	@include res(xl) {
+		padding-bottom: $pad-l;
+	}
+	@include res(s) {
+		padding-bottom: $pad-m;
+	}
+	@include res(xs) {
+		padding-bottom: $pad-s;
+	}
+	
+	.page-title{
+		color: #FFF;
+	}
+}
+
+
+//btns
+.btn-serv{
+	display: inline-block;
+	vertical-align: top;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 1;
+	padding: 13px 15px;
+	background: transparent;
+	border: 1px solid $blue;
+	border-radius: 25px;
+	color: #000;
+	width: 155px;
+	text-align: center;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	@include res(xl){
+		padding: 10px;
+	}
+
+	&:hover{
+		background: transparentize($blue,0.5);
+	}
+
+	&:focus{
+		outline: none;
+	}
+
+	&.active{
+		background: $blue;
+		opacity: 1;
+		pointer-events: none;
+	}
+
+	&--part{
+		background: $blue;
+		opacity: 0.5;
+
+		&:hover{
+			opacity: 0.8;
+			background: $blue;
+		}
+	}
+}
+//btns
+
+
+//gender-nav
+.gender-nav{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 40px;
+	@include res(xs){
+		margin-bottom: 20px;
+	}
+
+	button{
+		margin: 0 10px;
+	}
+}
+//gender-nav
+
+
+//part-nav
+.part-nav{
+	display: block;
+	width: 150px;
+	@include res(s){
+		width: 100%;
+	}
+
+	button{
+		margin-bottom: 10px;
+		@include res(xl){
+			margin-bottom: 5px;
+		}
+		@include res(s){
+			width: 32%;
+		}
+		@include res(xs){
+			width: 48%;
+		}
+	}
+}
+//part-nav
+
+
+//smallpart-nav
+.smallpart-nav{
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 15px;
+
+	button{
+		margin: 0 5px 10px 0;
+		max-width: calc(100% / 3 - 10px);
+		@include res(xl){
+			margin: 0 5px 5px 0;
+			max-width: calc(50% - 10px);
+		}
+		@include res(s){
+			width: 32%;
+			max-width: initial;
+		}
+		@include res(xs){
+			width: 48%;
+		}
+
+		&:nth-child(3n){
+			margin-right: 0;
+			@include res(xl){
+				margin-right: 5px;
+			}
+		}
+	}
+}
+//smallpart-nav
+
+
+//services layout
+.services{
+	display: none;
+	min-height: 734px;
+	@include res(xl){
+		justify-content: space-between;
+		min-height: initial;
+	}
+	@include res(s){
+		flex-wrap: wrap;
+	}
+
+	&.active{
+		display: flex;
+	}
+
+	&__left{
+		position: relative;
+		z-index: 2;
+		width: 50%;
+		padding-left: 17%;
+		@include res(xl){
+			padding-left: 0;
+		}
+		@include res(s){
+			width: 100%;
+			margin-bottom: 40px;
+		}
+		@include res(xs){
+			margin-bottom: 20px;
+		}
+	}
+
+	&__right{
+		position: relative;
+		z-index: 3;
+		width: 50%;
+		padding-left: 17%;
+		@include res(xl){
+			width: 40%;
+			padding-left: 0;
+		}
+		@include res(s){
+			width: 100%;
+		}
+	}
+
+	&__photowrap{
+		position: absolute;
+		z-index: 1;
+		top: 0;
+		left: 0;
+		margin-left: 17%;
+		width: 950px;
+		@include res(xl){
+			width: 70%;
+			margin-left: 6%;
+		}
+		@include res(s){
+			position: relative;
+			margin-top: 20px;
+			width: 100%;
+			margin-left: 0;
+		}
+	}
+}
+//services layout
+
+
+//serv-step
+.serv-step{
+	display: flex;
+	align-items: center;
+	margin-bottom: 15px;
+	color: #FFF;
+	font-size: 16px;
+	line-height: 20px;
+
+	figure{
+		margin-right: 4px;
+		display: block;
+		font-size: 12px;
+		color: #000;
+		background: #FFF;
+		border-radius: 50%;
+		width: 20px;
+		height: 20px;
+		text-align: center;
+		line-height: 20px;
+	}
+
+	span{
+		display: block;
+	}
+}
+//serv-step
+
+
+//service-partwrap
+.service-partwrap{
+	position: relative;
+}
+
+.service-part{
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: 0;
+	visibility: hidden;
+	z-index: 1;
+	transition: all 0.3s ease;
+
+	&.active{
+		position: relative;
+		opacity: 1;
+		visibility: visible;
+		z-index: 2;
+	}
+}
+//service-partwrap
+
+
+//service
+.services-wrap{
+	position: relative;
+}
+
+.service{
+	display: none;
+	color: #FFF;
+
+	&.active{
+		display: block;
+	}
+
+	&__time{
+		display: flex;
+		align-items: center;
+		font-size: 24px;
+		font-weight: bold;
+		margin-bottom: 10px;
+
+		i{
+			font-size: 27px;
+			margin-right: 10px;
+		}
+	}
+
+	&__descr{
+		font-size: 14px;
+		margin-bottom: 15px;
+	}
+
+	&__priceblock{
+		margin-bottom: 40px;
+		@include res(xs){
+			margin-bottom: 20px;
+		}
+		p{
+			display: block;
+			font-size: 14px;
+		}
+	}
+
+	&__price{
+		font-size: 36px;
+		font-weight: bold;
+		white-space: nowrap;
+		line-height: 1;
+
+		.rub{
+			font-size: 75%;
+		}
+	}
+
+	.btn{
+		margin-top: 10px;
+	}
+}
+//service
+
+
+//photos
+.services-photos{
+	position: relative;
+	z-index: 1;
+
+	img{
+		display: none;
+		width: 100%;
+		height: auto;
+		opacity: 0;
+		transition: all 0.5s ease;
+
+		&.active{
+			display: block;
+		}
+
+		&.loaded{
+			opacity: 1;
+		}
+	}
+}
+
+.services-masks{
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 2;
+
+	img{
+		display: none;
+		width: 100%;
+		height: auto;
+		opacity: 0;
+		transition: all 0.5s ease;
+
+		&.active{
+			display: block;
+		}
+
+		&.loaded{
+			opacity: 1;
+		}
+	}
+}
+//photos
