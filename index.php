@@ -500,8 +500,8 @@
 						<nav class="smallpart-nav">
 							<button class="btn-serv" data-img="9_1" data-mask="9_1">Руки полностью</button>
 							<button class="btn-serv" data-img="9_1" data-mask="9_2">Плечи</button>
-							<button class="btn-serv" data-img="9_1" data-mask="9_1">Предплечье</button>
-							<button class="btn-serv" data-img="9_2" data-mask="9_2">Кисти рук</button>
+							<button class="btn-serv" data-img="9_1" data-mask="9_3">Предплечье</button>
+							<button class="btn-serv" data-img="9_2" data-mask="9_4">Кисти рук</button>
 						</nav>
 						<!--выбор области-->
 
@@ -565,11 +565,11 @@
 					<div class="service-part">
 						<!--выбор области-->
 						<nav class="smallpart-nav">
-							<button class="btn-serv" data-img="10_1" data-mask="10_1">Руки полностью</button>
-							<button class="btn-serv" data-img="10_1" data-mask="10_2">Плечи</button>
-							<button class="btn-serv" data-img="10_1" data-mask="10_3">Предплечье</button>
-							<button class="btn-serv" data-img="10_1" data-mask="10_4">Кисти рук</button>
-							<button class="btn-serv" data-img="10_2" data-mask="10_5">Кисти рук</button>
+							<button class="btn-serv" data-img="10_1" data-mask="10_1">Ноги полностью</button>
+							<button class="btn-serv" data-img="10_1" data-mask="10_2">Бёдра</button>
+							<button class="btn-serv" data-img="10_1" data-mask="10_3">Колени</button>
+							<button class="btn-serv" data-img="10_1" data-mask="10_4">Голени</button>
+							<button class="btn-serv" data-img="10_2" data-mask="10_5">Пальцы ног</button>
 						</nav>
 						<!--выбор области-->
 
@@ -676,40 +676,54 @@
 			<!--фото-->
 			<div class="services__photowrap">
 				<div class="services-masks">
-					<img src="#" data-src="/img/services/m_1_1.png" alt="1" data-mask="1_1">
-					<img src="#" data-src="/img/services/m_1_2.png" alt="1" data-mask="1_2">
-					<img src="#" data-src="/img/services/m_1_3.png" alt="1" data-mask="1_3">
-					<img src="#" data-src="/img/services/m_1_4.png" alt="1" data-mask="1_4">
-					<img src="#" data-src="/img/services/m_1_5.png" alt="1" data-mask="1_5">
-					<img src="#" data-src="/img/services/m_1_6.png" alt="1" data-mask="1_6">
-					<img src="#" data-src="/img/services/m_2_1.png" alt="1" data-mask="2_1">
-					<img src="#" data-src="/img/services/m_3_1.png" alt="1" data-mask="3_1">
-					<img src="#" data-src="/img/services/m_4_1.png" alt="1" data-mask="4_1">
-					<img src="#" data-src="/img/services/m_4_2.png" alt="1" data-mask="4_2">
-					<img src="#" data-src="/img/services/m_4_3.png" alt="1" data-mask="4_3">
-					<img src="#" data-src="/img/services/m_4_4.png" alt="1" data-mask="4_4">
-					<img src="#" data-src="/img/services/m_5_1.png" alt="1" data-mask="5_1">
-					<img src="#" data-src="/img/services/m_5_2.png" alt="1" data-mask="5_2">
-					<img src="#" data-src="/img/services/m_5_3.png" alt="1" data-mask="5_3">
-					<img src="#" data-src="/img/services/m_5_4.png" alt="1" data-mask="5_4">
-					<img src="#" data-src="/img/services/m_6_1.png" alt="1" data-mask="6_1">
-					<img src="#" data-src="/img/services/m_6_2.png" alt="1" data-mask="6_2">
+					<img src="#" data-src="/img/services/woman/m_1_1.png" alt="1" data-mask="1_1">
+					<img src="#" data-src="/img/services/woman/m_1_2.png" alt="1" data-mask="1_2">
+					<img src="#" data-src="/img/services/woman/m_1_3.png" alt="1" data-mask="1_3">
+					<img src="#" data-src="/img/services/woman/m_1_4.png" alt="1" data-mask="1_4">
+					<img src="#" data-src="/img/services/woman/m_1_5.png" alt="1" data-mask="1_5">
+					<img src="#" data-src="/img/services/woman/m_1_6.png" alt="1" data-mask="1_6">
+					<img src="#" data-src="/img/services/woman/m_2_1.png" alt="1" data-mask="2_1">
+					<img src="#" data-src="/img/services/woman/m_3_1.png" alt="1" data-mask="3_1">
+					<img src="#" data-src="/img/services/woman/m_4_1.png" alt="1" data-mask="4_1">
+					<img src="#" data-src="/img/services/woman/m_4_2.png" alt="1" data-mask="4_2">
+					<img src="#" data-src="/img/services/woman/m_4_3.png" alt="1" data-mask="4_3">
+					<img src="#" data-src="/img/services/woman/m_4_4.png" alt="1" data-mask="4_4">
+					<img src="#" data-src="/img/services/woman/m_5_1.png" alt="1" data-mask="5_1">
+					<img src="#" data-src="/img/services/woman/m_5_2.png" alt="1" data-mask="5_2">
+					<img src="#" data-src="/img/services/woman/m_5_3.png" alt="1" data-mask="5_3">
+					<img src="#" data-src="/img/services/woman/m_5_4.png" alt="1" data-mask="5_4">
+					<img src="#" data-src="/img/services/woman/m_6_1.png" alt="1" data-mask="6_1">
+					<img src="#" data-src="/img/services/woman/m_6_2.png" alt="1" data-mask="6_2">
+					<img src="#" data-src="/img/services/woman/m_7_1.png" alt="1" data-mask="7_1">
+					<img src="#" data-src="/img/services/woman/m_7_2.png" alt="1" data-mask="7_2">
+					<img src="#" data-src="/img/services/woman/m_8_1.png" alt="1" data-mask="8_1">
+					<img src="#" data-src="/img/services/woman/m_8_2.png" alt="1" data-mask="8_2">
+					<img src="#" data-src="/img/services/woman/m_9_1.png" alt="1" data-mask="9_1">
+					<img src="#" data-src="/img/services/woman/m_9_2.png" alt="1" data-mask="9_2">
+					<img src="#" data-src="/img/services/woman/m_9_3.png" alt="1" data-mask="9_3">
+					<img src="#" data-src="/img/services/woman/m_9_4.png" alt="1" data-mask="9_4">
+					<img src="#" data-src="/img/services/woman/m_10_1.png" alt="1" data-mask="10_1">
+					<img src="#" data-src="/img/services/woman/m_10_2.png" alt="1" data-mask="10_2">
+					<img src="#" data-src="/img/services/woman/m_10_3.png" alt="1" data-mask="10_3">
+					<img src="#" data-src="/img/services/woman/m_10_4.png" alt="1" data-mask="10_4">
+					<img src="#" data-src="/img/services/woman/m_10_5.png" alt="1" data-mask="10_5">
+					<img src="#" data-src="/img/services/woman/m_11_1.png" alt="1" data-mask="11_1">
 				</div>
 				<div class="services-photos">
-					<img src="#" data-src="/img/services/1_1.jpg" alt="1" data-img="1_1">
-					<img src="#" data-src="/img/services/1_3.jpg" alt="1" data-img="1_3">
-					<img src="#" data-src="/img/services/1_1.jpg" alt="1" data-img="2_1">
-					<img src="#" data-src="/img/services/3_1.jpg" alt="1" data-img="3_1">
-					<img src="#" data-src="/img/services/4_1.jpg" alt="1" data-img="4_1">
-					<img src="#" data-src="/img/services/5_1.jpg" alt="1" data-img="5_1">
-					<img src="#" data-src="/img/services/6_1.jpg" alt="1" data-img="6_1">
-					<img src="#" data-src="/img/services/7_1.jpg" alt="1" data-img="7_1">
-					<img src="#" data-src="/img/services/8_1.jpg" alt="1" data-img="8_1">
-					<img src="#" data-src="/img/services/9_1.jpg" alt="1" data-img="9_1">
-					<img src="#" data-src="/img/services/9_2.jpg" alt="1" data-img="9_2">
-					<img src="#" data-src="/img/services/10_1.jpg" alt="1" data-img="10_1">
-					<img src="#" data-src="/img/services/10_2.jpg" alt="1" data-img="10_2">
-					<img src="#" data-src="/img/services/11_1.jpg" alt="1" data-img="11_1">
+					<img src="#" data-src="/img/services/woman/1_1.jpg" alt="1" data-img="1_1">
+					<img src="#" data-src="/img/services/woman/1_3.jpg" alt="1" data-img="1_3">
+					<img src="#" data-src="/img/services/woman/1_1.jpg" alt="1" data-img="2_1">
+					<img src="#" data-src="/img/services/woman/3_1.jpg" alt="1" data-img="3_1">
+					<img src="#" data-src="/img/services/woman/4_1.jpg" alt="1" data-img="4_1">
+					<img src="#" data-src="/img/services/woman/5_1.jpg" alt="1" data-img="5_1">
+					<img src="#" data-src="/img/services/woman/6_1.jpg" alt="1" data-img="6_1">
+					<img src="#" data-src="/img/services/woman/7_1.jpg" alt="1" data-img="7_1">
+					<img src="#" data-src="/img/services/woman/8_1.jpg" alt="1" data-img="8_1">
+					<img src="#" data-src="/img/services/woman/9_1.jpg" alt="1" data-img="9_1">
+					<img src="#" data-src="/img/services/woman/9_2.jpg" alt="1" data-img="9_2">
+					<img src="#" data-src="/img/services/woman/10_1.jpg" alt="1" data-img="10_1">
+					<img src="#" data-src="/img/services/woman/10_2.jpg" alt="1" data-img="10_2">
+					<img src="#" data-src="/img/services/woman/11_1.jpg" alt="1" data-img="11_1">
 				</div>
 			</div>
 			<!--фото-->
@@ -735,6 +749,9 @@
 					<button class="btn-serv btn-serv--part">Живот</button>
 					<button class="btn-serv btn-serv--part">Ягодицы</button>
 					<button class="btn-serv btn-serv--part">Глубокое бикини</button>
+					<button class="btn-serv btn-serv--part">Руки</button>
+					<button class="btn-serv btn-serv--part">Ноги</button>
+					<button class="btn-serv btn-serv--part">Тело полностью</button>
 				</nav>
 			</div>
 			<!--часть тела-->
@@ -751,10 +768,10 @@
 						<nav class="smallpart-nav">
 							<button class="btn-serv" data-img="1_1" data-mask="1_1">Лицо полностью</button>
 							<button class="btn-serv" data-img="1_1" data-mask="1_2">Брови</button>
-							<button class="btn-serv" data-img="1_3" data-mask="1_3">Щеки</button>
-							<button class="btn-serv" data-img="1_1" data-mask="1_1">Бакенбарды</button>
-							<button class="btn-serv" data-img="1_1" data-mask="1_1">Подбородок</button>
-							<button class="btn-serv" data-img="1_1" data-mask="1_1">Верхняя губа</button>
+							<button class="btn-serv" data-img="1_2" data-mask="1_3">Щеки</button>
+							<button class="btn-serv" data-img="1_2" data-mask="1_4">Бакенбарды</button>
+							<button class="btn-serv" data-img="1_1" data-mask="1_5">Подбородок</button>
+							<button class="btn-serv" data-img="1_1" data-mask="1_6">Верхняя губа</button>
 						</nav>
 						<!--выбор области-->
 
@@ -844,9 +861,60 @@
 					<div class="service-part">
 						<!--выбор области-->
 						<nav class="smallpart-nav">
-							<button class="btn-serv">Лицо полностью</button>
-							<button class="btn-serv">Брови</button>
-							<button class="btn-serv">Щеки</button>
+							<button class="btn-serv" data-img="1_1" data-mask="2_1">Шея</button>
+						</nav>
+						<!--выбор области-->
+
+						<!--услуги-->
+						<div class="services-wrap">
+							<div class="service">
+								<div class="service__time"><i class="i-clock"></i>30 минут</div>
+								<div class="service__descr">Процедуру эпиляции можно проводить на всей поверхности лица, кроме зоны вокруг глаз. Она позволяет полностью избавиться или скорректировать линии роста бровей и бакенбард, зон верхней губы, подбородка и щёк. Благодаря системе охлаждения кожа защищена от ожогов. А значит уменьшается болезненность. Обычно для полного избавления нужно около 4-6 процедур по 5-10 минут с интервалом в 1 месяц.</div>
+								<div class="service__priceblock">
+									<p>Стоимость</p>
+									<span class="service__price">2200 <span class="rub">&#x20bd;</span></span>
+								</div>
+								<div class="serv-step">
+									<figure>3</figure>
+									<span>Запишитесь на процедуру</span>
+								</div>
+								<a href="#" class="btn btn--white radbtn-white fancy-modal" data-src="#modal-record">Записаться онлайн</a>
+							</div>
+						</div>
+						<!--услуги-->
+					</div>
+					<div class="service-part">
+						<!--выбор области-->
+						<nav class="smallpart-nav">
+							<button class="btn-serv" data-img="3_1" data-mask="3_1">Подмышки</button>
+						</nav>
+						<!--выбор области-->
+
+						<!--услуги-->
+						<div class="services-wrap">
+							<div class="service">
+								<div class="service__time"><i class="i-clock"></i>30 минут</div>
+								<div class="service__descr">Процедуру эпиляции можно проводить на всей поверхности лица, кроме зоны вокруг глаз. Она позволяет полностью избавиться или скорректировать линии роста бровей и бакенбард, зон верхней губы, подбородка и щёк. Благодаря системе охлаждения кожа защищена от ожогов. А значит уменьшается болезненность. Обычно для полного избавления нужно около 4-6 процедур по 5-10 минут с интервалом в 1 месяц.</div>
+								<div class="service__priceblock">
+									<p>Стоимость</p>
+									<span class="service__price">2200 <span class="rub">&#x20bd;</span></span>
+								</div>
+								<div class="serv-step">
+									<figure>3</figure>
+									<span>Запишитесь на процедуру</span>
+								</div>
+								<a href="#" class="btn btn--white radbtn-white fancy-modal" data-src="#modal-record">Записаться онлайн</a>
+							</div>
+						</div>
+						<!--услуги-->
+					</div>
+					<div class="service-part">
+						<!--выбор области-->
+						<nav class="smallpart-nav">
+							<button class="btn-serv" data-img="4_1" data-mask="4_1">Спина полностью</button>
+							<button class="btn-serv" data-img="4_1" data-mask="4_2">Плечевой пояс</button>
+							<button class="btn-serv" data-img="4_1" data-mask="4_3">Спина (верх)</button>
+							<button class="btn-serv" data-img="4_1" data-mask="4_4">Поясница</button>
 						</nav>
 						<!--выбор области-->
 
@@ -866,11 +934,11 @@
 								<a href="#" class="btn btn--white radbtn-white fancy-modal" data-src="#modal-record">Записаться онлайн</a>
 							</div>
 							<div class="service">
-								<div class="service__time"><i class="i-clock"></i>10 минут</div>
-								<div class="service__descr">Процедуру эпиляции можно проводить на всей поверхности лица, кроме зоны вокруг глаз. Она позволяет полностью избавиться или скорректировать линии роста бровей и бакенбард, зон верхней губы, подбородка и щёк.</div>
+								<div class="service__time"><i class="i-clock"></i>30 минут</div>
+								<div class="service__descr">Процедуру эпиляции можно проводить на всей поверхности лица, кроме зоны вокруг глаз. Она позволяет полностью избавиться или скорректировать линии роста бровей и бакенбард, зон верхней губы, подбородка и щёк. Благодаря системе охлаждения кожа защищена от ожогов. А значит уменьшается болезненность. Обычно для полного избавления нужно около 4-6 процедур по 5-10 минут с интервалом в 1 месяц.</div>
 								<div class="service__priceblock">
 									<p>Стоимость</p>
-									<span class="service__price">1500 <span class="rub">&#x20bd;</span></span>
+									<span class="service__price">2200 <span class="rub">&#x20bd;</span></span>
 								</div>
 								<div class="serv-step">
 									<figure>3</figure>
@@ -879,11 +947,11 @@
 								<a href="#" class="btn btn--white radbtn-white fancy-modal" data-src="#modal-record">Записаться онлайн</a>
 							</div>
 							<div class="service">
-								<div class="service__time"><i class="i-clock"></i>20 минут</div>
-								<div class="service__descr">Процедуру эпиляции можно проводить на всей поверхности лица, кроме зоны вокруг глаз. Она позволяет полностью избавиться или скорректировать линии роста бровей и бакенбард, зон верхней губы, подбородка и щёк.</div>
+								<div class="service__time"><i class="i-clock"></i>30 минут</div>
+								<div class="service__descr">Процедуру эпиляции можно проводить на всей поверхности лица, кроме зоны вокруг глаз. Она позволяет полностью избавиться или скорректировать линии роста бровей и бакенбард, зон верхней губы, подбородка и щёк. Благодаря системе охлаждения кожа защищена от ожогов. А значит уменьшается болезненность. Обычно для полного избавления нужно около 4-6 процедур по 5-10 минут с интервалом в 1 месяц.</div>
 								<div class="service__priceblock">
 									<p>Стоимость</p>
-									<span class="service__price">1500 <span class="rub">&#x20bd;</span></span>
+									<span class="service__price">2200 <span class="rub">&#x20bd;</span></span>
 								</div>
 								<div class="serv-step">
 									<figure>3</figure>
@@ -892,11 +960,38 @@
 								<a href="#" class="btn btn--white radbtn-white fancy-modal" data-src="#modal-record">Записаться онлайн</a>
 							</div>
 							<div class="service">
-								<div class="service__time"><i class="i-clock"></i>50 минут</div>
-								<div class="service__descr">Процедуру эпиляции можно проводить на всей поверхности лица, кроме зоны вокруг глаз. Она позволяет полностью избавиться или скорректировать линии роста бровей и бакенбард, зон верхней губы, подбородка и щёк.</div>
+								<div class="service__time"><i class="i-clock"></i>30 минут</div>
+								<div class="service__descr">Процедуру эпиляции можно проводить на всей поверхности лица, кроме зоны вокруг глаз. Она позволяет полностью избавиться или скорректировать линии роста бровей и бакенбард, зон верхней губы, подбородка и щёк. Благодаря системе охлаждения кожа защищена от ожогов. А значит уменьшается болезненность. Обычно для полного избавления нужно около 4-6 процедур по 5-10 минут с интервалом в 1 месяц.</div>
 								<div class="service__priceblock">
 									<p>Стоимость</p>
-									<span class="service__price">1500 <span class="rub">&#x20bd;</span></span>
+									<span class="service__price">2200 <span class="rub">&#x20bd;</span></span>
+								</div>
+								<div class="serv-step">
+									<figure>3</figure>
+									<span>Запишитесь на процедуру</span>
+								</div>
+								<a href="#" class="btn btn--white radbtn-white fancy-modal" data-src="#modal-record">Записаться онлайн</a>
+							</div>
+						</div>
+						<!--услуги-->
+					</div>
+					<div class="service-part">
+						<!--выбор области-->
+						<nav class="smallpart-nav">
+							<button class="btn-serv" data-img="5_1" data-mask="5_1">Грудь полностью</button>
+							<button class="btn-serv" data-img="5_1" data-mask="5_2">Межгрудная область</button>
+							<button class="btn-serv" data-img="5_1" data-mask="5_3">Ареолы сосков</button>
+						</nav>
+						<!--выбор области-->
+
+						<!--услуги-->
+						<div class="services-wrap">
+							<div class="service">
+								<div class="service__time"><i class="i-clock"></i>30 минут</div>
+								<div class="service__descr">Процедуру эпиляции можно проводить на всей поверхности лица, кроме зоны вокруг глаз. Она позволяет полностью избавиться или скорректировать линии роста бровей и бакенбард, зон верхней губы, подбородка и щёк. Благодаря системе охлаждения кожа защищена от ожогов. А значит уменьшается болезненность. Обычно для полного избавления нужно около 4-6 процедур по 5-10 минут с интервалом в 1 месяц.</div>
+								<div class="service__priceblock">
+									<p>Стоимость</p>
+									<span class="service__price">2200 <span class="rub">&#x20bd;</span></span>
 								</div>
 								<div class="serv-step">
 									<figure>3</figure>
@@ -905,11 +1000,11 @@
 								<a href="#" class="btn btn--white radbtn-white fancy-modal" data-src="#modal-record">Записаться онлайн</a>
 							</div>
 							<div class="service">
-								<div class="service__time"><i class="i-clock"></i>10 минут</div>
-								<div class="service__descr">Процедуру эпиляции можно проводить на всей поверхности лица, кроме зоны вокруг глаз. Она позволяет полностью избавиться или скорректировать линии роста бровей и бакенбард, зон верхней губы, подбородка и щёк.</div>
+								<div class="service__time"><i class="i-clock"></i>30 минут</div>
+								<div class="service__descr">Процедуру эпиляции можно проводить на всей поверхности лица, кроме зоны вокруг глаз. Она позволяет полностью избавиться или скорректировать линии роста бровей и бакенбард, зон верхней губы, подбородка и щёк. Благодаря системе охлаждения кожа защищена от ожогов. А значит уменьшается болезненность. Обычно для полного избавления нужно около 4-6 процедур по 5-10 минут с интервалом в 1 месяц.</div>
 								<div class="service__priceblock">
 									<p>Стоимость</p>
-									<span class="service__price">1500 <span class="rub">&#x20bd;</span></span>
+									<span class="service__price">2200 <span class="rub">&#x20bd;</span></span>
 								</div>
 								<div class="serv-step">
 									<figure>3</figure>
@@ -918,11 +1013,315 @@
 								<a href="#" class="btn btn--white radbtn-white fancy-modal" data-src="#modal-record">Записаться онлайн</a>
 							</div>
 							<div class="service">
-								<div class="service__time"><i class="i-clock"></i>10 минут</div>
-								<div class="service__descr">Процедуру эпиляции можно проводить на всей поверхности лица, кроме зоны вокруг глаз. Она позволяет полностью избавиться или скорректировать линии роста бровей и бакенбард, зон верхней губы, подбородка и щёк.</div>
+								<div class="service__time"><i class="i-clock"></i>30 минут</div>
+								<div class="service__descr">Процедуру эпиляции можно проводить на всей поверхности лица, кроме зоны вокруг глаз. Она позволяет полностью избавиться или скорректировать линии роста бровей и бакенбард, зон верхней губы, подбородка и щёк. Благодаря системе охлаждения кожа защищена от ожогов. А значит уменьшается болезненность. Обычно для полного избавления нужно около 4-6 процедур по 5-10 минут с интервалом в 1 месяц.</div>
 								<div class="service__priceblock">
 									<p>Стоимость</p>
-									<span class="service__price">1500 <span class="rub">&#x20bd;</span></span>
+									<span class="service__price">2200 <span class="rub">&#x20bd;</span></span>
+								</div>
+								<div class="serv-step">
+									<figure>3</figure>
+									<span>Запишитесь на процедуру</span>
+								</div>
+								<a href="#" class="btn btn--white radbtn-white fancy-modal" data-src="#modal-record">Записаться онлайн</a>
+							</div>
+							<div class="service">
+								<div class="service__time"><i class="i-clock"></i>30 минут</div>
+								<div class="service__descr">Процедуру эпиляции можно проводить на всей поверхности лица, кроме зоны вокруг глаз. Она позволяет полностью избавиться или скорректировать линии роста бровей и бакенбард, зон верхней губы, подбородка и щёк. Благодаря системе охлаждения кожа защищена от ожогов. А значит уменьшается болезненность. Обычно для полного избавления нужно около 4-6 процедур по 5-10 минут с интервалом в 1 месяц.</div>
+								<div class="service__priceblock">
+									<p>Стоимость</p>
+									<span class="service__price">2200 <span class="rub">&#x20bd;</span></span>
+								</div>
+								<div class="serv-step">
+									<figure>3</figure>
+									<span>Запишитесь на процедуру</span>
+								</div>
+								<a href="#" class="btn btn--white radbtn-white fancy-modal" data-src="#modal-record">Записаться онлайн</a>
+							</div>
+						</div>
+						<!--услуги-->
+					</div>
+					<div class="service-part">
+						<!--выбор области-->
+						<nav class="smallpart-nav">
+							<button class="btn-serv" data-img="6_1" data-mask="6_1">Живот полностью</button>
+							<button class="btn-serv" data-img="6_1" data-mask="6_2">Белая линия</button>
+						</nav>
+						<!--выбор области-->
+
+						<!--услуги-->
+						<div class="services-wrap">
+							<div class="service">
+								<div class="service__time"><i class="i-clock"></i>30 минут</div>
+								<div class="service__descr">Процедуру эпиляции можно проводить на всей поверхности лица, кроме зоны вокруг глаз. Она позволяет полностью избавиться или скорректировать линии роста бровей и бакенбард, зон верхней губы, подбородка и щёк. Благодаря системе охлаждения кожа защищена от ожогов. А значит уменьшается болезненность. Обычно для полного избавления нужно около 4-6 процедур по 5-10 минут с интервалом в 1 месяц.</div>
+								<div class="service__priceblock">
+									<p>Стоимость</p>
+									<span class="service__price">2200 <span class="rub">&#x20bd;</span></span>
+								</div>
+								<div class="serv-step">
+									<figure>3</figure>
+									<span>Запишитесь на процедуру</span>
+								</div>
+								<a href="#" class="btn btn--white radbtn-white fancy-modal" data-src="#modal-record">Записаться онлайн</a>
+							</div>
+							<div class="service">
+								<div class="service__time"><i class="i-clock"></i>30 минут</div>
+								<div class="service__descr">Процедуру эпиляции можно проводить на всей поверхности лица, кроме зоны вокруг глаз. Она позволяет полностью избавиться или скорректировать линии роста бровей и бакенбард, зон верхней губы, подбородка и щёк. Благодаря системе охлаждения кожа защищена от ожогов. А значит уменьшается болезненность. Обычно для полного избавления нужно около 4-6 процедур по 5-10 минут с интервалом в 1 месяц.</div>
+								<div class="service__priceblock">
+									<p>Стоимость</p>
+									<span class="service__price">2200 <span class="rub">&#x20bd;</span></span>
+								</div>
+								<div class="serv-step">
+									<figure>3</figure>
+									<span>Запишитесь на процедуру</span>
+								</div>
+								<a href="#" class="btn btn--white radbtn-white fancy-modal" data-src="#modal-record">Записаться онлайн</a>
+							</div>
+						</div>
+						<!--услуги-->
+					</div>
+
+					<div class="service-part">
+						<!--выбор области-->
+						<nav class="smallpart-nav">
+							<button class="btn-serv" data-img="7_1" data-mask="7_1">Ягодицы</button>
+							<button class="btn-serv" data-img="7_1" data-mask="7_2">Межягодичная зона</button>
+						</nav>
+						<!--выбор области-->
+
+						<!--услуги-->
+						<div class="services-wrap">
+							<div class="service">
+								<div class="service__time"><i class="i-clock"></i>30 минут</div>
+								<div class="service__descr">Процедуру эпиляции можно проводить на всей поверхности лица, кроме зоны вокруг глаз. Она позволяет полностью избавиться или скорректировать линии роста бровей и бакенбард, зон верхней губы, подбородка и щёк. Благодаря системе охлаждения кожа защищена от ожогов. А значит уменьшается болезненность. Обычно для полного избавления нужно около 4-6 процедур по 5-10 минут с интервалом в 1 месяц.</div>
+								<div class="service__priceblock">
+									<p>Стоимость</p>
+									<span class="service__price">2200 <span class="rub">&#x20bd;</span></span>
+								</div>
+								<div class="serv-step">
+									<figure>3</figure>
+									<span>Запишитесь на процедуру</span>
+								</div>
+								<a href="#" class="btn btn--white radbtn-white fancy-modal" data-src="#modal-record">Записаться онлайн</a>
+							</div>
+							<div class="service">
+								<div class="service__time"><i class="i-clock"></i>30 минут</div>
+								<div class="service__descr">Процедуру эпиляции можно проводить на всей поверхности лица, кроме зоны вокруг глаз. Она позволяет полностью избавиться или скорректировать линии роста бровей и бакенбард, зон верхней губы, подбородка и щёк. Благодаря системе охлаждения кожа защищена от ожогов. А значит уменьшается болезненность. Обычно для полного избавления нужно около 4-6 процедур по 5-10 минут с интервалом в 1 месяц.</div>
+								<div class="service__priceblock">
+									<p>Стоимость</p>
+									<span class="service__price">2200 <span class="rub">&#x20bd;</span></span>
+								</div>
+								<div class="serv-step">
+									<figure>3</figure>
+									<span>Запишитесь на процедуру</span>
+								</div>
+								<a href="#" class="btn btn--white radbtn-white fancy-modal" data-src="#modal-record">Записаться онлайн</a>
+							</div>
+						</div>
+						<!--услуги-->
+					</div>
+					<div class="service-part">
+						<!--выбор области-->
+						<nav class="smallpart-nav">
+							<button class="btn-serv" data-img="8_1" data-mask="8_1">Глубокое бикини</button>
+							<button class="btn-serv" data-img="8_1" data-mask="8_2">Классическое бикини</button>
+						</nav>
+						<!--выбор области-->
+
+						<!--услуги-->
+						<div class="services-wrap">
+							<div class="service">
+								<div class="service__time"><i class="i-clock"></i>30 минут</div>
+								<div class="service__descr">Процедуру эпиляции можно проводить на всей поверхности лица, кроме зоны вокруг глаз. Она позволяет полностью избавиться или скорректировать линии роста бровей и бакенбард, зон верхней губы, подбородка и щёк. Благодаря системе охлаждения кожа защищена от ожогов. А значит уменьшается болезненность. Обычно для полного избавления нужно около 4-6 процедур по 5-10 минут с интервалом в 1 месяц.</div>
+								<div class="service__priceblock">
+									<p>Стоимость</p>
+									<span class="service__price">2200 <span class="rub">&#x20bd;</span></span>
+								</div>
+								<div class="serv-step">
+									<figure>3</figure>
+									<span>Запишитесь на процедуру</span>
+								</div>
+								<a href="#" class="btn btn--white radbtn-white fancy-modal" data-src="#modal-record">Записаться онлайн</a>
+							</div>
+							<div class="service">
+								<div class="service__time"><i class="i-clock"></i>30 минут</div>
+								<div class="service__descr">Процедуру эпиляции можно проводить на всей поверхности лица, кроме зоны вокруг глаз. Она позволяет полностью избавиться или скорректировать линии роста бровей и бакенбард, зон верхней губы, подбородка и щёк. Благодаря системе охлаждения кожа защищена от ожогов. А значит уменьшается болезненность. Обычно для полного избавления нужно около 4-6 процедур по 5-10 минут с интервалом в 1 месяц.</div>
+								<div class="service__priceblock">
+									<p>Стоимость</p>
+									<span class="service__price">2200 <span class="rub">&#x20bd;</span></span>
+								</div>
+								<div class="serv-step">
+									<figure>3</figure>
+									<span>Запишитесь на процедуру</span>
+								</div>
+								<a href="#" class="btn btn--white radbtn-white fancy-modal" data-src="#modal-record">Записаться онлайн</a>
+							</div>
+						</div>
+						<!--услуги-->
+					</div>
+					<div class="service-part">
+						<!--выбор области-->
+						<nav class="smallpart-nav">
+							<button class="btn-serv" data-img="9_1" data-mask="9_1">Руки полностью</button>
+							<button class="btn-serv" data-img="9_1" data-mask="9_2">Плечи</button>
+							<button class="btn-serv" data-img="9_1" data-mask="9_3">Предплечье</button>
+							<button class="btn-serv" data-img="9_2" data-mask="9_4">Кисти рук</button>
+						</nav>
+						<!--выбор области-->
+
+						<!--услуги-->
+						<div class="services-wrap">
+							<div class="service">
+								<div class="service__time"><i class="i-clock"></i>30 минут</div>
+								<div class="service__descr">Процедуру эпиляции можно проводить на всей поверхности лица, кроме зоны вокруг глаз. Она позволяет полностью избавиться или скорректировать линии роста бровей и бакенбард, зон верхней губы, подбородка и щёк. Благодаря системе охлаждения кожа защищена от ожогов. А значит уменьшается болезненность. Обычно для полного избавления нужно около 4-6 процедур по 5-10 минут с интервалом в 1 месяц.</div>
+								<div class="service__priceblock">
+									<p>Стоимость</p>
+									<span class="service__price">2200 <span class="rub">&#x20bd;</span></span>
+								</div>
+								<div class="serv-step">
+									<figure>3</figure>
+									<span>Запишитесь на процедуру</span>
+								</div>
+								<a href="#" class="btn btn--white radbtn-white fancy-modal" data-src="#modal-record">Записаться онлайн</a>
+							</div>
+							<div class="service">
+								<div class="service__time"><i class="i-clock"></i>30 минут</div>
+								<div class="service__descr">Процедуру эпиляции можно проводить на всей поверхности лица, кроме зоны вокруг глаз. Она позволяет полностью избавиться или скорректировать линии роста бровей и бакенбард, зон верхней губы, подбородка и щёк. Благодаря системе охлаждения кожа защищена от ожогов. А значит уменьшается болезненность. Обычно для полного избавления нужно около 4-6 процедур по 5-10 минут с интервалом в 1 месяц.</div>
+								<div class="service__priceblock">
+									<p>Стоимость</p>
+									<span class="service__price">2200 <span class="rub">&#x20bd;</span></span>
+								</div>
+								<div class="serv-step">
+									<figure>3</figure>
+									<span>Запишитесь на процедуру</span>
+								</div>
+								<a href="#" class="btn btn--white radbtn-white fancy-modal" data-src="#modal-record">Записаться онлайн</a>
+							</div>
+							<div class="service">
+								<div class="service__time"><i class="i-clock"></i>30 минут</div>
+								<div class="service__descr">Процедуру эпиляции можно проводить на всей поверхности лица, кроме зоны вокруг глаз. Она позволяет полностью избавиться или скорректировать линии роста бровей и бакенбард, зон верхней губы, подбородка и щёк. Благодаря системе охлаждения кожа защищена от ожогов. А значит уменьшается болезненность. Обычно для полного избавления нужно около 4-6 процедур по 5-10 минут с интервалом в 1 месяц.</div>
+								<div class="service__priceblock">
+									<p>Стоимость</p>
+									<span class="service__price">2200 <span class="rub">&#x20bd;</span></span>
+								</div>
+								<div class="serv-step">
+									<figure>3</figure>
+									<span>Запишитесь на процедуру</span>
+								</div>
+								<a href="#" class="btn btn--white radbtn-white fancy-modal" data-src="#modal-record">Записаться онлайн</a>
+							</div>
+							<div class="service">
+								<div class="service__time"><i class="i-clock"></i>30 минут</div>
+								<div class="service__descr">Процедуру эпиляции можно проводить на всей поверхности лица, кроме зоны вокруг глаз. Она позволяет полностью избавиться или скорректировать линии роста бровей и бакенбард, зон верхней губы, подбородка и щёк. Благодаря системе охлаждения кожа защищена от ожогов. А значит уменьшается болезненность. Обычно для полного избавления нужно около 4-6 процедур по 5-10 минут с интервалом в 1 месяц.</div>
+								<div class="service__priceblock">
+									<p>Стоимость</p>
+									<span class="service__price">2200 <span class="rub">&#x20bd;</span></span>
+								</div>
+								<div class="serv-step">
+									<figure>3</figure>
+									<span>Запишитесь на процедуру</span>
+								</div>
+								<a href="#" class="btn btn--white radbtn-white fancy-modal" data-src="#modal-record">Записаться онлайн</a>
+							</div>
+						</div>
+						<!--услуги-->
+					</div>
+					<div class="service-part">
+						<!--выбор области-->
+						<nav class="smallpart-nav">
+							<button class="btn-serv" data-img="10_1" data-mask="10_1">Ноги полностью</button>
+							<button class="btn-serv" data-img="10_1" data-mask="10_2">Бёдра</button>
+							<button class="btn-serv" data-img="10_1" data-mask="10_3">Колени</button>
+							<button class="btn-serv" data-img="10_1" data-mask="10_4">Голени</button>
+							<button class="btn-serv" data-img="10_2" data-mask="10_5">Пальцы ног</button>
+						</nav>
+						<!--выбор области-->
+
+						<!--услуги-->
+						<div class="services-wrap">
+							<div class="service">
+								<div class="service__time"><i class="i-clock"></i>30 минут</div>
+								<div class="service__descr">Процедуру эпиляции можно проводить на всей поверхности лица, кроме зоны вокруг глаз. Она позволяет полностью избавиться или скорректировать линии роста бровей и бакенбард, зон верхней губы, подбородка и щёк. Благодаря системе охлаждения кожа защищена от ожогов. А значит уменьшается болезненность. Обычно для полного избавления нужно около 4-6 процедур по 5-10 минут с интервалом в 1 месяц.</div>
+								<div class="service__priceblock">
+									<p>Стоимость</p>
+									<span class="service__price">2200 <span class="rub">&#x20bd;</span></span>
+								</div>
+								<div class="serv-step">
+									<figure>3</figure>
+									<span>Запишитесь на процедуру</span>
+								</div>
+								<a href="#" class="btn btn--white radbtn-white fancy-modal" data-src="#modal-record">Записаться онлайн</a>
+							</div>
+							<div class="service">
+								<div class="service__time"><i class="i-clock"></i>30 минут</div>
+								<div class="service__descr">Процедуру эпиляции можно проводить на всей поверхности лица, кроме зоны вокруг глаз. Она позволяет полностью избавиться или скорректировать линии роста бровей и бакенбард, зон верхней губы, подбородка и щёк. Благодаря системе охлаждения кожа защищена от ожогов. А значит уменьшается болезненность. Обычно для полного избавления нужно около 4-6 процедур по 5-10 минут с интервалом в 1 месяц.</div>
+								<div class="service__priceblock">
+									<p>Стоимость</p>
+									<span class="service__price">2200 <span class="rub">&#x20bd;</span></span>
+								</div>
+								<div class="serv-step">
+									<figure>3</figure>
+									<span>Запишитесь на процедуру</span>
+								</div>
+								<a href="#" class="btn btn--white radbtn-white fancy-modal" data-src="#modal-record">Записаться онлайн</a>
+							</div>
+							<div class="service">
+								<div class="service__time"><i class="i-clock"></i>30 минут</div>
+								<div class="service__descr">Процедуру эпиляции можно проводить на всей поверхности лица, кроме зоны вокруг глаз. Она позволяет полностью избавиться или скорректировать линии роста бровей и бакенбард, зон верхней губы, подбородка и щёк. Благодаря системе охлаждения кожа защищена от ожогов. А значит уменьшается болезненность. Обычно для полного избавления нужно около 4-6 процедур по 5-10 минут с интервалом в 1 месяц.</div>
+								<div class="service__priceblock">
+									<p>Стоимость</p>
+									<span class="service__price">2200 <span class="rub">&#x20bd;</span></span>
+								</div>
+								<div class="serv-step">
+									<figure>3</figure>
+									<span>Запишитесь на процедуру</span>
+								</div>
+								<a href="#" class="btn btn--white radbtn-white fancy-modal" data-src="#modal-record">Записаться онлайн</a>
+							</div>
+							<div class="service">
+								<div class="service__time"><i class="i-clock"></i>30 минут</div>
+								<div class="service__descr">Процедуру эпиляции можно проводить на всей поверхности лица, кроме зоны вокруг глаз. Она позволяет полностью избавиться или скорректировать линии роста бровей и бакенбард, зон верхней губы, подбородка и щёк. Благодаря системе охлаждения кожа защищена от ожогов. А значит уменьшается болезненность. Обычно для полного избавления нужно около 4-6 процедур по 5-10 минут с интервалом в 1 месяц.</div>
+								<div class="service__priceblock">
+									<p>Стоимость</p>
+									<span class="service__price">2200 <span class="rub">&#x20bd;</span></span>
+								</div>
+								<div class="serv-step">
+									<figure>3</figure>
+									<span>Запишитесь на процедуру</span>
+								</div>
+								<a href="#" class="btn btn--white radbtn-white fancy-modal" data-src="#modal-record">Записаться онлайн</a>
+							</div>
+							<div class="service">
+								<div class="service__time"><i class="i-clock"></i>30 минут</div>
+								<div class="service__descr">Процедуру эпиляции можно проводить на всей поверхности лица, кроме зоны вокруг глаз. Она позволяет полностью избавиться или скорректировать линии роста бровей и бакенбард, зон верхней губы, подбородка и щёк. Благодаря системе охлаждения кожа защищена от ожогов. А значит уменьшается болезненность. Обычно для полного избавления нужно около 4-6 процедур по 5-10 минут с интервалом в 1 месяц.</div>
+								<div class="service__priceblock">
+									<p>Стоимость</p>
+									<span class="service__price">2200 <span class="rub">&#x20bd;</span></span>
+								</div>
+								<div class="serv-step">
+									<figure>3</figure>
+									<span>Запишитесь на процедуру</span>
+								</div>
+								<a href="#" class="btn btn--white radbtn-white fancy-modal" data-src="#modal-record">Записаться онлайн</a>
+							</div>
+						</div>
+						<!--услуги-->
+					</div>
+					<div class="service-part">
+						<!--выбор области-->
+						<nav class="smallpart-nav">
+							<button class="btn-serv" data-img="11_1" data-mask="11_1">Тело полностью</button>
+						</nav>
+						<!--выбор области-->
+
+						<!--услуги-->
+						<div class="services-wrap">
+							<div class="service">
+								<div class="service__time"><i class="i-clock"></i>30 минут</div>
+								<div class="service__descr">Процедуру эпиляции можно проводить на всей поверхности лица, кроме зоны вокруг глаз. Она позволяет полностью избавиться или скорректировать линии роста бровей и бакенбард, зон верхней губы, подбородка и щёк. Благодаря системе охлаждения кожа защищена от ожогов. А значит уменьшается болезненность. Обычно для полного избавления нужно около 4-6 процедур по 5-10 минут с интервалом в 1 месяц.</div>
+								<div class="service__priceblock">
+									<p>Стоимость</p>
+									<span class="service__price">2200 <span class="rub">&#x20bd;</span></span>
 								</div>
 								<div class="serv-step">
 									<figure>3</figure>
@@ -941,13 +1340,53 @@
 			<!--фото-->
 			<div class="services__photowrap">
 				<div class="services-masks">
-					<img src="#" data-src="/img/services/m_1_1.png" alt="1" data-mask="1_1">
-					<img src="#" data-src="/img/services/m_1_2.png" alt="1" data-mask="1_2">
-					<img src="#" data-src="/img/services/m_1_3.png" alt="1" data-mask="1_3">
+					<img src="#" data-src="/img/services/man/m_1_1.png" alt="1" data-mask="1_1">
+					<img src="#" data-src="/img/services/man/m_1_2.png" alt="1" data-mask="1_2">
+					<img src="#" data-src="/img/services/man/m_1_3.png" alt="1" data-mask="1_3">
+					<img src="#" data-src="/img/services/man/m_1_4.png" alt="1" data-mask="1_4">
+					<img src="#" data-src="/img/services/man/m_1_5.png" alt="1" data-mask="1_5">
+					<img src="#" data-src="/img/services/man/m_1_6.png" alt="1" data-mask="1_6">
+					<img src="#" data-src="/img/services/man/m_2_1.png" alt="1" data-mask="2_1">
+					<img src="#" data-src="/img/services/man/m_3_1.png" alt="1" data-mask="3_1">
+					<img src="#" data-src="/img/services/man/m_4_1.png" alt="1" data-mask="4_1">
+					<img src="#" data-src="/img/services/man/m_4_2.png" alt="1" data-mask="4_2">
+					<img src="#" data-src="/img/services/man/m_4_3.png" alt="1" data-mask="4_3">
+					<img src="#" data-src="/img/services/man/m_4_4.png" alt="1" data-mask="4_4">
+					<img src="#" data-src="/img/services/man/m_5_1.png" alt="1" data-mask="5_1">
+					<img src="#" data-src="/img/services/man/m_5_2.png" alt="1" data-mask="5_2">
+					<img src="#" data-src="/img/services/man/m_5_3.png" alt="1" data-mask="5_3">
+					<img src="#" data-src="/img/services/man/m_6_1.png" alt="1" data-mask="6_1">
+					<img src="#" data-src="/img/services/man/m_6_2.png" alt="1" data-mask="6_2">
+					<img src="#" data-src="/img/services/man/m_7_1.png" alt="1" data-mask="7_1">
+					<img src="#" data-src="/img/services/man/m_7_2.png" alt="1" data-mask="7_2">
+					<img src="#" data-src="/img/services/man/m_8_1.png" alt="1" data-mask="8_1">
+					<img src="#" data-src="/img/services/man/m_8_2.png" alt="1" data-mask="8_2">
+					<img src="#" data-src="/img/services/man/m_9_1.png" alt="1" data-mask="9_1">
+					<img src="#" data-src="/img/services/man/m_9_2.png" alt="1" data-mask="9_2">
+					<img src="#" data-src="/img/services/man/m_9_3.png" alt="1" data-mask="9_3">
+					<img src="#" data-src="/img/services/man/m_9_4.png" alt="1" data-mask="9_4">
+					<img src="#" data-src="/img/services/man/m_10_1.png" alt="1" data-mask="10_1">
+					<img src="#" data-src="/img/services/man/m_10_2.png" alt="1" data-mask="10_2">
+					<img src="#" data-src="/img/services/man/m_10_3.png" alt="1" data-mask="10_3">
+					<img src="#" data-src="/img/services/man/m_10_4.png" alt="1" data-mask="10_4">
+					<img src="#" data-src="/img/services/man/m_10_5.png" alt="1" data-mask="10_5">
+					<img src="#" data-src="/img/services/man/m_11_1.png" alt="1" data-mask="11_1">
 				</div>
 				<div class="services-photos">
-					<img src="#" data-src="/img/services/1_1.jpg" alt="1" data-img="1_1">
-					<img src="#" data-src="/img/services/1_3.jpg" alt="1" data-img="1_3">
+					<img src="#" data-src="/img/services/man/1_1.jpg" alt="1" data-img="1_1">
+					<img src="#" data-src="/img/services/man/1_2.jpg" alt="1" data-img="1_2">
+					<img src="#" data-src="/img/services/man/1_1.jpg" alt="1" data-img="2_1">
+					<img src="#" data-src="/img/services/man/3_1.jpg" alt="1" data-img="3_1">
+					<img src="#" data-src="/img/services/man/4_1.jpg" alt="1" data-img="4_1">
+					<img src="#" data-src="/img/services/man/5_1.jpg" alt="1" data-img="5_1">
+					<img src="#" data-src="/img/services/man/6_1.jpg" alt="1" data-img="6_1">
+					<img src="#" data-src="/img/services/man/7_1.jpg" alt="1" data-img="7_1">
+					<img src="#" data-src="/img/services/man/8_1.jpg" alt="1" data-img="8_1">
+					<img src="#" data-src="/img/services/man/9_1.jpg" alt="1" data-img="9_1">
+					<img src="#" data-src="/img/services/man/9_2.jpg" alt="1" data-img="9_2">
+					<img src="#" data-src="/img/services/man/10_1.jpg" alt="1" data-img="10_1">
+					<img src="#" data-src="/img/services/man/10_2.jpg" alt="1" data-img="10_2">
+					<img src="#" data-src="/img/services/man/11_1.jpg" alt="1" data-img="11_1">
 				</div>
 			</div>
 			<!--фото-->
