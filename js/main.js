@@ -203,6 +203,7 @@ $(function () {
 /***********************
  Waypoints BEGIN
  ***********************/
+var socialModalShawn = false;
 $(function () {
 	$('.anim').waypoint(function () {
 		$(this.element).toggleClass('animated');
@@ -211,10 +212,11 @@ $(function () {
 	});
 
 	$('.s-contacts').waypoint(function (direction) {
-		if (direction === 'down') {
+		if (direction === 'down' && !socialModalShawn) {
 			$.fancybox.open({
 				src  : '#modal-social'
 			});
+			socialModalShawn = true;
 		}
 	}, {
 		offset: '85%'
