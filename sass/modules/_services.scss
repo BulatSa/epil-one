@@ -36,6 +36,10 @@
 	@include res(xl){
 		padding: 10px;
 	}
+	@include res(xs) {
+		padding: 8px;
+		font-size: 12px;
+	}
 
 	&:hover{
 		background: transparentize($blue,0.5);
@@ -107,15 +111,24 @@
 //smallpart-nav
 .smallpart-nav{
 	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
 	flex-wrap: wrap;
 	margin-bottom: 15px;
 
 	button{
+		display: block;
 		margin: 0 5px 10px 0;
 		max-width: calc(100% / 3 - 10px);
 		@include res(xl){
 			margin: 0 5px 5px 0;
 			max-width: calc(50% - 10px);
+		}
+		@include res(m) {
+			width: 142px;
+			&:nth-child(2n) {
+				margin-right: 0;
+			}
 		}
 		@include res(s){
 			width: 32%;
